@@ -23,6 +23,7 @@ import ErrorBoundary from "components/errorboundry";
 import themes from "utils/styles/themes";
 import QuickLaunch from "components/quicklaunch";
 import { getStoredProvider, searchProviders } from "components/widgets/search/search";
+import { bookmarksFilterer, servicesFilterer, widgetsFilterer } from "utils/config/scope";
 
 const ThemeToggle = dynamic(() => import("components/toggles/theme"), {
   ssr: false,
@@ -44,9 +45,14 @@ export async function getStaticProps() {
     logger = createLogger("index");
     const { providers, ...settings } = getSettings();
 
-    const services = await servicesResponse();
-    const bookmarks = await bookmarksResponse();
-    const widgets = await widgetsResponse();
+    // Since we don't know yet if we are in the local scope we just filter all local settings
+    const services = servicesFilterer(await servicesResponse());
+    const bookmarks = bookmarksFilterer(await bookmarksResponse());
+    const widgets = widgetsFilterer(await widgetsResponse());
+
+    // Filter trustedproxies and localscope config
+    delete settings.trustedproxies;
+    delete settings.localscope;
 
     return {
       props: {

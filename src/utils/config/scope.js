@@ -65,3 +65,42 @@ export function isInLocalScope(req) {
   }
   return false;
 }
+
+export function bookmarksFilterer(bookmarks) {
+  bookmarks.forEach((group) => {
+    // eslint-disable-next-line no-param-reassign
+    group.bookmarks = group.bookmarks.filter((bookmark) => !bookmark.local);
+    // Remove empty groups
+    if (group.bookmarks.length === 0) {
+      const index = bookmarks.indexOf(group);
+      bookmarks.splice(index, 1);
+    }
+  });
+
+  return bookmarks;
+}
+
+export function servicesFilterer(services) {
+  services.forEach((group) => {
+    // eslint-disable-next-line no-param-reassign
+    group.services = group.services.filter((service) => !service.local);
+    // Remove empty groups
+    if (group.services.length === 0) {
+      const index = services.indexOf(group);
+      services.splice(index, 1);
+    }
+  });
+
+  return services;
+}
+
+export function widgetsFilterer(widgets) {
+  widgets.forEach((widget) => {
+    if (widget.options.local) {
+      const index = widgets.indexOf(widget);
+      widgets.splice(index, 1);
+    }
+  });
+
+  return widgets;
+}
