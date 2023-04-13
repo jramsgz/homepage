@@ -25,7 +25,7 @@ env:
 jobs:
   build:
 
-    runs-on: self-hosted
+    #runs-on: self-hosted
     permissions:
       contents: read
       packages: write
@@ -56,13 +56,13 @@ jobs:
         
       # This step is being disabled because the runner is on a self-hosted machine
       # where the cache will stick between runs.
-      # - name: Cache Docker layers
-      #   uses: actions/cache@v3
-      #   with:
-      #     path: /tmp/.buildx-cache
-      #     key: ${{ runner.os }}-buildx-${{ github.sha }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-buildx-
+      - name: Cache Docker layers
+        uses: actions/cache@v3
+        with:
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-buildx-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-buildx-
 
       # Login against a Docker registry except on PR
       # https://github.com/docker/login-action
