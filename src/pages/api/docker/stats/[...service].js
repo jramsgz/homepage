@@ -2,6 +2,7 @@ import Docker from "dockerode";
 
 import getDockerArguments from "utils/config/docker";
 import createLogger from "utils/logger";
+import { isInLocalScope } from "utils/config/scope";
 
 const logger = createLogger("dockerStatsService");
 
@@ -12,6 +13,12 @@ export default async function handler(req, res) {
   if (!containerName && !containerServer) {
     return res.status(400).send({
       error: "docker query parameters are required",
+    });
+  }
+
+  if (!isInLocalScope(req)) {
+    return res.status(403).send({
+      error: "forbidden",
     });
   }
 

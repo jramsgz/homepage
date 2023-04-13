@@ -27,7 +27,7 @@ export default function Version() {
   return (
     <div className="flex flex-row items-center">
       <span className="text-xs text-theme-500 dark:text-theme-400">
-        {version === "main" || version === "dev" || version === "nightly" ? (
+        {version === "main" || version === "dev" || version === "nightly" || version === "scopes-support" ? (
           <>
             {version} ({revision.substring(0, 7)}, {formatDate(buildTime)})
           </>
@@ -42,7 +42,7 @@ export default function Version() {
           </a>
         )}
       </span>
-      {version === "main" || version === "dev" || version === "nightly"
+      {version === "main" || version === "dev" || version === "nightly" || version === "scopes-support"
         ? null
         : releaseData && latestRelease &&
           compareVersions(latestRelease.tag_name, version) > 0 && (

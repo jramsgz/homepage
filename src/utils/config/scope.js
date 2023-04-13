@@ -67,40 +67,59 @@ export function isInLocalScope(req) {
 }
 
 export function bookmarksFilterer(bookmarks) {
+  const filteredBookmarks = [];
   bookmarks.forEach((group) => {
-    // eslint-disable-next-line no-param-reassign
-    group.bookmarks = group.bookmarks.filter((bookmark) => !bookmark.local);
-    // Remove empty groups
-    if (group.bookmarks.length === 0) {
-      const index = bookmarks.indexOf(group);
-      bookmarks.splice(index, 1);
+    const filteredGroup = {
+      ...group,
+      bookmarks: [],
+    };
+    group.bookmarks.forEach((bookmark) => {
+      if (!bookmark.local) {
+        filteredGroup.bookmarks.push(bookmark);
+      }
+    });
+    if (filteredGroup.bookmarks.length > 0) {
+      filteredBookmarks.push(filteredGroup);
     }
   });
 
-  return bookmarks;
+  return filteredBookmarks;
 }
 
 export function servicesFilterer(services) {
+  const filteredServices = [];
   services.forEach((group) => {
-    // eslint-disable-next-line no-param-reassign
-    group.services = group.services.filter((service) => !service.local);
-    // Remove empty groups
-    if (group.services.length === 0) {
-      const index = services.indexOf(group);
-      services.splice(index, 1);
+    const filteredGroup = {
+      ...group,
+      services: [],
+    };
+    group.services.forEach((service) => {
+      // When not in a local scope we always strip server, container and widget properties
+      // eslint-disable-next-line no-param-reassign
+      delete service.server;
+      // eslint-disable-next-line no-param-reassign
+      delete service.container;
+      // eslint-disable-next-line no-param-reassign
+      delete service.widget;
+      if (!service.local) {
+        filteredGroup.services.push(service);
+      }
+    });
+    if (filteredGroup.services.length > 0) {
+      filteredServices.push(filteredGroup);
     }
   });
 
-  return services;
+  return filteredServices;
 }
 
 export function widgetsFilterer(widgets) {
+  const filteredWidgets = [];
   widgets.forEach((widget) => {
-    if (widget.options.local) {
-      const index = widgets.indexOf(widget);
-      widgets.splice(index, 1);
+    if (!widget.options.local) {
+      filteredWidgets.push(widget);
     }
   });
 
-  return widgets;
+  return filteredWidgets;
 }

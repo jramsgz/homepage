@@ -2,6 +2,7 @@ import { formatApiCall } from "utils/proxy/api-helpers";
 import createLogger from "utils/logger";
 import genericProxyHandler from "utils/proxy/handlers/generic";
 import widgets from "widgets/widgets";
+import { isInLocalScope } from "utils/config/scope";
 
 const logger = createLogger("servicesProxy");
 
@@ -13,6 +14,11 @@ export default async function handler(req, res) {
     if (!widget) {
       logger.debug("Unknown proxy service type: %s", type);
       return res.status(403).json({ error: "Unkown proxy service type" });
+    }
+
+    if (!isInLocalScope(req)) {
+      logger.debug("Local service requested from a remote scope: %s", type);
+      return res.status(403).json({ error: "forbidden" });
     }
 
     const serviceProxyHandler = widget.proxyHandler || genericProxyHandler;
