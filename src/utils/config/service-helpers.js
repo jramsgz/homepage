@@ -4,7 +4,7 @@ import path from "path";
 import yaml from "js-yaml";
 import Docker from "dockerode";
 import * as shvl from "shvl";
-import { NetworkingV1Api } from "@kubernetes/client-node";
+import { CustomObjectsApi, NetworkingV1Api } from "@kubernetes/client-node";
 
 import createLogger from "utils/logger";
 import checkAndCopyConfig, { substituteEnvironmentVars } from "utils/config/config";
@@ -145,6 +145,7 @@ export async function servicesFromKubernetes() {
       return [];
     }
     const networking = kc.makeApiClient(NetworkingV1Api);
+    const crd = kc.makeApiClient(CustomObjectsApi);
 
     const ingressList = await networking.listIngressForAllNamespaces(null, null, null, null)
       .then((response) => response.body)
@@ -152,6 +153,20 @@ export async function servicesFromKubernetes() {
         logger.error("Error getting ingresses: %d %s %s", error.statusCode, error.body, error.response);
         return null;
       });
+
+     const traefikIngressList = await crd.listClusterCustomObject("traefik.containo.us", "v1alpha1", "ingressroutes")
+      .then((response) => response.body)
+      .catch((error) => {
+        logger.error("Error getting traefik ingresses: %d %s %s", error.statusCode, error.body, error.response);
+        return null;
+      });
+
+    if (traefikIngressList && traefikIngressList.items.length > 0) {
+      const traefikServices = traefikIngressList.items
+      .filter((ingress) => ingress.metadata.annotations && ingress.metadata.annotations[`${ANNOTATION_BASE}/href`])
+      ingressList.items.push(...traefikServices);
+    }
+    
     if (!ingressList) {
       return [];
     }
@@ -221,6 +236,7 @@ export function cleanServiceGroups(groups) {
     name: serviceGroup.name,
     services: serviceGroup.services.map((service) => {
       const cleanedService = { ...service };
+      if (cleanedService.showStats !== undefined) cleanedService.showStats = JSON.parse(cleanedService.showStats);
       if (typeof service.weight === 'string') {
         const weight = parseInt(service.weight, 10);
         if (Number.isNaN(weight)) {
@@ -249,7 +265,8 @@ export function cleanServiceGroups(groups) {
           podSelector,
           wan, // opnsense widget,
           enableBlocks, // emby/jellyfin
-          enableNowPlaying
+          enableNowPlaying,
+          volume // diskstation widget
         } = cleanedService.widget;
 
         const fieldsList = typeof fields === 'string' ? JSON.parse(fields) : fields;
@@ -281,8 +298,11 @@ export function cleanServiceGroups(groups) {
           if (wan) cleanedService.widget.wan = wan;
         }
         if (type === "emby" || type === "jellyfin") {
-          if (enableBlocks) cleanedService.widget.enableBlocks = enableBlocks === 'true';
-          if (enableNowPlaying) cleanedService.widget.enableNowPlaying = enableNowPlaying === 'true';
+          if (enableBlocks !== undefined) cleanedService.widget.enableBlocks = JSON.parse(enableBlocks);
+          if (enableNowPlaying !== undefined) cleanedService.widget.enableNowPlaying = JSON.parse(enableNowPlaying);
+        }
+        if (type === "diskstation") {
+          if (volume) cleanedService.widget.volume = volume;
         }
       }
 

@@ -18,13 +18,13 @@
         "load": "负载",
         "cpu": "处理器",
         "mem": "内存",
-        "temp": "TEMP",
-        "max": "Max",
-        "uptime": "UP",
-        "months": "mo",
-        "days": "d",
-        "hours": "h",
-        "minutes": "m"
+        "temp": "温度",
+        "max": "最大",
+        "uptime": "运行时间",
+        "months": "月",
+        "days": "天",
+        "hours": "时",
+        "minutes": "分"
     },
     "docker": {
         "rx": "接收",
@@ -234,10 +234,10 @@
         "cpu": "处理器",
         "mem": "内存",
         "wait": "请稍等",
-        "temp": "TEMP",
-        "uptime": "UP",
-        "days": "d",
-        "hours": "h"
+        "temp": "温度",
+        "uptime": "运行时间",
+        "days": "天",
+        "hours": "时"
     },
     "changedetectionio": {
         "totalObserved": "观察到的总数",
@@ -260,8 +260,8 @@
         "45-night": "有雾",
         "48-night": "有雾",
         "51-night": "小雨",
-        "53-day": "Drizzle",
-        "53-night": "Drizzle",
+        "53-day": "小雨",
+        "53-night": "小雨",
         "55-day": "毛毛雨",
         "55-night": "毛毛雨",
         "56-day": "小冻毛雨",
@@ -562,5 +562,10 @@
         "books": "图书",
         "podcastsDuration": "持续时间",
         "booksDuration": "持续时间"
+    },
+    "homeassistant": {
+        "people_home": "People Home",
+        "lights_on": "Lights On",
+        "switches_on": "Switches On"
     }
 }

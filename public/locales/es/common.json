@@ -18,13 +18,13 @@
         "load": "Carga",
         "cpu": "CPU",
         "mem": "MEM",
-        "temp": "TEMP",
-        "max": "Max",
-        "uptime": "UP",
-        "months": "mo",
-        "days": "d",
-        "hours": "h",
-        "minutes": "m"
+        "temp": "TEMPORAL",
+        "max": "Máx.",
+        "uptime": "ARRIBA",
+        "months": "Meses",
+        "days": "Días",
+        "hours": "Horas",
+        "minutes": "Minutos"
     },
     "docker": {
         "rx": "Recibido",
@@ -118,7 +118,7 @@
         "current": "Ubicación actual",
         "allow": "Clic para permitir",
         "updating": "Actualizando",
-        "wait": "Espere, por favor"
+        "wait": "Espera, por favor"
     },
     "overseerr": {
         "pending": "Pendiente",
@@ -158,7 +158,7 @@
     "transmission": {
         "download": "Bajada",
         "upload": "Subida",
-        "leech": "Sanguijuela",
+        "leech": "Compañeros",
         "seed": "Semillas"
     },
     "jackett": {
@@ -183,7 +183,7 @@
     "qbittorrent": {
         "download": "Bajada",
         "upload": "Subida",
-        "leech": "Depender",
+        "leech": "Compañeros",
         "seed": "Semillas"
     },
     "mastodon": {
@@ -213,11 +213,11 @@
         "users": "Usuarios",
         "uptime": "Tiempo de actividad",
         "days": "Días",
-        "wan": "Red WAN",
+        "wan": "WAN",
         "lan_users": "Usuarios LAN",
         "wlan_users": "Usuarios WLAN",
         "down": "CAÍDO",
-        "wait": "Espere por favor",
+        "wait": "Espera por favor",
         "lan": "LAN",
         "wlan": "WLAN",
         "devices": "Dispositivos",
@@ -228,16 +228,16 @@
     "plex": {
         "streams": "Transmisiones activas",
         "movies": "Películas",
-        "tv": "Programas de TV"
+        "tv": "Series"
     },
     "glances": {
         "cpu": "Procesador",
         "mem": "Memoria",
-        "wait": "Espere por favor",
-        "temp": "TEMP",
-        "uptime": "UP",
-        "days": "d",
-        "hours": "h"
+        "wait": "Espera por favor",
+        "temp": "TEMPORAL",
+        "uptime": "ARRIBA",
+        "days": "Días",
+        "hours": "Horas"
     },
     "changedetectionio": {
         "totalObserved": "Total Observados",
@@ -277,20 +277,20 @@
         "66-night": "Granizo",
         "67-night": "Granizo",
         "71-day": "Nevada Leve",
-        "71-night": "Nevada Leva",
+        "71-night": "Nevada Leve",
         "73-day": "Nevada",
         "73-night": "Nevada",
         "75-day": "Fuertes Nevadas",
         "75-night": "Fuertes Nevadas",
         "77-day": "Nevada Leve",
         "77-night": "Nevada Leve",
-        "80-day": "llovizna",
+        "80-day": "Llovizna",
         "80-night": "Llovizna",
         "81-day": "Lluvia",
         "81-night": "Lluvia",
         "82-day": "Chubascos",
         "82-night": "Chubascos",
-        "85-day": "Chubascos",
+        "85-day": "Lluvia de nieve",
         "85-night": "Lluvia de nieve",
         "86-day": "Lluvia de nieve",
         "86-night": "Lluvia de nieve",
@@ -378,12 +378,12 @@
     "deluge": {
         "download": "Descarga",
         "upload": "Subida",
-        "leech": "Depender",
-        "seed": "Semilla"
+        "leech": "Compañeros",
+        "seed": "Semillas"
     },
     "flood": {
-        "download": "Descargar",
-        "upload": "Subir",
+        "download": "Descarga",
+        "upload": "Subida",
         "leech": "Depender",
         "seed": "Semillas"
     },
@@ -398,7 +398,7 @@
         "unread": "Sin leer"
     },
     "nextdns": {
-        "wait": "Espere, por favor",
+        "wait": "Espera, por favor",
         "no_devices": "No se reciben datos del dispositivo"
     },
     "common": {
@@ -415,7 +415,7 @@
     "downloadstation": {
         "download": "Descargar",
         "upload": "Subir",
-        "leech": "Sanguijuela",
+        "leech": "Compañeros",
         "seed": "Semilla"
     },
     "mikrotik": {
@@ -425,8 +425,8 @@
         "numberOfLeases": "Alquileres"
     },
     "xteve": {
-        "streams_all": "Todas las corrientes",
-        "streams_active": "Corrientes activas",
+        "streams_all": "Todas las transmisiones",
+        "streams_active": "Transmisiones activas",
         "streams_xepg": "Canales XEPG"
     },
     "opnsense": {
@@ -437,7 +437,7 @@
     },
     "moonraker": {
         "printer_state": "Estado de la impresora",
-        "print_status": "Estado de la impresora",
+        "print_status": "Estado de la impresión",
         "print_progress": "Progreso",
         "layers": "Capas"
     },
@@ -447,9 +447,9 @@
         "series": "Serie"
     },
     "octoprint": {
-        "temp_bed": "temperatura de la plataforma",
-        "printer_state": "Status",
-        "temp_tool": "Herramienta de temperatura",
+        "temp_bed": "Temperatura de la plataforma",
+        "printer_state": "Estado",
+        "temp_tool": "Temperatura de la herramienta",
         "job_completion": "Finalización"
     },
     "cloudflared": {
@@ -533,7 +533,7 @@
         "grace": "En Periodo de Gracia",
         "paused": "Pausado",
         "status": "Estado",
-        "last_ping": "Último Ping",
+        "last_ping": "Último ping",
         "never": "Aún no hay pings"
     },
     "pterodactyl": {
@@ -562,5 +562,10 @@
         "books": "Libros",
         "podcastsDuration": "Duración",
         "booksDuration": "Duración"
+    },
+    "homeassistant": {
+        "people_home": "People Home",
+        "lights_on": "Lights On",
+        "switches_on": "Switches On"
     }
 }

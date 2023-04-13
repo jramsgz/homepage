@@ -46,9 +46,6 @@ dependencies:
   next-i18next:
     specifier: ^12.0.1
     version: 12.1.0(next@12.3.4)(react-dom@18.2.0)(react@18.2.0)
-  osx-temperature-sensor:
-    specifier: ^1.0.8
-    version: 1.0.8
   pretty-bytes:
     specifier: ^6.0.0
     version: 6.1.0
@@ -85,6 +82,11 @@ dependencies:
   xml-js:
     specifier: ^1.6.11
     version: 1.6.11
+
+optionalDependencies:
+  osx-temperature-sensor:
+    specifier: ^1.0.8
+    version: 1.0.8
 
 devDependencies:
   '@tailwindcss/forms':
@@ -2592,6 +2594,7 @@ packages:
     os: [darwin]
     requiresBuild: true
     dev: false
+    optional: true
 
   /p-limit@3.1.0:
     resolution: {integrity: sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==}

@@ -183,7 +183,7 @@
     "qbittorrent": {
         "download": "Descàrrega",
         "upload": "Pujada",
-        "leech": "Company",
+        "leech": "Companys",
         "seed": "Llavors"
     },
     "mastodon": {
@@ -562,5 +562,10 @@
         "books": "Books",
         "podcastsDuration": "Duration",
         "booksDuration": "Duration"
+    },
+    "homeassistant": {
+        "people_home": "People Home",
+        "lights_on": "Lights On",
+        "switches_on": "Switches On"
     }
 }
