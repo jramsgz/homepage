@@ -18,7 +18,7 @@
         "load": "Carga",
         "cpu": "CPU",
         "mem": "MEM",
-        "temp": "TEMPORAL",
+        "temp": "TEMP",
         "max": "Máx.",
         "uptime": "ARRIBA",
         "months": "Meses",
@@ -183,7 +183,7 @@
     "qbittorrent": {
         "download": "Bajada",
         "upload": "Subida",
-        "leech": "Compañeros",
+        "leech": "Pares",
         "seed": "Semillas"
     },
     "mastodon": {
@@ -567,5 +567,15 @@
         "people_home": "Inicio de personas",
         "lights_on": "Luces encendidas",
         "switches_on": "Encendido"
+    },
+    "freshrss": {
+        "subscriptions": "Suscripciones",
+        "unread": "Sin leer"
+    },
+    "channelsdvrserver": {
+        "shows": "Shows",
+        "recordings": "Recordings",
+        "scheduled": "Scheduled",
+        "passes": "Passes"
     }
 }
