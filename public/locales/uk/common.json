@@ -209,7 +209,7 @@
         "streams": "Активні потоки",
         "movies": "Фільми",
         "tv": "TБ шоу",
-        "albums": "Albums"
+        "albums": "Альбоми"
     },
     "transmission": {
         "download": "Завантаження",
@@ -513,7 +513,9 @@
         "cpuload": "Навантаження Cpu",
         "memoryusage": "Використання пам'яті",
         "freespace": "Вільного місця",
-        "activeusers": "Активні користувачі"
+        "activeusers": "Активні користувачі",
+        "numfiles": "Файли",
+        "numshares": "Спільні елементи"
     },
     "kopia": {
         "status": "Статус",
@@ -578,5 +580,23 @@
         "recordings": "Записи",
         "scheduled": "Заплановано",
         "passes": "Перепустки"
+    },
+    "whatsupdocker": {
+        "monitoring": "Спостереження",
+        "updates": "Оновлення"
+    },
+    "tailscale": {
+        "address": "Address",
+        "expires": "Expires",
+        "never": "Never",
+        "last_seen": "Last Seen",
+        "now": "Now",
+        "years": "{{number}}y",
+        "weeks": "{{number}}w",
+        "days": "{{number}}d",
+        "hours": "{{number}}h",
+        "minutes": "{{number}}m",
+        "seconds": "{{number}}s",
+        "ago": "{{value}} Ago"
     }
 }

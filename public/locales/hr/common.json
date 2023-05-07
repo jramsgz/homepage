@@ -229,7 +229,7 @@
         "streams": "Aktivni prijenosi",
         "movies": "Filmovi",
         "tv": "TV emisije",
-        "albums": "Albums"
+        "albums": "Albumi"
     },
     "glances": {
         "cpu": "CPU",
@@ -513,7 +513,9 @@
         "cpuload": "Cpu opterećenje",
         "memoryusage": "Korištenje memorije",
         "freespace": "Slobodna memorija",
-        "activeusers": "Aktivni korisnici"
+        "activeusers": "Aktivni korisnici",
+        "numfiles": "Datoteke",
+        "numshares": "Dijeljene stavke"
     },
     "kopia": {
         "status": "Stanje",
@@ -578,5 +580,23 @@
         "passes": "Prolazi",
         "shows": "Emisije",
         "recordings": "Snimanja"
+    },
+    "whatsupdocker": {
+        "monitoring": "Monitoring",
+        "updates": "Aktualiziranja"
+    },
+    "tailscale": {
+        "address": "Address",
+        "expires": "Expires",
+        "never": "Never",
+        "last_seen": "Last Seen",
+        "now": "Now",
+        "years": "{{number}}y",
+        "weeks": "{{number}}w",
+        "days": "{{number}}d",
+        "hours": "{{number}}h",
+        "minutes": "{{number}}m",
+        "seconds": "{{number}}s",
+        "ago": "{{value}} Ago"
     }
 }

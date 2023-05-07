@@ -232,6 +232,20 @@
         "stopped": "Stopped",
         "total": "Total"
     },
+    "tailscale": {
+        "address": "Address",
+        "expires": "Expires",
+        "never": "Never",
+        "last_seen": "Last Seen",
+        "now": "Now",
+        "years": "{{number}}y",
+        "weeks": "{{number}}w",
+        "days": "{{number}}d",
+        "hours": "{{number}}h",
+        "minutes": "{{number}}m",
+        "seconds": "{{number}}s",
+        "ago": "{{value}} Ago"
+    },
     "tdarr": {
         "queue": "Queue",
         "processed": "Processed",
@@ -549,7 +563,9 @@
         "cpuload": "Cpu Load",
         "memoryusage": "Memory Usage",
         "freespace": "Free Space",
-        "activeusers": "Active Users"
+        "activeusers": "Active Users",
+        "numfiles": "Files",
+        "numshares": "Shared Items"
     },
     "kopia": {
         "status": "Status",
@@ -587,5 +603,9 @@
         "people_home": "People Home",
         "lights_on": "Lights On",
         "switches_on": "Switches On"
+    },
+    "whatsupdocker": {
+        "monitoring": "Monitoring",
+        "updates": "Updates"
     }
 }

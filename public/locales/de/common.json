@@ -513,7 +513,9 @@
         "cpuload": "CPU Last",
         "memoryusage": "RAM Verbrauch",
         "freespace": "Freier Speicher",
-        "activeusers": "Aktive Nutzer"
+        "activeusers": "Aktive Nutzer",
+        "numfiles": "Files",
+        "numshares": "Shared Items"
     },
     "kopia": {
         "status": "Status",
@@ -578,5 +580,23 @@
         "recordings": "Recordings",
         "scheduled": "Scheduled",
         "passes": "Passes"
+    },
+    "whatsupdocker": {
+        "monitoring": "Monitoring",
+        "updates": "Updates"
+    },
+    "tailscale": {
+        "address": "Address",
+        "weeks": "{{number}}w",
+        "days": "{{number}}d",
+        "hours": "{{number}}h",
+        "minutes": "{{number}}m",
+        "seconds": "{{number}}s",
+        "ago": "{{value}} Ago",
+        "expires": "Expires",
+        "last_seen": "Last Seen",
+        "never": "Never",
+        "now": "Now",
+        "years": "{{number}}y"
     }
 }

@@ -71,6 +71,7 @@ const components = {
   sonarr: dynamic(() => import("./sonarr/component")),
   speedtest: dynamic(() => import("./speedtest/component")),
   strelaysrv: dynamic(() => import("./strelaysrv/component")),
+  tailscale: dynamic(() => import("./tailscale/component")),
   tautulli: dynamic(() => import("./tautulli/component")),
   tdarr: dynamic(() => import("./tdarr/component")),
   traefik: dynamic(() => import("./traefik/component")),
@@ -81,6 +82,7 @@ const components = {
   unmanic: dynamic(() => import("./unmanic/component")),
   uptimekuma: dynamic(() => import("./uptimekuma/component")),
   watchtower: dynamic(() => import("./watchtower/component")),
+  whatsupdocker: dynamic(() => import("./whatsupdocker/component")),
   xteve: dynamic(() => import("./xteve/component")),
 };
 

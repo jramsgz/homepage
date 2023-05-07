@@ -229,7 +229,7 @@
         "streams": "Transmisiones activas",
         "movies": "Películas",
         "tv": "Series",
-        "albums": "Albums"
+        "albums": "Álbumes"
     },
     "glances": {
         "cpu": "Procesador",
@@ -513,7 +513,9 @@
         "cpuload": "Carga de la CPU",
         "memoryusage": "Uso de la memoria",
         "freespace": "Espacio libre",
-        "activeusers": "Usuarios activos"
+        "activeusers": "Usuarios activos",
+        "numfiles": "Archivos",
+        "numshares": "Elementos compartidos"
     },
     "kopia": {
         "status": "Estado",
@@ -578,5 +580,23 @@
         "recordings": "Grabaciones",
         "scheduled": "Programado",
         "passes": "Pases"
+    },
+    "whatsupdocker": {
+        "monitoring": "Supervisión",
+        "updates": "Actualizaciones"
+    },
+    "tailscale": {
+        "address": "Address",
+        "expires": "Expires",
+        "never": "Never",
+        "last_seen": "Last Seen",
+        "now": "Now",
+        "years": "{{number}}y",
+        "hours": "{{number}}h",
+        "minutes": "{{number}}m",
+        "seconds": "{{number}}s",
+        "ago": "{{value}} Ago",
+        "weeks": "{{number}}w",
+        "days": "{{number}}d"
     }
 }

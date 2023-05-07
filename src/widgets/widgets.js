@@ -65,6 +65,7 @@ import scrutiny from "./scrutiny/widget";
 import sonarr from "./sonarr/widget";
 import speedtest from "./speedtest/widget";
 import strelaysrv from "./strelaysrv/widget";
+import tailscale from "./tailscale/widget";
 import tautulli from "./tautulli/widget";
 import tdarr from "./tdarr/widget";
 import traefik from "./traefik/widget";
@@ -75,6 +76,7 @@ import unifi from "./unifi/widget";
 import unmanic from "./unmanic/widget";
 import uptimekuma from "./uptimekuma/widget";
 import watchtower from "./watchtower/widget";
+import whatsupdocker from "./whatsupdocker/widget";
 import xteve from "./xteve/widget";
 
 const widgets = {
@@ -146,6 +148,7 @@ const widgets = {
   sonarr,
   speedtest,
   strelaysrv,
+  tailscale,
   tautulli,
   tdarr,
   traefik,
@@ -157,6 +160,7 @@ const widgets = {
   unmanic,
   uptimekuma,
   watchtower,
+  whatsupdocker,
   xteve,
 };
 
