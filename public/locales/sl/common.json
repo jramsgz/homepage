@@ -17,7 +17,8 @@
     "pihole": {
         "queries": "Poizvedbe",
         "blocked": "Blokirano",
-        "gravity": "Gravitacija"
+        "gravity": "Gravitacija",
+        "blocked_percent": "Blokirano %"
     },
     "adguard": {
         "filtered": "Filtrirano",
@@ -69,8 +70,8 @@
         "memoryusage": "Uporabljen spomin",
         "freespace": "Prostor na voljo",
         "activeusers": "Aktivni uporabniki",
-        "numfiles": "Files",
-        "numshares": "Shared Items"
+        "numfiles": "Datotek",
+        "numshares": "Deljeno"
     },
     "kopia": {
         "status": "Stanje",
@@ -283,7 +284,7 @@
         "enabled": "Omogočen"
     },
     "coinmarketcap": {
-        "configure": "Konfigurirajte eno ali več kripto valut za sledenje",
+        "configure": "Nastavite eno ali več kripto valut za sledenje",
         "1hour": "1 ura",
         "1day": "1 dan",
         "7days": "7 dni",
@@ -586,17 +587,54 @@
         "updates": "Posodobitve"
     },
     "tailscale": {
-        "address": "Address",
-        "expires": "Expires",
-        "never": "Never",
-        "last_seen": "Last Seen",
-        "now": "Now",
-        "years": "{{number}}y",
-        "weeks": "{{number}}w",
+        "address": "Naslov",
+        "expires": "Poteče",
+        "never": "Nikoli",
+        "last_seen": "Viden",
+        "now": "Sedaj",
+        "years": "{{number}}l",
+        "weeks": "{{number}}t",
         "days": "{{number}}d",
-        "hours": "{{number}}h",
+        "hours": "{{number}}u",
         "minutes": "{{number}}m",
         "seconds": "{{number}}s",
-        "ago": "{{value}} Ago"
+        "ago": "{{value}} nazaj"
+    },
+    "qnap": {
+        "cpuUsage": "CPU",
+        "memUsage": "MEM",
+        "systemTempC": "Temperatura",
+        "poolUsage": "Prostor",
+        "volumeUsage": "Volume Usage",
+        "invalid": "Invalid"
+    },
+    "pfsense": {
+        "load": "Povp. obremenitev",
+        "memory": "Poraba spomina",
+        "wanStatus": "WAN Status",
+        "up": "Nalaganje",
+        "down": "Prenašanje",
+        "temp": "Temperatura",
+        "disk": "Poraba diska",
+        "wanIP": "WAN IP"
+    },
+    "caddy": {
+        "upstreams": "Pretok gor",
+        "requests": "Trenutnih zahtev",
+        "requests_failed": "Neuspešnih zahtev"
+    },
+    "evcc": {
+        "pv_power": "Proizvodnja",
+        "battery_soc": "Baterija",
+        "grid_power": "Omrežje",
+        "home_power": "Poraba",
+        "charge_power": "Polnilec",
+        "watt_hour": "Wh"
+    },
+    "pialert": {
+        "total": "Total",
+        "connected": "Connected",
+        "new_devices": "New Devices",
+        "down_alerts": "Down Alerts"
     }
 }

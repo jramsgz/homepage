@@ -37,7 +37,8 @@
     "pihole": {
         "queries": "Upiti",
         "blocked": "Blokirano",
-        "gravity": "Gravity"
+        "gravity": "Gravitacija",
+        "blocked_percent": "Blokirano %"
     },
     "adguard": {
         "latency": "Kašnjenje",
@@ -586,17 +587,54 @@
         "updates": "Aktualiziranja"
     },
     "tailscale": {
-        "address": "Address",
-        "expires": "Expires",
-        "never": "Never",
-        "last_seen": "Last Seen",
-        "now": "Now",
-        "years": "{{number}}y",
-        "weeks": "{{number}}w",
-        "days": "{{number}}d",
-        "hours": "{{number}}h",
-        "minutes": "{{number}}m",
-        "seconds": "{{number}}s",
-        "ago": "{{value}} Ago"
+        "address": "Adresa",
+        "expires": "Isteče",
+        "never": "Nikada",
+        "last_seen": "Zadnje viđeno",
+        "now": "Sada",
+        "years": "{{number}} god",
+        "weeks": "{{number}} tj",
+        "days": "{{number}} dan(a)",
+        "hours": "{{number}} h",
+        "minutes": "{{number}} min",
+        "seconds": "{{number}} s",
+        "ago": "Prije {{value}}"
+    },
+    "qnap": {
+        "systemTempC": "Temperatura sustava",
+        "poolUsage": "Korištenje memorijskog skupa",
+        "cpuUsage": "Korištenje procesora",
+        "memUsage": "Korištenje memorije",
+        "volumeUsage": "Volume Usage",
+        "invalid": "Invalid"
+    },
+    "pfsense": {
+        "load": "Load Avg",
+        "memory": "Mem Usage",
+        "wanStatus": "WAN Status",
+        "up": "Up",
+        "down": "Down",
+        "temp": "Temp",
+        "disk": "Disk Usage",
+        "wanIP": "WAN IP"
+    },
+    "caddy": {
+        "upstreams": "Upstreams",
+        "requests": "Current requests",
+        "requests_failed": "Failed requests"
+    },
+    "evcc": {
+        "pv_power": "Production",
+        "battery_soc": "Battery",
+        "grid_power": "Grid",
+        "home_power": "Consumption",
+        "charge_power": "Charger",
+        "watt_hour": "Wh"
+    },
+    "pialert": {
+        "total": "Total",
+        "connected": "Connected",
+        "new_devices": "New Devices",
+        "down_alerts": "Down Alerts"
     }
 }

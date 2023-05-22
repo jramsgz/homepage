@@ -92,7 +92,8 @@
     "pihole": {
         "queries": "Requêtes",
         "blocked": "Bloqué",
-        "gravity": "Listes dom. bloqués"
+        "gravity": "Listes dom. bloqués",
+        "blocked_percent": "Bloqué %"
     },
     "speedtest": {
         "upload": "Envoi",
@@ -586,17 +587,54 @@
         "updates": "Mises à jour"
     },
     "tailscale": {
-        "address": "Address",
-        "expires": "Expires",
-        "never": "Never",
-        "last_seen": "Last Seen",
-        "now": "Now",
+        "address": "Adresse",
+        "expires": "Expire",
+        "never": "Jamais",
+        "last_seen": "Vu pour la dernière fois",
+        "now": "Maintenant",
         "years": "{{number}}y",
         "weeks": "{{number}}w",
         "days": "{{number}}d",
         "hours": "{{number}}h",
         "minutes": "{{number}}m",
         "seconds": "{{number}}s",
-        "ago": "{{value}} Ago"
+        "ago": "Il y a {{value}}"
+    },
+    "qnap": {
+        "cpuUsage": "Cpu",
+        "memUsage": "Mém",
+        "systemTempC": "Temp",
+        "poolUsage": "Pool",
+        "volumeUsage": "Volume Usage",
+        "invalid": "Invalid"
+    },
+    "pfsense": {
+        "load": "Charge moy.",
+        "memory": "Util. Mém.",
+        "wanStatus": "Statut WAN",
+        "up": "Up",
+        "down": "Down",
+        "temp": "Temp",
+        "disk": "Util. Disque",
+        "wanIP": "IP WAN"
+    },
+    "caddy": {
+        "upstreams": "Upstreams",
+        "requests": "Demandes en cours",
+        "requests_failed": "Demandes échouées"
+    },
+    "evcc": {
+        "pv_power": "Production",
+        "battery_soc": "Batterie",
+        "grid_power": "Grille",
+        "home_power": "Consommation",
+        "charge_power": "Chargeur",
+        "watt_hour": "Wh"
+    },
+    "pialert": {
+        "total": "Total",
+        "connected": "Connected",
+        "new_devices": "New Devices",
+        "down_alerts": "Down Alerts"
     }
 }

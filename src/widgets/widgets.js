@@ -3,6 +3,7 @@ import audiobookshelf from "./audiobookshelf/widget";
 import authentik from "./authentik/widget";
 import autobrr from "./autobrr/widget";
 import bazarr from "./bazarr/widget";
+import caddy from "./caddy/widget";
 import changedetectionio from "./changedetectionio/widget";
 import channelsdvrserver from "./channelsdvrserver/widget";
 import cloudflared from "./cloudflared/widget";
@@ -11,6 +12,7 @@ import deluge from "./deluge/widget";
 import diskstation from "./diskstation/widget";
 import downloadstation from "./downloadstation/widget";
 import emby from "./emby/widget";
+import evcc from "./evcc/widget";
 import fileflows from "./fileflows/widget";
 import flood from "./flood/widget";
 import freshrss from "./freshrss/widget";
@@ -46,8 +48,10 @@ import ombi from "./ombi/widget";
 import opnsense from "./opnsense/widget";
 import overseerr from "./overseerr/widget";
 import paperlessngx from "./paperlessngx/widget";
+import pfsense from "./pfsense/widget";
 import photoprism from "./photoprism/widget";
 import proxmoxbackupserver from "./proxmoxbackupserver/widget";
+import pialert from "./pialert/widget";
 import pihole from "./pihole/widget";
 import plex from "./plex/widget";
 import portainer from "./portainer/widget";
@@ -57,6 +61,7 @@ import proxmox from "./proxmox/widget";
 import pterodactyl from "./pterodactyl/widget";
 import pyload from "./pyload/widget";
 import qbittorrent from "./qbittorrent/widget";
+import qnap from "./qnap/widget";
 import radarr from "./radarr/widget";
 import readarr from "./readarr/widget";
 import rutorrent from "./rutorrent/widget";
@@ -85,6 +90,7 @@ const widgets = {
   authentik,
   autobrr,
   bazarr,
+  caddy,
   changedetectionio,
   channelsdvrserver,
   cloudflared,
@@ -93,6 +99,7 @@ const widgets = {
   diskstation,
   downloadstation,
   emby,
+  evcc, 
   fileflows,
   flood,
   freshrss,
@@ -129,8 +136,10 @@ const widgets = {
   opnsense,
   overseerr,
   paperlessngx,
+  pfsense,
   photoprism,
   proxmoxbackupserver,
+  pialert,
   pihole,
   plex,
   portainer,
@@ -140,6 +149,7 @@ const widgets = {
   pterodactyl,
   pyload,
   qbittorrent,
+  qnap,
   radarr,
   readarr,
   rutorrent,

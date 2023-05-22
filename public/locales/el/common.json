@@ -2,7 +2,7 @@
     "resources": {
         "used": "χρησιμοποιημένο",
         "load": "Φόρτωση",
-        "cpu": "CPU",
+        "cpu": "Επεξεργαστής",
         "mem": "MEM",
         "temp": "ΘΕΡΜΟΚΡΑΣΪΑ",
         "total": "Σύνολο",
@@ -149,8 +149,8 @@
         "songs": "Τραγούδια"
     },
     "flood": {
-        "download": "Κατέβασμα",
-        "upload": "Ανέβασμα",
+        "download": "Λήξη",
+        "upload": "Φόρτωση",
         "leech": "Αφαίμαξη",
         "seed": "Σπείρε"
     },
@@ -159,21 +159,21 @@
         "diffsDetected": "Εντοπίστηκαν διαφορές"
     },
     "tautulli": {
-        "playing": "Παίζει",
-        "transcoding": "Διακωδικοποίηση",
+        "playing": "Αναπαράγει",
+        "transcoding": "Μετακωδικοποίηση",
         "bitrate": "Ρυθμός bit",
         "no_active": "Δεν υπάρχουν ενεργές ροές"
     },
     "nzbget": {
-        "rate": "βαθμός",
+        "rate": "Ρυθμός",
         "remaining": "Υπόλοιπο",
         "downloaded": "Κατεβασμένο"
     },
     "plex": {
-        "streams": "Ενεργά Streams",
+        "streams": "Ενεργές Ροές",
         "movies": "Ταινίες",
-        "tv": "Σειρές",
-        "albums": "Albums"
+        "tv": "Τηλεοπτικές εκπομπές",
+        "albums": "Άλμπουμ"
     },
     "sabnzbd": {
         "rate": "Βαθμός",
@@ -199,39 +199,39 @@
     },
     "deluge": {
         "download": "Κατέβασμα",
-        "upload": "Upload",
+        "upload": "Ανέβασμα",
         "leech": "Leech",
         "seed": "Seed"
     },
     "sonarr": {
-        "series": "Series",
-        "wanted": "Wanted",
-        "queued": "Queued"
+        "series": "Σειρές",
+        "wanted": "Επιθυμούντε",
+        "queued": "Σε σειρά"
     },
     "downloadstation": {
-        "download": "Download",
-        "upload": "Upload",
+        "download": "Μεταφόρτωση",
+        "upload": "Φόρτωση",
         "leech": "Leech",
         "seed": "Seed"
     },
     "radarr": {
-        "wanted": "Wanted",
-        "missing": "Missing",
-        "queued": "Queued",
-        "movies": "Movies"
+        "wanted": "Επιθυμούντε",
+        "missing": "Απουσιάζει",
+        "queued": "Σε σειρά",
+        "movies": "Ταινίες"
     },
     "lidarr": {
-        "wanted": "Wanted",
-        "queued": "Queued",
-        "albums": "Albums"
+        "wanted": "Θέλετε",
+        "queued": "Στη σειρά",
+        "albums": "Δίσκοι"
     },
     "readarr": {
-        "wanted": "Wanted",
-        "queued": "Queued",
-        "books": "Books"
+        "wanted": "Θέλετε",
+        "queued": "Στη σειρά",
+        "books": "Βιβλία"
     },
     "bazarr": {
-        "missingEpisodes": "Missing Episodes",
+        "missingEpisodes": "Επεισόδια που λείπουν",
         "missingMovies": "Missing Movies"
     },
     "ombi": {
@@ -253,7 +253,8 @@
     "pihole": {
         "queries": "Queries",
         "blocked": "Blocked",
-        "gravity": "Gravity"
+        "gravity": "Gravity",
+        "blocked_percent": "Blocked %"
     },
     "adguard": {
         "queries": "Queries",
@@ -572,13 +573,13 @@
         "switches_on": "Switches On"
     },
     "freshrss": {
-        "subscriptions": "Subscriptions",
-        "unread": "Unread"
+        "subscriptions": "Συνδρομές",
+        "unread": "Αδιάβαστο"
     },
     "channelsdvrserver": {
-        "shows": "Shows",
-        "recordings": "Recordings",
-        "scheduled": "Scheduled",
+        "shows": "Εκπομπές",
+        "recordings": "Εγγραφές",
+        "scheduled": "Προγραμματισμένα",
         "passes": "Passes"
     },
     "whatsupdocker": {
@@ -598,5 +599,42 @@
         "minutes": "{{number}}m",
         "seconds": "{{number}}s",
         "ago": "{{value}} Ago"
+    },
+    "qnap": {
+        "cpuUsage": "Χρήση επεξεργαστή",
+        "memUsage": "Χρήση μνήμης",
+        "systemTempC": "Θερμοκρασία συστήματος",
+        "poolUsage": "Χρήση πισίνας",
+        "volumeUsage": "Volume Usage",
+        "invalid": "Invalid"
+    },
+    "pfsense": {
+        "load": "Load Avg",
+        "memory": "Mem Usage",
+        "wanStatus": "WAN Status",
+        "up": "Up",
+        "down": "Down",
+        "temp": "Temp",
+        "disk": "Disk Usage",
+        "wanIP": "WAN IP"
+    },
+    "caddy": {
+        "upstreams": "Upstreams",
+        "requests": "Τρέχοντα αιτήματα",
+        "requests_failed": "Αποτυχημένα αιτήματα"
+    },
+    "evcc": {
+        "watt_hour": "Wh",
+        "pv_power": "Παραγωγή",
+        "battery_soc": "Μπαταρία",
+        "grid_power": "Πλέγμα",
+        "home_power": "Κατανάλωση",
+        "charge_power": "Φορτιστής"
+    },
+    "pialert": {
+        "total": "Total",
+        "connected": "Connected",
+        "new_devices": "New Devices",
+        "down_alerts": "Down Alerts"
     }
 }
