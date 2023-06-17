@@ -194,18 +194,22 @@
     "sonarr": {
         "wanted": "Wanted",
         "queued": "Queued",
-        "series": "Series"
+        "series": "Series",
+        "queue": "Queue",
+        "unknown": "Unknown"
     },
     "radarr": {
         "wanted": "Wanted",
         "missing": "Missing",
         "queued": "Queued",
-        "movies": "Movies"
+        "movies": "Movies",
+        "queue": "Queue",
+        "unknown": "Unknown"
     },
     "lidarr": {
         "wanted": "Wanted",
         "queued": "Queued",
-        "albums": "Albums"
+        "artists": "Artists"
     },
     "readarr": {
         "wanted": "Wanted",
@@ -357,10 +361,14 @@
     },
     "glances": {
         "cpu": "CPU",
-        "mem": "MEM",
+        "load": "Load",
         "wait": "Please wait",
         "temp": "TEMP",
+        "warn": "Warn",
         "uptime": "UP",
+        "total": "Total",
+        "free": "Free",
+        "used": "Used",
         "days": "d",
         "hours": "h"
     },
@@ -645,5 +653,11 @@
     "whatsupdocker": {
         "monitoring": "Monitoring",
         "updates": "Updates"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size",
+        "downloadSpeed": "Speed"
     }
 }

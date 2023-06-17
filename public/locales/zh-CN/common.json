@@ -66,13 +66,17 @@
     "sonarr": {
         "wanted": "想看",
         "queued": "排队",
-        "series": "系列"
+        "series": "系列",
+        "queue": "Queue",
+        "unknown": "Unknown"
     },
     "radarr": {
         "wanted": "想看",
         "queued": "队列",
         "movies": "电影",
-        "missing": "丢失"
+        "missing": "丢失",
+        "queue": "Queue",
+        "unknown": "Unknown"
     },
     "readarr": {
         "wanted": "订阅",
@@ -173,7 +177,7 @@
     "lidarr": {
         "wanted": "订阅",
         "queued": "队列",
-        "albums": "相册"
+        "artists": "Artists"
     },
     "adguard": {
         "queries": "查询",
@@ -234,12 +238,16 @@
     },
     "glances": {
         "cpu": "处理器",
-        "mem": "内存",
         "wait": "请稍等",
         "temp": "温度",
         "uptime": "运行时间",
         "days": "天",
-        "hours": "时"
+        "hours": "时",
+        "load": "Load",
+        "warn": "Warn",
+        "total": "Total",
+        "free": "Free",
+        "used": "Used"
     },
     "changedetectionio": {
         "totalObserved": "观察到的总数",
@@ -550,7 +558,7 @@
         "targets_total": "总目标"
     },
     "minecraft": {
-        "players": "播放中",
+        "players": "玩家",
         "version": "版本",
         "status": "状态",
         "up": "在线的",
@@ -636,5 +644,11 @@
         "connected": "Connected",
         "new_devices": "New Devices",
         "down_alerts": "Down Alerts"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
     }
 }

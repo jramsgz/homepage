@@ -66,13 +66,17 @@
     "sonarr": {
         "wanted": "Buscando",
         "queued": "En cola",
-        "series": "Series"
+        "series": "Series",
+        "queue": "Poner a la cola",
+        "unknown": "Desconocido"
     },
     "radarr": {
         "wanted": "Buscando",
         "queued": "En cola",
         "movies": "Películas",
-        "missing": "Faltan"
+        "missing": "Faltan",
+        "queue": "Poner a la cola",
+        "unknown": "Desconocido"
     },
     "readarr": {
         "wanted": "Buscando",
@@ -173,7 +177,7 @@
     "lidarr": {
         "queued": "En cola",
         "wanted": "Buscando",
-        "albums": "Álbumes"
+        "artists": "Artistas"
     },
     "adguard": {
         "queries": "Consultas",
@@ -234,12 +238,16 @@
     },
     "glances": {
         "cpu": "Procesador",
-        "mem": "Memoria",
         "wait": "Espera por favor",
         "temp": "TEMPORAL",
         "uptime": "ARRIBA",
         "days": "Días",
-        "hours": "Horas"
+        "hours": "Horas",
+        "load": "Cargar",
+        "warn": "Advertir",
+        "total": "Total",
+        "free": "Libre",
+        "used": "Utilizado"
     },
     "changedetectionio": {
         "totalObserved": "Total Observados",
@@ -605,8 +613,8 @@
         "memUsage": "Uso de la memoria",
         "systemTempC": "Temperatura del sistema",
         "poolUsage": "Comprobación del uso del grupo de memoria",
-        "volumeUsage": "Volume Usage",
-        "invalid": "Invalid"
+        "volumeUsage": "Volumen utilizado",
+        "invalid": "No válido"
     },
     "pfsense": {
         "load": "Promedio de carga",
@@ -626,15 +634,21 @@
     "evcc": {
         "pv_power": "Producción",
         "battery_soc": "Batería",
-        "grid_power": "Grid",
+        "grid_power": "Red",
         "home_power": "Consumo",
         "charge_power": "Cargador",
         "watt_hour": "vatio-hora (Wh)"
     },
     "pialert": {
         "total": "Total",
-        "connected": "Connected",
-        "new_devices": "New Devices",
-        "down_alerts": "Down Alerts"
+        "connected": "Conectado",
+        "new_devices": "Nuevos dispositivos",
+        "down_alerts": "Alertas"
+    },
+    "jdownloader": {
+        "downloadCount": "Recuento de las colas",
+        "downloadSpeed": "Velocidad de Descarga",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
     }
 }

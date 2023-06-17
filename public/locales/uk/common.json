@@ -127,7 +127,7 @@
         "total": "Всього",
         "free": "Вільно",
         "used": "Використано",
-        "load": "Навантаження",
+        "load": "Завантаження",
         "mem": "Пам'ять",
         "temp": "TEMP",
         "max": "Max",
@@ -232,18 +232,22 @@
     "sonarr": {
         "wanted": "Розшукується",
         "queued": "У черзі",
-        "series": "Серії"
+        "series": "Серії",
+        "queue": "Черга",
+        "unknown": "Невідомо"
     },
     "radarr": {
         "wanted": "Розшукується",
         "missing": "Відсутній",
         "queued": "У черзі",
-        "movies": "Фільми"
+        "movies": "Фільми",
+        "queue": "Черга",
+        "unknown": "Невідомо"
     },
     "lidarr": {
         "wanted": "Розшукується",
         "queued": "У черзі",
-        "albums": "Альбоми"
+        "artists": "Виконавці"
     },
     "traefik": {
         "middleware": "Проміжне програмне забезпечення",
@@ -358,12 +362,16 @@
     },
     "glances": {
         "cpu": "CPU",
-        "mem": "Пам'ять",
         "wait": "Будь ласка, зачекайте",
         "temp": "TEMP",
         "uptime": "Відправка",
         "days": "д",
-        "hours": "г"
+        "hours": "г",
+        "load": "Завантаження",
+        "warn": "Увага",
+        "total": "Всього",
+        "free": "Вільний",
+        "used": "Використовується"
     },
     "quicklaunch": {
         "bookmark": "Закладка",
@@ -605,8 +613,8 @@
         "memUsage": "Використання пам'яті",
         "systemTempC": "Температура системи",
         "poolUsage": "Використання пулу",
-        "volumeUsage": "Volume Usage",
-        "invalid": "Invalid"
+        "volumeUsage": "Гучність",
+        "invalid": "Недійсний"
     },
     "pfsense": {
         "load": "Середнє завантаження",
@@ -632,9 +640,15 @@
         "watt_hour": "Вт/год"
     },
     "pialert": {
-        "total": "Total",
-        "connected": "Connected",
-        "new_devices": "New Devices",
-        "down_alerts": "Down Alerts"
+        "total": "Всього",
+        "connected": "Підключено",
+        "new_devices": "Нові пристрої",
+        "down_alerts": "Сповіщення про збій"
+    },
+    "jdownloader": {
+        "downloadCount": "Всього в черзі",
+        "downloadSpeed": "Швидкість завантаження",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
     }
 }

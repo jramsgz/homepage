@@ -66,13 +66,17 @@
     "sonarr": {
         "wanted": "Demande",
         "queued": "Attente",
-        "series": "Séries"
+        "series": "Séries",
+        "queue": "Attente",
+        "unknown": "Inconnu"
     },
     "radarr": {
         "wanted": "Demande",
         "queued": "Attente",
         "movies": "Films",
-        "missing": "Manquant"
+        "missing": "Manquant",
+        "queue": "Attente",
+        "unknown": "Inconnu"
     },
     "readarr": {
         "wanted": "Demande",
@@ -173,7 +177,7 @@
     "lidarr": {
         "wanted": "Demandé",
         "queued": "En queue",
-        "albums": "Albums"
+        "artists": "Artistes"
     },
     "adguard": {
         "queries": "Requêtes",
@@ -234,12 +238,16 @@
     },
     "glances": {
         "cpu": "Cpu",
-        "mem": "Mém",
         "wait": "Merci de patienter",
         "temp": "Temp",
         "uptime": "Up",
         "days": "j",
-        "hours": "h"
+        "hours": "h",
+        "load": "Charge",
+        "warn": "Alerte",
+        "total": "Total",
+        "free": "Libre",
+        "used": "Utilisé"
     },
     "changedetectionio": {
         "totalObserved": "Total Observé",
@@ -393,7 +401,7 @@
         "queue": "À traiter",
         "processed": "Traité",
         "errored": "En erreur",
-        "saved": "Economisé"
+        "saved": "Libéré"
     },
     "miniflux": {
         "read": "Lu",
@@ -605,8 +613,8 @@
         "memUsage": "Mém",
         "systemTempC": "Temp",
         "poolUsage": "Pool",
-        "volumeUsage": "Volume Usage",
-        "invalid": "Invalid"
+        "volumeUsage": "Volume",
+        "invalid": "Invalide"
     },
     "pfsense": {
         "load": "Charge moy.",
@@ -633,8 +641,14 @@
     },
     "pialert": {
         "total": "Total",
-        "connected": "Connected",
-        "new_devices": "New Devices",
-        "down_alerts": "Down Alerts"
+        "connected": "Connecté",
+        "new_devices": "Nouvel Appareil",
+        "down_alerts": "Alertes"
+    },
+    "jdownloader": {
+        "downloadCount": "Total en attente",
+        "downloadSpeed": "Vitesse de téléchargement",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
     }
 }
