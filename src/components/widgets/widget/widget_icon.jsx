@@ -1,7 +1,6 @@
-export default function WidgetIcon({ icon, size = "s", pulse = false, weatherInfo = {} }) {
+export default function WidgetIcon({ icon, size = "s", pulse = false }) {
   const Icon = icon;
-  const { condition, timeOfDay } = weatherInfo;
-  let additionalClasses = "text-theme-800 dark:text-theme-200 ";
+  let additionalClasses = "information-widget-icon text-theme-800 dark:text-theme-200 ";
 
   switch (size) {
     case "m": additionalClasses += "w-6 h-6 "; break;
@@ -14,5 +13,5 @@ export default function WidgetIcon({ icon, size = "s", pulse = false, weatherInf
     additionalClasses += "animate-pulse ";
   }
 
-  return <Icon className={additionalClasses} condition={condition} timeOfDay={timeOfDay} />;
+  return <Icon className={additionalClasses} />;
 }

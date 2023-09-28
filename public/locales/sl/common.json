@@ -168,7 +168,8 @@
         "transcoding": "Transkodira",
         "bitrate": "Pasovna širina",
         "playing": "Predvaja",
-        "no_active": "Ni aktivne vsebine"
+        "no_active": "Ni aktivne vsebine",
+        "plex_connection_error": "Preveri Plex povezavo"
     },
     "flood": {
         "download": "Prenos",
@@ -236,21 +237,21 @@
         "wanted": "Iskano",
         "queued": "V vrsti",
         "series": "Serije",
-        "queue": "Queue",
-        "unknown": "Unknown"
+        "queue": "Vrsta",
+        "unknown": "Neznano"
     },
     "radarr": {
         "wanted": "Iskano",
         "missing": "Manjka",
         "queued": "V vrsti",
         "movies": "Filmi",
-        "queue": "Queue",
-        "unknown": "Unknown"
+        "queue": "Vrsta",
+        "unknown": "Neznano"
     },
     "lidarr": {
         "wanted": "Iskano",
         "queued": "V vrsti",
-        "artists": "Artists"
+        "artists": "Avtorji"
     },
     "readarr": {
         "wanted": "Iskano",
@@ -359,11 +360,18 @@
         "uptime": "UP",
         "days": "d",
         "hours": "u",
-        "free": "Free",
-        "load": "Load",
-        "warn": "Warn",
-        "total": "Total",
-        "used": "Used"
+        "free": "Prosto",
+        "load": "Obremenitev",
+        "warn": "Opoz.",
+        "total": "Skupaj",
+        "used": "V uporabi",
+        "crit": "Krit.",
+        "read": "Prebrano",
+        "write": "Zapisano",
+        "gpu": "GPU",
+        "mem": "Mem",
+        "swap": "Swap",
+        "_temp": "Temp"
     },
     "authentik": {
         "users": "Uporabniki",
@@ -613,8 +621,8 @@
         "memUsage": "MEM",
         "systemTempC": "Temperatura",
         "poolUsage": "Prostor",
-        "volumeUsage": "Volume Usage",
-        "invalid": "Invalid"
+        "volumeUsage": "Prostora",
+        "invalid": "Neveljavno"
     },
     "pfsense": {
         "load": "Povp. obremenitev",
@@ -640,15 +648,96 @@
         "watt_hour": "Wh"
     },
     "pialert": {
-        "total": "Total",
-        "connected": "Connected",
-        "new_devices": "New Devices",
-        "down_alerts": "Down Alerts"
+        "total": "Skupaj",
+        "connected": "Povezanih",
+        "new_devices": "Nove naprave",
+        "down_alerts": "Izključeno"
     },
     "jdownloader": {
-        "downloadCount": "Queue Count",
-        "downloadSpeed": "Download Speed",
-        "downloadBytesRemaining": "Remaining",
-        "downloadTotalBytes": "Size"
+        "downloadCount": "Vrsta",
+        "downloadSpeed": "Hitrost prenosa",
+        "downloadBytesRemaining": "Še ostane",
+        "downloadTotalBytes": "Velikost"
+    },
+    "kavita": {
+        "seriesCount": "Serije",
+        "totalFiles": "Datoteke"
+    },
+    "gamedig": {
+        "name": "Naziv",
+        "map": "Zemljevid",
+        "currentPlayers": "Igralcev",
+        "players": "Igralci",
+        "maxPlayers": "Maks igralcev",
+        "bots": "Boti",
+        "ping": "Ping",
+        "status": "Status",
+        "online": "Na spletu",
+        "offline": "Nepovezano"
+    },
+    "azuredevops": {
+        "result": "Rezultati",
+        "status": "Status",
+        "buildId": "ID gradnje",
+        "succeeded": "Uspešnih",
+        "notStarted": "Ni zagnano",
+        "failed": "Neuspešno",
+        "canceled": "Preklicano",
+        "inProgress": "V delu",
+        "totalPrs": "Skupaj PR",
+        "myPrs": "Moji PR",
+        "approved": "Odobreno"
+    },
+    "urbackup": {
+        "ok": "V redu",
+        "errored": "Napake",
+        "noRecent": "Zastarano",
+        "totalUsed": "Shramba v uporabi"
+    },
+    "openmediavault": {
+        "downloading": "Prenašanje",
+        "total": "Skupaj",
+        "running": "V teku",
+        "stopped": "Ustavljeno",
+        "passed": "Opravljeno",
+        "failed": "Neuspešno"
+    },
+    "mealie": {
+        "recipes": "Recepti",
+        "users": "Uporabniki",
+        "categories": "Kategorije",
+        "tags": "Značke"
+    },
+    "atsumeru": {
+        "series": "Serije",
+        "archives": "Arhivi",
+        "chapters": "Poglavja",
+        "categories": "Kategorije"
+    },
+    "calibreweb": {
+        "books": "Knjige",
+        "authors": "Avtorji",
+        "categories": "Kategorije",
+        "series": "Serije"
+    },
+    "uptimerobot": {
+        "paused": "Paused",
+        "notyetchecked": "Not Yet Checked",
+        "up": "Up",
+        "status": "Status",
+        "uptime": "Uptime",
+        "lastDown": "Last Downtime",
+        "downDuration": "Downtime Duration",
+        "unknown": "Unknown",
+        "sitesUp": "Sites Up",
+        "sitesDown": "Sites Down",
+        "seemsdown": "Seems Down",
+        "down": "Down"
+    },
+    "opendtu": {
+        "relativePower": "Power %",
+        "yieldDay": "Today",
+        "limit": "Limit",
+        "absolutePower": "Power"
     }
 }

@@ -104,7 +104,8 @@
         "playing": "Reprodukcija",
         "transcoding": "Prekodiranje",
         "bitrate": "Stopa bitova",
-        "no_active": "Nema aktivnih prijenosa"
+        "no_active": "Nema aktivnih prijenosa",
+        "plex_connection_error": "Provjeri Plex vezu"
     },
     "nzbget": {
         "rate": "Stopa",
@@ -126,21 +127,21 @@
         "wanted": "Zatraženo",
         "queued": "U redu čekanja",
         "series": "Serije",
-        "unknown": "Unknown",
-        "queue": "Queue"
+        "unknown": "Nepoznato",
+        "queue": "Red čekanja"
     },
     "radarr": {
         "wanted": "Zatraženo",
         "queued": "U redu čekanja",
         "movies": "Filmovi",
         "missing": "Nedostaje",
-        "queue": "Queue",
-        "unknown": "Unknown"
+        "queue": "Red čekanja",
+        "unknown": "Nepoznato"
     },
     "lidarr": {
         "wanted": "Zatraženo",
         "queued": "U redu čekanja",
-        "artists": "Artists"
+        "artists": "Umjetnici"
     },
     "readarr": {
         "wanted": "Zatraženo",
@@ -247,7 +248,14 @@
         "load": "Opterećenje",
         "warn": "Upozori",
         "total": "Ukupno",
-        "free": "Slobodno"
+        "free": "Slobodno",
+        "crit": "Crit",
+        "read": "Read",
+        "write": "Write",
+        "gpu": "GPU",
+        "mem": "Mem",
+        "swap": "Swap",
+        "_temp": "Temp"
     },
     "changedetectionio": {
         "totalObserved": "Ukupno promatrano",
@@ -646,9 +654,90 @@
         "down_alerts": "Obavijest o rušenju"
     },
     "jdownloader": {
-        "downloadCount": "Queue Count",
-        "downloadSpeed": "Download Speed",
-        "downloadBytesRemaining": "Remaining",
-        "downloadTotalBytes": "Size"
+        "downloadCount": "Red čekanja",
+        "downloadSpeed": "Brzina",
+        "downloadBytesRemaining": "Preostalo",
+        "downloadTotalBytes": "Veličina"
+    },
+    "kavita": {
+        "seriesCount": "Serije",
+        "totalFiles": "Datoteke"
+    },
+    "gamedig": {
+        "name": "Name",
+        "map": "Map",
+        "currentPlayers": "Current players",
+        "players": "Players",
+        "maxPlayers": "Max players",
+        "bots": "Bots",
+        "ping": "Ping",
+        "status": "Status",
+        "online": "Online",
+        "offline": "Offline"
+    },
+    "azuredevops": {
+        "result": "Result",
+        "status": "Status",
+        "buildId": "Build ID",
+        "succeeded": "Succeeded",
+        "notStarted": "Not Started",
+        "failed": "Failed",
+        "canceled": "Canceled",
+        "inProgress": "In Progress",
+        "totalPrs": "Total PRs",
+        "myPrs": "My PRs",
+        "approved": "Approved"
+    },
+    "urbackup": {
+        "noRecent": "Out of Date",
+        "totalUsed": "Used Storage",
+        "ok": "Ok",
+        "errored": "Errors"
+    },
+    "openmediavault": {
+        "downloading": "Downloading",
+        "total": "Total",
+        "running": "Running",
+        "stopped": "Stopped",
+        "passed": "Passed",
+        "failed": "Failed"
+    },
+    "mealie": {
+        "recipes": "Recipes",
+        "users": "Users",
+        "categories": "Categories",
+        "tags": "Tags"
+    },
+    "atsumeru": {
+        "series": "Series",
+        "archives": "Archives",
+        "chapters": "Chapters",
+        "categories": "Categories"
+    },
+    "calibreweb": {
+        "books": "Books",
+        "categories": "Categories",
+        "series": "Series",
+        "authors": "Authors"
+    },
+    "uptimerobot": {
+        "status": "Status",
+        "uptime": "Uptime",
+        "lastDown": "Last Downtime",
+        "downDuration": "Downtime Duration",
+        "sitesUp": "Sites Up",
+        "sitesDown": "Sites Down",
+        "paused": "Paused",
+        "notyetchecked": "Not Yet Checked",
+        "up": "Up",
+        "seemsdown": "Seems Down",
+        "down": "Down",
+        "unknown": "Unknown"
+    },
+    "opendtu": {
+        "relativePower": "Power %",
+        "yieldDay": "Today",
+        "limit": "Limit",
+        "absolutePower": "Power"
     }
 }

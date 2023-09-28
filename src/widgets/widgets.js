@@ -1,13 +1,17 @@
 import adguard from "./adguard/widget";
+import atsumeru from "./atsumeru/widget";
 import audiobookshelf from "./audiobookshelf/widget";
 import authentik from "./authentik/widget";
 import autobrr from "./autobrr/widget";
+import azuredevops from "./azuredevops/widget";
 import bazarr from "./bazarr/widget";
 import caddy from "./caddy/widget";
+import calibreweb from "./calibreweb/widget";
 import changedetectionio from "./changedetectionio/widget";
 import channelsdvrserver from "./channelsdvrserver/widget";
 import cloudflared from "./cloudflared/widget";
 import coinmarketcap from "./coinmarketcap/widget";
+import customapi from "./customapi/widget";
 import deluge from "./deluge/widget";
 import diskstation from "./diskstation/widget";
 import downloadstation from "./downloadstation/widget";
@@ -16,7 +20,9 @@ import evcc from "./evcc/widget";
 import fileflows from "./fileflows/widget";
 import flood from "./flood/widget";
 import freshrss from "./freshrss/widget";
+import gamedig from "./gamedig/widget";
 import ghostfolio from "./ghostfolio/widget";
+import glances from "./glances/widget";
 import gluetun from "./gluetun/widget";
 import gotify from "./gotify/widget";
 import grafana from "./grafana/widget";
@@ -28,14 +34,17 @@ import immich from "./immich/widget";
 import jackett from "./jackett/widget";
 import jellyseerr from "./jellyseerr/widget";
 import jdownloader from "./jdownloader/widget";
+import kavita from "./kavita/widget";
 import komga from "./komga/widget";
 import kopia from "./kopia/widget";
 import lidarr from "./lidarr/widget";
 import mastodon from "./mastodon/widget";
+import mealie from "./mealie/widget";
 import medusa from "./medusa/widget";
 import minecraft from "./minecraft/widget";
 import miniflux from "./miniflux/widget";
 import mikrotik from "./mikrotik/widget";
+import mjpeg from "./mjpeg/widget";
 import moonraker from "./moonraker/widget";
 import mylar from "./mylar/widget";
 import navidrome from "./navidrome/widget";
@@ -46,8 +55,10 @@ import nzbget from "./nzbget/widget";
 import octoprint from "./octoprint/widget";
 import omada from "./omada/widget";
 import ombi from "./ombi/widget";
+import opendtu from "./opendtu/widget";
 import opnsense from "./opnsense/widget";
 import overseerr from "./overseerr/widget";
+import openmediavault from "./openmediavault/widget";
 import paperlessngx from "./paperlessngx/widget";
 import pfsense from "./pfsense/widget";
 import photoprism from "./photoprism/widget";
@@ -81,30 +92,38 @@ import truenas from "./truenas/widget";
 import unifi from "./unifi/widget";
 import unmanic from "./unmanic/widget";
 import uptimekuma from "./uptimekuma/widget";
+import uptimerobot from "./uptimerobot/widget";
 import watchtower from "./watchtower/widget";
 import whatsupdocker from "./whatsupdocker/widget";
 import xteve from "./xteve/widget";
+import urbackup from "./urbackup/widget";
 
 const widgets = {
   adguard,
+  atsumeru,
   audiobookshelf,
   authentik,
   autobrr,
+  azuredevops,
   bazarr,
   caddy,
+  calibreweb,
   changedetectionio,
   channelsdvrserver,
   cloudflared,
   coinmarketcap,
+  customapi,
   deluge,
   diskstation,
   downloadstation,
   emby,
-  evcc, 
+  evcc,
   fileflows,
   flood,
   freshrss,
+  gamedig,
   ghostfolio,
+  glances,
   gluetun,
   gotify,
   grafana,
@@ -117,14 +136,17 @@ const widgets = {
   jdownloader,
   jellyfin: emby,
   jellyseerr,
+  kavita,
   komga,
   kopia,
   lidarr,
   mastodon,
+  mealie,
   medusa,
   minecraft,
   miniflux,
   mikrotik,
+  mjpeg,
   moonraker,
   mylar,
   navidrome,
@@ -135,8 +157,10 @@ const widgets = {
   octoprint,
   omada,
   ombi,
+  opendtu,
   opnsense,
   overseerr,
+  openmediavault,
   paperlessngx,
   pfsense,
   photoprism,
@@ -171,6 +195,8 @@ const widgets = {
   unifi_console: unifi,
   unmanic,
   uptimekuma,
+  uptimerobot,
+  urbackup,
   watchtower,
   whatsupdocker,
   xteve,
