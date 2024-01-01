@@ -382,7 +382,9 @@
     },
     "ping": {
         "error": "错误",
-        "ping": "Ping"
+        "ping": "Ping",
+        "up": "Up",
+        "down": "Down"
     },
     "scrutiny": {
         "passed": "通过",
@@ -739,5 +741,10 @@
         "yieldDay": "Today",
         "limit": "Limit",
         "absolutePower": "Power"
+    },
+    "calendar": {
+        "physicalRelease": "Physical release",
+        "inCinemas": "In cinemas",
+        "digitalRelease": "Digital release"
     }
 }

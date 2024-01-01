@@ -34,17 +34,16 @@ export default function Component({ service }) {
     );
   }
 
-  let currentLayer = "-";
-  let totalLayer = "-";
-  if (printStats.result.status.print_stats.info.total_layer !== null) {
-    currentLayer = printStats.result.status.print_stats.info.current_layer;
-    totalLayer = printStats.result.status.print_stats.info.total_layer;
-  }
+  const printStatsInfo = printStats.result.status.print_stats.info ?? {};
+  const { current_layer: currentLayer = "-", total_layer: totalLayer = "-" } = printStatsInfo;
 
   return (
     <Container service={service}>
       <Block label="moonraker.layers" value={`${currentLayer} / ${totalLayer}`} />
-      <Block label="moonraker.print_progress" value={t("common.percent", { value: (displayStatus.result.status.display_status.progress * 100) })} />
+      <Block
+        label="moonraker.print_progress"
+        value={t("common.percent", { value: displayStatus.result.status.display_status.progress * 100 })}
+      />
       <Block label="moonraker.print_status" value={printStats.result.status.print_stats.state} />
     </Container>
   );
