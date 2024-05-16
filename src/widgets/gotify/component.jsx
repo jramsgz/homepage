@@ -11,9 +11,8 @@ export default function Component({ service }) {
 
   if (appsError || messagesError || clientsError) {
     const finalError = appsError ?? messagesError ?? clientsError;
-    return <Container error={finalError} />;
+    return <Container service={service} error={finalError} />;
   }
-
 
   if (!appsData || !messagesData || !clientsData) {
     return (

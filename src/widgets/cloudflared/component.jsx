@@ -8,7 +8,7 @@ export default function Component({ service }) {
   const { data: statsData, error: statsError } = useWidgetAPI(widget, "cfd_tunnel");
 
   if (statsError) {
-    return <Container error={statsError} />;
+    return <Container service={service} error={statsError} />;
   }
 
   if (!statsData) {
@@ -24,7 +24,10 @@ export default function Component({ service }) {
 
   return (
     <Container service={service}>
-      <Block label="cloudflared.status" value={statsData.result.status.charAt(0).toUpperCase() + statsData.result.status.slice(1)} />
+      <Block
+        label="cloudflared.status"
+        value={statsData.result.status.charAt(0).toUpperCase() + statsData.result.status.slice(1)}
+      />
       <Block label="cloudflared.origin_ip" value={originIP} />
     </Container>
   );

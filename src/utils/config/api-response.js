@@ -4,12 +4,12 @@ import path from "path";
 
 import yaml from "js-yaml";
 
-import checkAndCopyConfig, { getSettings, substituteEnvironmentVars } from "utils/config/config";
+import checkAndCopyConfig, { getSettings, substituteEnvironmentVars, CONF_DIR } from "utils/config/config";
 import {
   servicesFromConfig,
   servicesFromDocker,
   cleanServiceGroups,
-  servicesFromKubernetes
+  servicesFromKubernetes,
 } from "utils/config/service-helpers";
 import { cleanWidgetGroups, widgetsFromConfig } from "utils/config/widget-helpers";
 
@@ -27,12 +27,22 @@ function compareServices(service1, service2) {
 export async function bookmarksResponse() {
   checkAndCopyConfig("bookmarks.yaml");
 
-  const bookmarksYaml = path.join(process.cwd(), "config", "bookmarks.yaml");
+  const bookmarksYaml = path.join(CONF_DIR, "bookmarks.yaml");
   const rawFileContents = await fs.readFile(bookmarksYaml, "utf8");
   const fileContents = substituteEnvironmentVars(rawFileContents);
   const bookmarks = yaml.load(fileContents);
 
   if (!bookmarks) return [];
+
+  let initialSettings;
+
+  try {
+    initialSettings = await getSettings();
+  } catch (e) {
+    console.error("Failed to load settings.yaml, please check for errors");
+    if (e) console.error(e.toString());
+    initialSettings = {};
+  }
 
   // map easy to write YAML objects into easy to consume JS arrays
   const bookmarksArray = bookmarks.map((group) => ({
@@ -43,7 +53,21 @@ export async function bookmarksResponse() {
     })),
   }));
 
-  return bookmarksArray;
+  const sortedGroups = [];
+  const unsortedGroups = [];
+  const definedLayouts = initialSettings.layout ? Object.keys(initialSettings.layout) : null;
+
+  bookmarksArray.forEach((group) => {
+    if (definedLayouts) {
+      const layoutIndex = definedLayouts.findIndex((layout) => layout === group.name);
+      if (layoutIndex > -1) sortedGroups[layoutIndex] = group;
+      else unsortedGroups.push(group);
+    } else {
+      unsortedGroups.push(group);
+    }
+  });
+
+  return [...sortedGroups.filter((g) => g), ...unsortedGroups];
 }
 
 export async function widgetsResponse() {
@@ -102,11 +126,13 @@ export async function servicesResponse() {
   }
 
   const mergedGroupsNames = [
-    ...new Set([
-      discoveredDockerServices.map((group) => group.name),
-      discoveredKubernetesServices.map((group) => group.name),
-      configuredServices.map((group) => group.name),
-    ].flat()),
+    ...new Set(
+      [
+        discoveredDockerServices.map((group) => group.name),
+        discoveredKubernetesServices.map((group) => group.name),
+        configuredServices.map((group) => group.name),
+      ].flat(),
+    ),
   ];
 
   const sortedGroups = [];
@@ -114,22 +140,23 @@ export async function servicesResponse() {
   const definedLayouts = initialSettings.layout ? Object.keys(initialSettings.layout) : null;
 
   mergedGroupsNames.forEach((groupName) => {
-    const discoveredDockerGroup = discoveredDockerServices.find((group) => group.name === groupName) || { services: [] };
-    const discoveredKubernetesGroup = discoveredKubernetesServices.find((group) => group.name === groupName) || { services: [] };
+    const discoveredDockerGroup = discoveredDockerServices.find((group) => group.name === groupName) || {
+      services: [],
+    };
+    const discoveredKubernetesGroup = discoveredKubernetesServices.find((group) => group.name === groupName) || {
+      services: [],
+    };
     const configuredGroup = configuredServices.find((group) => group.name === groupName) || { services: [] };
 
     const mergedGroup = {
       name: groupName,
-      services: [
-        ...discoveredDockerGroup.services,
-        ...discoveredKubernetesGroup.services,
-        ...configuredGroup.services
-      ].filter((service) => service)
+      services: [...discoveredDockerGroup.services, ...discoveredKubernetesGroup.services, ...configuredGroup.services]
+        .filter((service) => service)
         .sort(compareServices),
     };
 
     if (definedLayouts) {
-      const layoutIndex = definedLayouts.findIndex(layout => layout === mergedGroup.name);
+      const layoutIndex = definedLayouts.findIndex((layout) => layout === mergedGroup.name);
       if (layoutIndex > -1) sortedGroups[layoutIndex] = mergedGroup;
       else unsortedGroups.push(mergedGroup);
     } else {
@@ -137,5 +164,5 @@ export async function servicesResponse() {
     }
   });
 
-  return [...sortedGroups.filter(g => g), ...unsortedGroups];
+  return [...sortedGroups.filter((g) => g), ...unsortedGroups];
 }

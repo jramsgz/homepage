@@ -38,10 +38,15 @@ export default function Component({ service }) {
   const { data: statusData, error: statusError } = useWidgetAPI(widget, "status");
 
   if (statusError) {
-    return <Container error={statusError} />;
+    return <Container service={service} error={statusError} />;
   }
 
-  const source = statusData?.sources[0];
+  const snapshotHost = service.widget?.snapshotHost;
+  const snapshotPath = service.widget?.snapshotPath;
+
+  const source = statusData?.sources
+    .filter((el) => (snapshotHost ? el.source.host === snapshotHost : true))
+    .filter((el) => (snapshotPath ? el.source.path === snapshotPath : true))[0];
 
   if (!statusData || !source) {
     return (
@@ -54,15 +59,19 @@ export default function Component({ service }) {
     );
   }
 
-  const lastRun = source.lastSnapshot.stats.errorCount === 0 ? new Date(source.lastSnapshot.startTime) : t("kopia.failed");
+  const lastRun =
+    source.lastSnapshot.stats.errorCount === 0 ? new Date(source.lastSnapshot.startTime) : t("kopia.failed");
   const nextTime = source.nextSnapshotTime ? new Date(source.nextSnapshotTime) : null;
 
   return (
     <Container service={service}>
-      <Block label="kopia.status" value={ source.status } />
-      <Block label="kopia.size" value={t("common.bbytes", { value: source.lastSnapshot.stats.totalSize, maximumFractionDigits: 1 })} />
-      <Block label="kopia.lastrun" value={ relativeDate(lastRun) } />
-      {nextTime && <Block label="kopia.nextrun" value={ relativeDate(nextTime) } />}
+      <Block label="kopia.status" value={source.status} />
+      <Block
+        label="kopia.size"
+        value={t("common.bbytes", { value: source.lastSnapshot.stats.totalSize, maximumFractionDigits: 1 })}
+      />
+      <Block label="kopia.lastrun" value={relativeDate(lastRun)} />
+      {nextTime && <Block label="kopia.nextrun" value={relativeDate(nextTime)} />}
     </Container>
   );
 }

@@ -11,8 +11,13 @@ export default function Component({ service }) {
 
   const { data: speedtestData, error: speedtestError } = useWidgetAPI(widget, "speedtest/latest");
 
+  const bitratePrecision =
+    !widget?.bitratePrecision || Number.isNaN(widget?.bitratePrecision) || widget?.bitratePrecision < 0
+      ? 0
+      : widget.bitratePrecision;
+
   if (speedtestError) {
-    return <Container error={speedtestError} />;
+    return <Container service={service} error={speedtestError} />;
   }
 
   if (!speedtestData) {
@@ -29,16 +34,24 @@ export default function Component({ service }) {
     <Container service={service}>
       <Block
         label="speedtest.download"
-        value={t("common.bitrate", { value: speedtestData.data.download * 1000 * 1000 })}
+        value={t("common.bitrate", {
+          value: speedtestData.data.download * 1000 * 1000,
+          decimals: bitratePrecision,
+        })}
       />
-      <Block label="speedtest.upload" value={t("common.bitrate", { value: speedtestData.data.upload * 1000 * 1000 })} />
+      <Block
+        label="speedtest.upload"
+        value={t("common.bitrate", {
+          value: speedtestData.data.upload * 1000 * 1000,
+          decimals: bitratePrecision,
+        })}
+      />
       <Block
         label="speedtest.ping"
         value={t("common.ms", {
           value: speedtestData.data.ping,
           style: "unit",
           unit: "millisecond",
-          unitDisplay: "narrow",
         })}
       />
     </Container>

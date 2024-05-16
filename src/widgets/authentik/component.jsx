@@ -15,7 +15,7 @@ export default function Component({ service }) {
 
   if (usersError || loginsError || failedLoginsError) {
     const finalError = usersError ?? loginsError ?? failedLoginsError;
-    return <Container error={finalError} />;
+    return <Container service={service} error={finalError} />;
   }
 
   if (!usersData || !loginsData || !failedLoginsData) {
@@ -31,11 +31,11 @@ export default function Component({ service }) {
   const yesterday = new Date(Date.now()).setHours(-24);
   const loginsLast24H = loginsData.reduce(
     (total, current) => (current.x_cord >= yesterday ? total + current.y_cord : total),
-    0
+    0,
   );
   const failedLoginsLast24H = failedLoginsData.reduce(
     (total, current) => (current.x_cord >= yesterday ? total + current.y_cord : total),
-    0
+    0,
   );
 
   return (

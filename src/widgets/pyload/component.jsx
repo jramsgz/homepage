@@ -1,4 +1,4 @@
-import { useTranslation } from 'next-i18next'
+import { useTranslation } from "next-i18next";
 
 import Container from "components/services/widget/container";
 import Block from "components/services/widget/block";
@@ -10,7 +10,7 @@ export default function Component({ service }) {
   const { data: pyloadData, error: pyloadError } = useWidgetAPI(widget, "status");
 
   if (pyloadError) {
-    return <Container error={pyloadError} />;
+    return <Container service={service} error={pyloadError} />;
   }
 
   if (!pyloadData) {

@@ -11,6 +11,7 @@ import nextI18nextConfig from "../../next-i18next.config";
 import { ColorProvider } from "utils/contexts/color";
 import { ThemeProvider } from "utils/contexts/theme";
 import { SettingsProvider } from "utils/contexts/settings";
+import { TabProvider } from "utils/contexts/tab";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -21,12 +22,17 @@ function MyApp({ Component, pageProps }) {
     >
       <Head>
         {/* https://nextjs.org/docs/messages/no-document-viewport-meta */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
       </Head>
       <ColorProvider>
         <ThemeProvider>
           <SettingsProvider>
-            <Component {...pageProps} />
+            <TabProvider>
+              <Component {...pageProps} />
+            </TabProvider>
           </SettingsProvider>
         </ThemeProvider>
       </ColorProvider>

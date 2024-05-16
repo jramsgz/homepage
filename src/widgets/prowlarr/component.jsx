@@ -11,7 +11,7 @@ export default function Component({ service }) {
   const { data: grabsData, error: grabsError } = useWidgetAPI(widget, "indexerstats");
 
   if (grabsError) {
-    return <Container error={grabsError} />;
+    return <Container service={service} error={grabsError} />;
   }
 
   if (!grabsData) {
@@ -32,8 +32,8 @@ export default function Component({ service }) {
   grabsData?.indexers?.forEach((element) => {
     numberOfGrabs += element.numberOfGrabs;
     numberOfQueries += element.numberOfQueries;
-    numberOfFailedGrabs += numberOfFailedGrabs + element.numberOfFailedGrabs;
-    numberOfFailedQueries += numberOfFailedQueries + element.numberOfFailedQueries;
+    numberOfFailedGrabs += element.numberOfFailedGrabs;
+    numberOfFailedQueries += element.numberOfFailedQueries;
   });
 
   return (

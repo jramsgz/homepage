@@ -15,7 +15,7 @@ export default function Component({ service }) {
 
   if (seriesError || issuesError || wantedError) {
     const finalError = seriesError ?? issuesError ?? wantedError;
-    return <Container error={finalError} />;
+    return <Container service={service} error={finalError} />;
   }
 
   if (!seriesData || !issuesData || !wantedData) {
@@ -32,7 +32,7 @@ export default function Component({ service }) {
 
   return (
     <Container service={service}>
-      <Block label="mylar.series" value={t("common.number", { value: seriesData.data.length })} />  
+      <Block label="mylar.series" value={t("common.number", { value: seriesData.data.length })} />
       <Block label="mylar.issues" value={t("common.number", { value: totalIssues })} />
       <Block label="mylar.wanted" value={t("common.number", { value: wantedData.issues.length })} />
     </Container>

@@ -12,7 +12,7 @@ export default function Component({ service }) {
   const { data: fileflowsData, error: fileflowsError } = useWidgetAPI(widget, "status");
 
   if (fileflowsError) {
-    return <Container error={fileflowsError} />;
+    return <Container service={service} error={fileflowsError} />;
   }
 
   if (!fileflowsData) {
@@ -25,7 +25,7 @@ export default function Component({ service }) {
       </Container>
     );
   }
-	  
+
   return (
     <Container service={service}>
       <Block label="fileflows.queue" value={t("common.number", { value: fileflowsData.queue })} />

@@ -29,11 +29,13 @@ export default async function transmissionProxyHandler(req, res) {
   if (!headers) {
     headers = {
       "content-type": "application/json",
-    }
+    };
     cache.put(`${headerCacheKey}.${service}`, headers);
   }
 
-  const url = new URL(formatApiCall(widgets[widget.type].api, { endpoint, ...widget }));
+  const api = `${widget.url}${widget.rpcUrl || widgets[widget.type].rpcUrl}rpc`;
+
+  const url = new URL(formatApiCall(api, { endpoint, ...widget }));
   const csrfHeaderName = "x-transmission-session-id";
 
   const method = "POST";
@@ -68,7 +70,7 @@ export default async function transmissionProxyHandler(req, res) {
 
   if (status !== 200) {
     logger.error("Error getting data from Transmission: %d.  Data: %s", status, data);
-    return res.status(500).send({error: {message:"Error getting data from Transmission", url, data}});
+    return res.status(500).send({ error: { message: "Error getting data from Transmission", url, data } });
   }
 
   if (contentType) res.setHeader("Content-Type", contentType);
