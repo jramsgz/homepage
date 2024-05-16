@@ -41,7 +41,7 @@ With features like quick search, bookmarks, weather support, a wide range of int
 
 ## Docker Integration
 
-Homepage has built-in support for Docker, and can automatically discover and add services to the homepage based on labels. See the [Docker](https://gethomepage.dev/latest/installation/docker/) page for more information.
+Homepage has built-in support for Docker, and can automatically discover and add services to the homepage based on labels. See the [Docker Service Discovery](https://gethomepage.dev/latest/configs/docker/#automatic-service-discovery) page for more information.
 
 ## Service Widgets
 
@@ -163,8 +163,6 @@ mkdocs serve # or build, to build the static site
 # Support & Suggestions
 
 If you have any questions, suggestions, or general issues, please start a discussion on the [Discussions](https://github.com/gethomepage/homepage/discussions) page.
-
-For bug reports, please open an issue on the [Issues](https://github.com/gethomepage/homepage/issues) page.
 
 ## Contributing & Contributors
 
