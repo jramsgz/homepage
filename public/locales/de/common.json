@@ -12,6 +12,7 @@
         "number": "{{value, number}}",
         "ms": "{{value, number}}",
         "date": "{{value, date}}",
+        "relativeDate": "{{value, relativeDate}}",
         "uptime": "{{value, uptime}}",
         "months": "mo",
         "days": "d",
@@ -106,6 +107,13 @@
         "episodes": "Episoden",
         "songs": "Songs"
     },
+    "esphome": {
+        "offline": "Offline",
+        "offline_alt": "Offline",
+        "online": "Online",
+        "total": "Gesamt",
+        "unknown": "Unbekannt"
+    },
     "evcc": {
         "pv_power": "Erzeugung",
         "battery_soc": "Batterie",
@@ -134,8 +142,8 @@
         "connectionStatusDisconnected": "Getrennt",
         "connectionStatusConnected": "Verbunden",
         "uptime": "Betriebszeit",
-        "maxDown": "Max. Empfang",
-        "maxUp": "Max. Senden",
+        "maxDown": "Max. Down",
+        "maxUp": "Max. Up",
         "down": "Empfangen",
         "up": "Senden",
         "received": "Empfangen",
@@ -169,7 +177,7 @@
         "activeUser": "Aktive Geräte",
         "alerts": "Warnungen",
         "connectedGateway": "Verbundene Gateways",
-        "connectedSwitches": "Verbundene Switches"
+        "connectedSwitches": "Verbundene Switche"
     },
     "nzbget": {
         "rate": "Datenrate",
@@ -269,7 +277,7 @@
         "approved": "Genehmigt",
         "available": "Verfügbar"
     },
-    "pialert": {
+    "netalertx": {
         "total": "Gesamt",
         "connected": "Verbunden",
         "new_devices": "Neue Geräte",
@@ -378,13 +386,13 @@
         "down": "Offline"
     },
     "miniflux": {
-        "read": "Lesen",
+        "read": "Gelesen",
         "unread": "Ungelesen"
     },
     "authentik": {
         "users": "Benutzer",
-        "loginsLast24H": "Anmeldungen (24h)",
-        "failedLoginsLast24H": "fehlerhafte Anmeldungen (24h)"
+        "loginsLast24H": "Anmeldungen (24 h)",
+        "failedLoginsLast24H": "Fehlversuche (24 h)"
     },
     "proxmox": {
         "mem": "RAM",
@@ -406,7 +414,7 @@
         "days": "d",
         "hours": "h",
         "crit": "Krit",
-        "read": "Lesen",
+        "read": "Gelesen",
         "write": "Schreiben",
         "gpu": "GPU",
         "mem": "RAM",
@@ -418,7 +426,8 @@
         "search": "Suchen",
         "custom": "Benutzerdefiniert",
         "visit": "Besuchen",
-        "url": "URL"
+        "url": "URL",
+        "searchsuggestion": "Vorschlag"
     },
     "wmo": {
         "0-day": "sonnig",
@@ -491,9 +500,9 @@
     },
     "healthchecks": {
         "new": "Neu",
-        "up": "Online",
+        "up": "Senden",
         "grace": "In Karenzzeit",
-        "down": "Offline",
+        "down": "Empfangen",
         "paused": "Pausiert",
         "status": "Status",
         "last_ping": "Letzter Ping",
@@ -534,7 +543,15 @@
     },
     "hdhomerun": {
         "channels": "Kanäle",
-        "hd": "HD"
+        "hd": "HD",
+        "tunerCount": "Empfänger",
+        "channelNumber": "Kanal",
+        "channelNetwork": "Netzwerk",
+        "signalStrength": "Stärke",
+        "signalQuality": "Qualität",
+        "symbolQuality": "Qualität",
+        "networkRate": "Bitrate",
+        "clientIP": "Client"
     },
     "scrutiny": {
         "passed": "Bestanden",
@@ -561,7 +578,7 @@
         "cpuLoad": "CPU-Auslastung",
         "memoryUsed": "RAM Verbrauch",
         "uptime": "Betriebszeit",
-        "numberOfLeases": "Leasen"
+        "numberOfLeases": "Leases"
     },
     "xteve": {
         "streams_all": "Keine Übertragungen",
@@ -608,7 +625,7 @@
     },
     "proxmoxbackupserver": {
         "datastore_usage": "Datenspeicher",
-        "failed_tasks_24h": "Fehlgeschlagene Prozesse 24h",
+        "failed_tasks_24h": "Fehlgeschlagene Prozesse (24 h)",
         "cpu_usage": "CPU",
         "memory_usage": "RAM"
     },
@@ -693,6 +710,11 @@
         "targets_down": "Ziele Down",
         "targets_total": "Alle Ziele"
     },
+    "gatus": {
+        "up": "Seiten verfügbar",
+        "down": "Seiten nicht verfügbar",
+        "uptime": "Betriebszeit"
+    },
     "ghostfolio": {
         "gross_percent_today": "Heute",
         "gross_percent_1y": "Ein Jahr",
@@ -774,6 +796,14 @@
         "passed": "Bestanden",
         "failed": "Fehlgeschlagen"
     },
+    "openwrt": {
+        "uptime": "Betriebszeit",
+        "cpuLoad": "CPU-Last (5 min-Durchschnitt)",
+        "up": "Senden",
+        "down": "Empfangen",
+        "bytesTx": "Übertragen",
+        "bytesRx": "Empfangen"
+    },
     "uptimerobot": {
         "status": "Status",
         "uptime": "Betriebszeit",
@@ -794,5 +824,57 @@
         "digitalRelease": "Digitale Version",
         "noEventsToday": "Heute keine Ereignisse!",
         "noEventsFound": "Keine Termine gefunden"
+    },
+    "romm": {
+        "platforms": "Plattformen",
+        "totalRoms": "ROMs gesamt"
+    },
+    "netdata": {
+        "warnings": "Warnungen",
+        "criticals": "Kritisch"
+    },
+    "plantit": {
+        "events": "Ereignisse",
+        "plants": "Pflanzen",
+        "photos": "Fotos",
+        "species": "Spezies"
+    },
+    "gitea": {
+        "notifications": "Benachrichtigungen",
+        "issues": "Probleme",
+        "pulls": "Pull-Requests"
+    },
+    "stash": {
+        "scenes": "Szenen",
+        "scenesPlayed": "Gespielte Szenen",
+        "playCount": "Wiedergaben gesamt",
+        "playDuration": "Zeit angesehen",
+        "sceneSize": "Szenengröße",
+        "sceneDuration": "Szenendauer",
+        "images": "Bilder",
+        "imageSize": "Bildgröße",
+        "galleries": "Galerien",
+        "performers": "Darsteller",
+        "studios": "Studios",
+        "movies": "Filme",
+        "tags": "Schlagwörter",
+        "oCount": "O-Anzahl"
+    },
+    "tandoor": {
+        "users": "Benutzer",
+        "recipes": "Rezepte",
+        "keywords": "Schlagwörter"
+    },
+    "homebox": {
+        "items": "Objekte",
+        "totalWithWarranty": "Mit Garantie",
+        "locations": "Orte",
+        "labels": "Labels",
+        "users": "Benutzer",
+        "totalValue": "Gesamtwert"
+    },
+    "crowdsec": {
+        "alerts": "Warnungen",
+        "bans": "Banns"
     }
 }

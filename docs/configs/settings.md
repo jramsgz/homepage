@@ -85,7 +85,7 @@ Or you may pass the path to a local image relative to the `/app/public` director
 
 ## Theme
 
-You can configure a fixed them (and disable the theme switcher) by passing the `theme` option, like so:
+You can configure a fixed theme (and disable the theme switcher) by passing the `theme` option, like so:
 
 ```yaml
 theme: dark # or light
@@ -211,13 +211,13 @@ layout:
 
 ### Five Columns
 
-You can add a fifth column (when `style: columns` which is default) by adding:
+You can add a fifth column to services (when `style: columns` which is default) by adding:
 
 ```yaml
 fiveColumns: true
 ```
 
-By default homepage will max out at 4 columns for column style
+By default homepage will max out at 4 columns for services with `columns` style
 
 ### Collapsible sections
 
@@ -228,6 +228,26 @@ disableCollapse: true
 ```
 
 By default the feature is enabled.
+
+### Initially collapsed sections
+
+You can initially collapse sections by adding the `initiallyCollapsed` option to the layout group.
+
+```yaml
+layout:
+  Section A:
+    initiallyCollapsed: true
+```
+
+This can also be set globaly using the `groupsInitiallyCollapsed` option.
+
+```yaml
+groupsInitiallyCollapsed: true
+```
+
+The value set on a group will overwrite the global setting.
+
+By default the feature is disabled.
 
 ### Use Equal Height Cards
 
@@ -343,7 +363,7 @@ providers:
 You can then pass `provider` instead of `apiKey` in your widget configuration.
 
 ```yaml
-- weather:
+- weatherapi:
     latitude: 50.449684
     longitude: 30.525026
     provider: weatherapi
@@ -359,12 +379,14 @@ There are a few optional settings for the Quick Launch feature:
 
 - `searchDescriptions`: which lets you control whether item descriptions are included in searches. This is off by default. When enabled, results that match the item name will be placed above those that only match the description.
 - `hideInternetSearch`: disable automatically including the currently-selected web search (e.g. from the widget) as a Quick Launch option. This is false by default, enabling the feature.
+- `showSearchSuggestions`: shows search suggestions for the internet search. This value will be inherited from the search widget if it is not specified. If it is not specified there either, it will default to false.
 - `hideVisitURL`: disable detecting and offering an option to open URLs. This is false by default, enabling the feature.
 
 ```yaml
 quicklaunch:
   searchDescriptions: true
   hideInternetSearch: true
+  showSearchSuggestions: true
   hideVisitURL: true
 ```
 
@@ -383,6 +405,8 @@ By default the homepage logfile is written to the a `logs` subdirectory of the `
 ```yaml
 logpath: /logfile/path
 ```
+
+By default, logs are sent both to `stdout` and to a file at the path specified. This can be changed by setting the `LOG_TARGETS` environment variable to one of `both` (default), `stdout` or `file`.
 
 ## Show Docker Stats
 
