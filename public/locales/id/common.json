@@ -322,8 +322,6 @@
         "minutes": "{{number}}m",
         "seconds": "{{number}}d",
         "ago": "{{value}} Yang Lalu"
-<<<<<<< HEAD
-=======
     },
     "technitium": {
         "totalQueries": "Kueri",
@@ -337,7 +335,6 @@
         "totalBlocked": "Terblokir",
         "totalDropped": "Dropped",
         "totalClients": "Klien"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "tdarr": {
         "queue": "Antrian",
@@ -847,9 +844,6 @@
     },
     "romm": {
         "platforms": "Platform",
-<<<<<<< HEAD
-        "totalRoms": "ROM Total"
-=======
         "totalRoms": "Games",
         "saves": "Saves",
         "states": "States",
@@ -861,7 +855,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "Penyimpanan"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Peringatan",
@@ -910,8 +903,6 @@
     "crowdsec": {
         "alerts": "Peringatan",
         "bans": "Bans"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "Connected",
@@ -962,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

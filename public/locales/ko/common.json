@@ -110,11 +110,7 @@
     "esphome": {
         "offline": "중지",
         "offline_alt": "중지",
-<<<<<<< HEAD
-        "online": "Online",
-=======
         "online": "온라인",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "total": "총합",
         "unknown": "알 수 없음"
     },
@@ -520,11 +516,7 @@
         "down": "Down"
     },
     "healthchecks": {
-<<<<<<< HEAD
-        "new": "New",
-=======
         "new": "신규",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "up": "Up",
         "grace": "In Grace Period",
         "down": "Down",
@@ -567,28 +559,16 @@
         "country": "Country"
     },
     "hdhomerun": {
-<<<<<<< HEAD
-        "channels": "Channels",
-        "hd": "HD",
-        "tunerCount": "Tuners",
-        "channelNumber": "Channel",
-        "channelNetwork": "Network",
-=======
         "channels": "채널",
         "hd": "HD",
         "tunerCount": "Tuners",
         "channelNumber": "채널",
         "channelNetwork": "네트워크",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "signalStrength": "Strength",
         "signalQuality": "Quality",
         "symbolQuality": "Quality",
         "networkRate": "비트레이트",
-<<<<<<< HEAD
-        "clientIP": "Client"
-=======
         "clientIP": "클라이언트"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "scrutiny": {
         "passed": "Passed",
@@ -839,11 +819,7 @@
         "up": "Up",
         "down": "Down",
         "bytesTx": "Transmitted",
-<<<<<<< HEAD
-        "bytesRx": "Received"
-=======
         "bytesRx": "수신됨"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "uptimerobot": {
         "status": "상태",
@@ -867,10 +843,6 @@
         "noEventsFound": "No events found"
     },
     "romm": {
-<<<<<<< HEAD
-        "platforms": "Platforms",
-        "totalRoms": "Total ROMs"
-=======
         "platforms": "기종",
         "totalRoms": "게임",
         "saves": "세이브",
@@ -883,7 +855,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "저장됨"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Warnings",
@@ -892,28 +863,16 @@
     "plantit": {
         "events": "Events",
         "plants": "Plants",
-<<<<<<< HEAD
-        "photos": "Photos",
-        "species": "Species"
-    },
-    "gitea": {
-        "notifications": "Notifications",
-=======
         "photos": "사진",
         "species": "Species"
     },
     "gitea": {
         "notifications": "알림",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "issues": "Issues",
         "pulls": "Pull Requests"
     },
     "stash": {
-<<<<<<< HEAD
-        "scenes": "Scenes",
-=======
         "scenes": "장면",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "scenesPlayed": "Scenes Played",
         "playCount": "Total Plays",
         "playDuration": "Time Watched",
@@ -923,31 +882,18 @@
         "imageSize": "Images Size",
         "galleries": "Galleries",
         "performers": "Performers",
-<<<<<<< HEAD
-        "studios": "Studios",
-        "movies": "영화",
-        "tags": "Tags",
-=======
         "studios": "스튜디오",
         "movies": "영화",
         "tags": "태그",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "oCount": "O Count"
     },
     "tandoor": {
         "users": "사용자",
         "recipes": "Recipes",
-<<<<<<< HEAD
-        "keywords": "Keywords"
-    },
-    "homebox": {
-        "items": "Items",
-=======
         "keywords": "키워드"
     },
     "homebox": {
         "items": "아이템",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "totalWithWarranty": "With Warranty",
         "locations": "Locations",
         "labels": "Labels",
@@ -957,8 +903,6 @@
     "crowdsec": {
         "alerts": "경고",
         "bans": "Bans"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "연결됨",
@@ -1009,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

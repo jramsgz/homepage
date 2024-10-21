@@ -322,8 +322,6 @@
         "minutes": "{{number}}m",
         "seconds": "{{number}}s",
         "ago": "Fa {{value}}"
-<<<<<<< HEAD
-=======
     },
     "technitium": {
         "totalQueries": "Consultes",
@@ -337,7 +335,6 @@
         "totalBlocked": "Bloquejat",
         "totalDropped": "Dropped",
         "totalClients": "Clients"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "tdarr": {
         "queue": "Cua",
@@ -406,11 +403,7 @@
         "down": "Fora de línia"
     },
     "miniflux": {
-<<<<<<< HEAD
-        "read": "Llegir",
-=======
         "read": "Llegit",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "unread": "Sense llegir"
     },
     "authentik": {
@@ -438,13 +431,8 @@
         "days": "d",
         "hours": "h",
         "crit": "Crític",
-<<<<<<< HEAD
-        "read": "Llegir",
-        "write": "Escriure",
-=======
         "read": "Llegit",
         "write": "Escriptura",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "gpu": "GPU",
         "mem": "Mem",
         "swap": "Intercanvi"
@@ -452,15 +440,9 @@
     "quicklaunch": {
         "bookmark": "Marcador",
         "service": "Servei",
-<<<<<<< HEAD
-        "search": "Cercar",
-        "custom": "Personalitzat",
-        "visit": "Visitar",
-=======
         "search": "Cerca",
         "custom": "Personalitzat",
         "visit": "Visita",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "url": "URL",
         "searchsuggestion": "Suggeriment"
     },
@@ -616,11 +598,7 @@
         "numberOfLeases": "IPs assignades"
     },
     "xteve": {
-<<<<<<< HEAD
-        "streams_all": "Tots els fluxos",
-=======
         "streams_all": "Tots els streams",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "streams_active": "Transmissions actives",
         "streams_xepg": "Canals XEPG"
     },
@@ -639,11 +617,7 @@
     "moonraker": {
         "printer_state": "Estat de l'impressora",
         "print_status": "Estat de l'impressió",
-<<<<<<< HEAD
-        "print_progress": "Progress",
-=======
         "print_progress": "Progrés",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "layers": "Capes"
     },
     "octoprint": {
@@ -657,22 +631,14 @@
         "status": "Estat"
     },
     "pfsense": {
-<<<<<<< HEAD
-        "load": "Promig Càrrega",
-=======
         "load": "Càrrega mitjana",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "memory": "Ús Memòria",
         "wanStatus": "Estat WAN",
         "up": "Actiu",
         "down": "Inactiu",
         "temp": "Temp",
         "disk": "Ús Disc",
-<<<<<<< HEAD
-        "wanIP": "WAN IP"
-=======
         "wanIP": "IP WAN"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "proxmoxbackupserver": {
         "datastore_usage": "Datastore",
@@ -728,11 +694,7 @@
     },
     "grafana": {
         "dashboards": "Taulells",
-<<<<<<< HEAD
-        "datasources": "Origen de dades",
-=======
         "datasources": "Orígens de dades",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "totalalerts": "Alertes Totals",
         "alertstriggered": "Alertes disparades"
     },
@@ -773,11 +735,7 @@
     "ghostfolio": {
         "gross_percent_today": "Avui",
         "gross_percent_1y": "Un any",
-<<<<<<< HEAD
-        "gross_percent_max": "Tot"
-=======
         "gross_percent_max": "Sempre"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "audiobookshelf": {
         "podcasts": "Pòdcasts",
@@ -819,13 +777,8 @@
         "failed": "Error",
         "canceled": "Cancel·lat",
         "inProgress": "En curs",
-<<<<<<< HEAD
-        "totalPrs": "RP Totals",
-        "myPrs": "Els meus RP",
-=======
         "totalPrs": "PRs Totals",
         "myPrs": "Les meves PRs",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "approved": "Aprovat"
     },
     "gamedig": {
@@ -862,11 +815,7 @@
     },
     "openwrt": {
         "uptime": "Temps actiu",
-<<<<<<< HEAD
-        "cpuLoad": "Càrrega promig de CPU (5m)",
-=======
         "cpuLoad": "Càrrega mitjana de CPU (5min)",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "up": "Actiu",
         "down": "Inactiu",
         "bytesTx": "Enviat",
@@ -895,9 +844,6 @@
     },
     "romm": {
         "platforms": "Plataformes",
-<<<<<<< HEAD
-        "totalRoms": "ROMs totals"
-=======
         "totalRoms": "Games",
         "saves": "Saves",
         "states": "States",
@@ -909,7 +855,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "Emmagatzematge"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Avisos",
@@ -931,17 +876,10 @@
         "scenesPlayed": "Escenes reproduïdes",
         "playCount": "Total reproduccions",
         "playDuration": "Temps visionat",
-<<<<<<< HEAD
-        "sceneSize": "Tamany Escena",
-        "sceneDuration": "Duració Escenes",
-        "images": "Imatges",
-        "imageSize": "Mida Imatges",
-=======
         "sceneSize": "Tamany d'escenes",
         "sceneDuration": "Duració Escenes",
         "images": "Imatges",
         "imageSize": "Tamany d'imatges",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "galleries": "Biblioteques",
         "performers": "Intèrprets",
         "studios": "Estudis",
@@ -965,8 +903,6 @@
     "crowdsec": {
         "alerts": "Alertes",
         "bans": "Prohibicions"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "Connectat",
@@ -1017,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

@@ -844,9 +844,6 @@
     },
     "romm": {
         "platforms": "Plattformen",
-<<<<<<< HEAD
-        "totalRoms": "ROMs gesamt"
-=======
         "totalRoms": "Spiele",
         "saves": "Spielstände",
         "states": "Speicherstände",
@@ -858,7 +855,6 @@
         "mailboxes": "Postfächer",
         "mails": "E-Mails",
         "storage": "Speicher"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Warnungen",
@@ -907,8 +903,6 @@
     "crowdsec": {
         "alerts": "Warnungen",
         "bans": "Banns"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "Verbunden",
@@ -959,6 +953,5 @@
         "reminders": "Erinnerungen",
         "nextReminder": "Nächste Erinnerung",
         "none": "Keine"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

@@ -140,20 +140,12 @@
         "connectionStatusPendingDisconnect": "接続を切断する",
         "connectionStatusDisconnecting": "接続を切断中",
         "connectionStatusDisconnected": "切断されました",
-<<<<<<< HEAD
-        "connectionStatusConnected": "Connected",
-=======
         "connectionStatusConnected": "接続済",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "uptime": "稼働時間",
         "maxDown": "最大ダウン",
         "maxUp": "最大アップ",
         "down": "下へ",
-<<<<<<< HEAD
-        "up": "上へ",
-=======
         "up": "稼働",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "received": "受信済み",
         "sent": "送信済み",
         "externalIPAddress": "退出ID"
@@ -291,15 +283,9 @@
     },
     "netalertx": {
         "total": "合計",
-<<<<<<< HEAD
-        "connected": "Connected",
-        "new_devices": "New Devices",
-        "down_alerts": "Down Alerts"
-=======
         "connected": "接続済",
         "new_devices": "新規デバイス",
         "down_alerts": "ダウンアラート"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "pihole": {
         "queries": "クエリ",
@@ -531,11 +517,7 @@
     },
     "healthchecks": {
         "new": "新着",
-<<<<<<< HEAD
-        "up": "上へ",
-=======
         "up": "稼働",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "grace": "猶予期間中",
         "down": "下へ",
         "paused": "一時停止中",
@@ -834,11 +816,7 @@
     "openwrt": {
         "uptime": "稼働時間",
         "cpuLoad": "CPU 平均負荷（5 分）",
-<<<<<<< HEAD
-        "up": "上へ",
-=======
         "up": "稼働",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "down": "下へ",
         "bytesTx": "送信済み",
         "bytesRx": "受信済み"
@@ -866,9 +844,6 @@
     },
     "romm": {
         "platforms": "プラットフォーム",
-<<<<<<< HEAD
-        "totalRoms": "ROMの合計"
-=======
         "totalRoms": "ゲーム",
         "saves": "保存",
         "states": "状態",
@@ -880,7 +855,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "ストレージ"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "警告",
@@ -928,9 +902,6 @@
     },
     "crowdsec": {
         "alerts": "アラート",
-<<<<<<< HEAD
-        "bans": "Bans"
-=======
         "bans": "禁止"
     },
     "wgeasy": {
@@ -982,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

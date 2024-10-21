@@ -4,11 +4,6 @@ description: PiHole Widget Configuration
 ---
 
 Learn more about [PiHole](https://github.com/pi-hole/pi-hole).
-<<<<<<< HEAD
-
-As of v2022.12 [PiHole requires the use of an API key](https://pi-hole.net/blog/2022/11/17/upcoming-changes-authentication-for-more-api-endpoints-required/#page-content) if an admin password is set. Older versions do not require any authentication even if the admin uses a password.
-=======
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
 
 Allowed fields: `["queries", "blocked", "blocked_percent", "gravity"]`.
 
@@ -21,8 +16,3 @@ widget:
   version: 6 # required if running v6 or higher, defaults to 5
   key: yourpiholeapikey # optional
 ```
-<<<<<<< HEAD
-
-_Added in v0.1.0, updated in v0.8.9_
-=======
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85

@@ -51,10 +51,6 @@ body:
     id: troubleshooting
     attributes:
       label: Troubleshooting
-<<<<<<< HEAD
-      description: Please include output from your [troubleshooting tests](https://gethomepage.dev/latest/more/troubleshooting/#service-widget-errors), if relevant.
-=======
       description: Please include output from your [troubleshooting tests](https://gethomepage.dev/more/troubleshooting/#service-widget-errors), if relevant.
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     validations:
       required: true

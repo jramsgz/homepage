@@ -186,11 +186,7 @@
     },
     "plex": {
         "streams": "Strim Aktif",
-<<<<<<< HEAD
-        "albums": "Albums",
-=======
         "albums": "Album",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "movies": "Filem",
         "tv": "Rancangan TV"
     },
@@ -326,8 +322,6 @@
         "minutes": "{{number}}m",
         "seconds": "{{number}}s",
         "ago": "{{value}} Lepas"
-<<<<<<< HEAD
-=======
     },
     "technitium": {
         "totalQueries": "Permintaan",
@@ -341,7 +335,6 @@
         "totalBlocked": "Disekat",
         "totalDropped": "Dropped",
         "totalClients": "Klien"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "tdarr": {
         "queue": "Barisan",
@@ -762,11 +755,7 @@
     "calibreweb": {
         "books": "Buku",
         "authors": "Pengarang/Penulis",
-<<<<<<< HEAD
-        "categories": "Categories",
-=======
         "categories": "Memori",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "series": "Siri"
     },
     "jdownloader": {
@@ -813,11 +802,7 @@
     "mealie": {
         "recipes": "Resipi",
         "users": "Pengguna",
-<<<<<<< HEAD
-        "categories": "Categories",
-=======
         "categories": "Memori",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "tags": "Tanda nama"
     },
     "openmediavault": {
@@ -859,9 +844,6 @@
     },
     "romm": {
         "platforms": "Platform",
-<<<<<<< HEAD
-        "totalRoms": "Jumlah ROM"
-=======
         "totalRoms": "Games",
         "saves": "Saves",
         "states": "States",
@@ -873,7 +855,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "Storage"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Amaran",
@@ -882,11 +863,7 @@
     "plantit": {
         "events": "Events",
         "plants": "Plants",
-<<<<<<< HEAD
-        "photos": "Photos",
-=======
         "photos": "Gambar",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "species": "Species"
     },
     "gitea": {
@@ -895,11 +872,7 @@
         "pulls": "Pull Requests"
     },
     "stash": {
-<<<<<<< HEAD
-        "scenes": "Scenes",
-=======
         "scenes": "Adegan",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "scenesPlayed": "Scenes Played",
         "playCount": "Total Plays",
         "playDuration": "Time Watched",
@@ -922,16 +895,6 @@
     "homebox": {
         "items": "Items",
         "totalWithWarranty": "With Warranty",
-<<<<<<< HEAD
-        "locations": "Locations",
-        "labels": "Labels",
-        "users": "Pengguna",
-        "totalValue": "Total Value"
-    },
-    "crowdsec": {
-        "alerts": "Alerts",
-        "bans": "Bans"
-=======
         "locations": "Lokasi",
         "labels": "Labels",
         "users": "Pengguna",
@@ -990,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

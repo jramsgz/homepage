@@ -134,15 +134,6 @@
     },
     "fritzbox": {
         "connectionStatus": "Стан",
-<<<<<<< HEAD
-        "connectionStatusUnconfigured": "Unconfigured",
-        "connectionStatusConnecting": "Connecting",
-        "connectionStatusAuthenticating": "Authenticating",
-        "connectionStatusPendingDisconnect": "Pending Disconnect",
-        "connectionStatusDisconnecting": "Disconnecting",
-        "connectionStatusDisconnected": "Disconnected",
-        "connectionStatusConnected": "Connected",
-=======
         "connectionStatusUnconfigured": "Не налаштовано",
         "connectionStatusConnecting": "Підключення",
         "connectionStatusAuthenticating": "Автентифікація",
@@ -150,7 +141,6 @@
         "connectionStatusDisconnecting": "Відключення",
         "connectionStatusDisconnected": "Відключено",
         "connectionStatusConnected": "З'єднано",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "uptime": "Час роботи",
         "maxDown": "Макс. зав",
         "maxUp": "Макс. віддача",
@@ -293,15 +283,9 @@
     },
     "netalertx": {
         "total": "Усього",
-<<<<<<< HEAD
-        "connected": "Connected",
-        "new_devices": "New Devices",
-        "down_alerts": "Down Alerts"
-=======
         "connected": "З'єднано",
         "new_devices": "Нові пристрої",
         "down_alerts": "Спов. про падіння"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "pihole": {
         "queries": "Запити",
@@ -460,11 +444,7 @@
         "custom": "Користувацький",
         "visit": "Відвідайте",
         "url": "URL-адреса",
-<<<<<<< HEAD
-        "searchsuggestion": "Suggestion"
-=======
         "searchsuggestion": "Пропозиція"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "wmo": {
         "0-day": "Сонячно",
@@ -581,16 +561,6 @@
     "hdhomerun": {
         "channels": "Канали",
         "hd": "HD",
-<<<<<<< HEAD
-        "tunerCount": "Tuners",
-        "channelNumber": "Channel",
-        "channelNetwork": "Network",
-        "signalStrength": "Strength",
-        "signalQuality": "Quality",
-        "symbolQuality": "Quality",
-        "networkRate": "Бітрейт",
-        "clientIP": "Client"
-=======
         "tunerCount": "Тюнери",
         "channelNumber": "Канал",
         "channelNetwork": "Мережа",
@@ -599,7 +569,6 @@
         "symbolQuality": "Якість",
         "networkRate": "Бітрейт",
         "clientIP": "Клієнт"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "scrutiny": {
         "passed": "Пройшов",
@@ -847,17 +816,10 @@
     "openwrt": {
         "uptime": "Час роботи",
         "cpuLoad": "CPU Load Avg (5m)",
-<<<<<<< HEAD
-        "up": "Up",
-        "down": "Down",
-        "bytesTx": "Transmitted",
-        "bytesRx": "Received"
-=======
         "up": "Онлайн",
         "down": "Офлайн",
         "bytesTx": "Transmitted",
         "bytesRx": "Отримано"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "uptimerobot": {
         "status": "Стан",
@@ -882,12 +844,6 @@
     },
     "romm": {
         "platforms": "Platforms",
-<<<<<<< HEAD
-        "totalRoms": "Total ROMs"
-    },
-    "netdata": {
-        "warnings": "Warnings",
-=======
         "totalRoms": "Games",
         "saves": "Saves",
         "states": "States",
@@ -902,7 +858,6 @@
     },
     "netdata": {
         "warnings": "Попередження",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "criticals": "Criticals"
     },
     "plantit": {
@@ -912,11 +867,7 @@
         "species": "Species"
     },
     "gitea": {
-<<<<<<< HEAD
-        "notifications": "Notifications",
-=======
         "notifications": "Сповіщення",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "issues": "Питання",
         "pulls": "Pull Requests"
     },
@@ -930,47 +881,28 @@
         "images": "Images",
         "imageSize": "Images Size",
         "galleries": "Galleries",
-<<<<<<< HEAD
-        "performers": "Performers",
-        "studios": "Studios",
-        "movies": "Фільми",
-        "tags": "Tags",
-=======
         "performers": "Виконавці",
         "studios": "Studios",
         "movies": "Фільми",
         "tags": "Теги",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "oCount": "O Count"
     },
     "tandoor": {
         "users": "Користувачі",
-<<<<<<< HEAD
-        "recipes": "Recipes",
-        "keywords": "Keywords"
-=======
         "recipes": "Отримувачі",
         "keywords": "Ключові слова"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "homebox": {
         "items": "Items",
         "totalWithWarranty": "With Warranty",
-<<<<<<< HEAD
-        "locations": "Locations",
-        "labels": "Labels",
-=======
         "locations": "Місцезнаходження",
         "labels": "Мітки",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "users": "Користувачі",
         "totalValue": "Total Value"
     },
     "crowdsec": {
         "alerts": "Оповіщення",
         "bans": "Bans"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "З'єднано",
@@ -1021,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

@@ -140,11 +140,7 @@
         "connectionStatusPendingDisconnect": "Oczekujące rozłączenie",
         "connectionStatusDisconnecting": "Rozłączanie",
         "connectionStatusDisconnected": "Rozłączono",
-<<<<<<< HEAD
-        "connectionStatusConnected": "Connected",
-=======
         "connectionStatusConnected": "Połączono",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "uptime": "Czas działania",
         "maxDown": "Maks. Pobieranie",
         "maxUp": "Maks. Wysyłanie",
@@ -287,15 +283,9 @@
     },
     "netalertx": {
         "total": "Całkowite",
-<<<<<<< HEAD
-        "connected": "Connected",
-        "new_devices": "New Devices",
-        "down_alerts": "Down Alerts"
-=======
         "connected": "Połączono",
         "new_devices": "Nowe urządzenia",
         "down_alerts": "Alerty niedostępności"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "pihole": {
         "queries": "Zapytania",
@@ -854,9 +844,6 @@
     },
     "romm": {
         "platforms": "Platformy",
-<<<<<<< HEAD
-        "totalRoms": "Łącznie ROM"
-=======
         "totalRoms": "Games",
         "saves": "Saves",
         "states": "States",
@@ -868,7 +855,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "Pamięć"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Ostrzeżenia",
@@ -917,8 +903,6 @@
     "crowdsec": {
         "alerts": "Alarmy",
         "bans": "Bany"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "Połączono",
@@ -969,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

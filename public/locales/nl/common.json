@@ -108,13 +108,8 @@
         "songs": "Nummers"
     },
     "esphome": {
-<<<<<<< HEAD
-        "offline": "Onbereikbaar",
-        "offline_alt": "Onbereikbaar",
-=======
         "offline": "Offline",
         "offline_alt": "Offline",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "online": "Bereikbaar",
         "total": "Totaal",
         "unknown": "Onbekend"
@@ -849,9 +844,6 @@
     },
     "romm": {
         "platforms": "Platformen",
-<<<<<<< HEAD
-        "totalRoms": "Totale ROM's"
-=======
         "totalRoms": "Games",
         "saves": "Saves",
         "states": "States",
@@ -863,7 +855,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "Opslag"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Waarschuwingen",
@@ -912,8 +903,6 @@
     "crowdsec": {
         "alerts": "Meldingen",
         "bans": "Bans"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "Verbonden",
@@ -964,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

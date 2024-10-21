@@ -14,11 +14,7 @@
         "date": "{{value, date}}",
         "relativeDate": "{{value, relativeDate}}",
         "uptime": "{{value, uptime}}",
-<<<<<<< HEAD
-        "months": "mes",
-=======
         "months": "mês",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "days": "d",
         "hours": "h",
         "minutes": "min",
@@ -144,11 +140,7 @@
         "connectionStatusPendingDisconnect": "Desconexão pendente",
         "connectionStatusDisconnecting": "Desconectando",
         "connectionStatusDisconnected": "Desconectado",
-<<<<<<< HEAD
-        "connectionStatusConnected": "Connected",
-=======
         "connectionStatusConnected": "Conectado",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "uptime": "Ligado",
         "maxDown": "Máx. de Descarga",
         "maxUp": "Max. de Envio",
@@ -291,15 +283,9 @@
     },
     "netalertx": {
         "total": "Total",
-<<<<<<< HEAD
-        "connected": "Connected",
-        "new_devices": "New Devices",
-        "down_alerts": "Down Alerts"
-=======
         "connected": "Conectado",
         "new_devices": "Novos dispositivos",
         "down_alerts": "Alertas de Falha"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "pihole": {
         "queries": "Consultas",
@@ -458,11 +444,7 @@
         "custom": "Personalizado",
         "visit": "Visitar",
         "url": "Endereço URL",
-<<<<<<< HEAD
-        "searchsuggestion": "Suggestion"
-=======
         "searchsuggestion": "Sugestão"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "wmo": {
         "0-day": "Solarengo",
@@ -579,16 +561,6 @@
     "hdhomerun": {
         "channels": "Canais",
         "hd": "HD",
-<<<<<<< HEAD
-        "tunerCount": "Tuners",
-        "channelNumber": "Channel",
-        "channelNetwork": "Network",
-        "signalStrength": "Strength",
-        "signalQuality": "Quality",
-        "symbolQuality": "Quality",
-        "networkRate": "Taxa de bits",
-        "clientIP": "Client"
-=======
         "tunerCount": "Sintonizadores",
         "channelNumber": "Canal",
         "channelNetwork": "Rede",
@@ -597,7 +569,6 @@
         "symbolQuality": "Qualidade",
         "networkRate": "Taxa de bits",
         "clientIP": "Cliente"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "scrutiny": {
         "passed": "Aprovado",
@@ -844,17 +815,10 @@
     },
     "openwrt": {
         "uptime": "Ligado",
-<<<<<<< HEAD
-        "cpuLoad": "CPU Load Avg (5m)",
-        "up": "Up",
-        "down": "Down",
-        "bytesTx": "Transmitted",
-=======
         "cpuLoad": "Carga da CPU média (5m)",
         "up": "Up",
         "down": "Down",
         "bytesTx": "Transmitido",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "bytesRx": "Recebido"
     },
     "uptimerobot": {
@@ -879,41 +843,6 @@
         "noEventsFound": "Nenhum evento encontrado"
     },
     "romm": {
-<<<<<<< HEAD
-        "platforms": "Platforms",
-        "totalRoms": "Total ROMs"
-    },
-    "netdata": {
-        "warnings": "Warnings",
-        "criticals": "Criticals"
-    },
-    "plantit": {
-        "events": "Events",
-        "plants": "Plants",
-        "photos": "Fotos",
-        "species": "Species"
-    },
-    "gitea": {
-        "notifications": "Notifications",
-        "issues": "Problemas",
-        "pulls": "Pull Requests"
-    },
-    "stash": {
-        "scenes": "Scenes",
-        "scenesPlayed": "Scenes Played",
-        "playCount": "Total Plays",
-        "playDuration": "Time Watched",
-        "sceneSize": "Scenes Size",
-        "sceneDuration": "Scenes Duration",
-        "images": "Images",
-        "imageSize": "Images Size",
-        "galleries": "Galleries",
-        "performers": "Performers",
-        "studios": "Studios",
-        "movies": "Filmes",
-        "tags": "Etiquetas",
-        "oCount": "O Count"
-=======
         "platforms": "Plataformas",
         "totalRoms": "Games",
         "saves": "Saves",
@@ -957,26 +886,10 @@
         "movies": "Filmes",
         "tags": "Etiquetas",
         "oCount": "Contagem de O's"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "tandoor": {
         "users": "Utilizadores",
         "recipes": "Receitas",
-<<<<<<< HEAD
-        "keywords": "Keywords"
-    },
-    "homebox": {
-        "items": "Items",
-        "totalWithWarranty": "With Warranty",
-        "locations": "Locations",
-        "labels": "Labels",
-        "users": "Utilizadores",
-        "totalValue": "Total Value"
-    },
-    "crowdsec": {
-        "alerts": "Alertas",
-        "bans": "Bans"
-=======
         "keywords": "Palavras-chave"
     },
     "homebox": {
@@ -1040,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

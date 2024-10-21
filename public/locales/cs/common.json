@@ -140,11 +140,7 @@
         "connectionStatusPendingDisconnect": "Čeká na odpojení",
         "connectionStatusDisconnecting": "Odpojování",
         "connectionStatusDisconnected": "Odpojeno",
-<<<<<<< HEAD
-        "connectionStatusConnected": "Connected",
-=======
         "connectionStatusConnected": "",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "uptime": "Doba spuštění",
         "maxDown": "Max. Down",
         "maxUp": "Max. Up",
@@ -848,9 +844,6 @@
     },
     "romm": {
         "platforms": "Platforms",
-<<<<<<< HEAD
-        "totalRoms": "Total ROMs"
-=======
         "totalRoms": "Games",
         "saves": "Saves",
         "states": "States",
@@ -862,7 +855,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "Úložiště"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Warnings",
@@ -911,8 +903,6 @@
     "crowdsec": {
         "alerts": "Upozornění",
         "bans": "Bans"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "",
@@ -963,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

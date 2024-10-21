@@ -844,9 +844,6 @@
     },
     "romm": {
         "platforms": "Platformy",
-<<<<<<< HEAD
-        "totalRoms": "Celkovo ROM"
-=======
         "totalRoms": "Games",
         "saves": "Saves",
         "states": "States",
@@ -858,7 +855,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "Úložisko"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Upozornenia",
@@ -877,11 +873,7 @@
     },
     "stash": {
         "scenes": "Scény",
-<<<<<<< HEAD
-        "scenesPlayed": "Scenes Played",
-=======
         "scenesPlayed": "Prehrané scény",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "playCount": "Celkovo prehraní",
         "playDuration": "Pozeraný čas",
         "sceneSize": "Veľkosť obrazovky",
@@ -904,15 +896,6 @@
         "items": "Položky",
         "totalWithWarranty": "So zárukou",
         "locations": "Umiestnenia",
-<<<<<<< HEAD
-        "labels": "Labels",
-        "users": "Používatelia",
-        "totalValue": "Total Value"
-    },
-    "crowdsec": {
-        "alerts": "Upozornenia",
-        "bans": "Bans"
-=======
         "labels": "Štítky",
         "users": "Používatelia",
         "totalValue": "Celková hodnota"
@@ -970,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

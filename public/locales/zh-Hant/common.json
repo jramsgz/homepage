@@ -844,9 +844,6 @@
     },
     "romm": {
         "platforms": "平台",
-<<<<<<< HEAD
-        "totalRoms": "總唯讀記憶體"
-=======
         "totalRoms": "Games",
         "saves": "Saves",
         "states": "States",
@@ -858,7 +855,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "儲存空間"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "警告",
@@ -907,8 +903,6 @@
     "crowdsec": {
         "alerts": "警示",
         "bans": "禁止"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "Connected",
@@ -959,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

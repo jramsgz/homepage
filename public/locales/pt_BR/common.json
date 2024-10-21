@@ -26,13 +26,8 @@
         "information": "Informação",
         "status": "Status",
         "url": "Endereço URL",
-<<<<<<< HEAD
-        "raw_error": "Erro Raw",
-        "response_data": "Dados da Resposta"
-=======
         "raw_error": "Erro Bruto",
         "response_data": "Dados de Resposta"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "weather": {
         "current": "Localização atual",
@@ -113,13 +108,8 @@
         "songs": "Canções"
     },
     "esphome": {
-<<<<<<< HEAD
-        "offline": "Desligado",
-        "offline_alt": "Desligado",
-=======
         "offline": "Offline",
         "offline_alt": "Offline",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "online": "Disponível",
         "total": "Total",
         "unknown": "Desconhecido"
@@ -143,11 +133,7 @@
         "unread": "Não lida"
     },
     "fritzbox": {
-<<<<<<< HEAD
-        "connectionStatus": "Estado",
-=======
         "connectionStatus": "Status",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "connectionStatusUnconfigured": "Não configurado",
         "connectionStatusConnecting": "Conectando",
         "connectionStatusAuthenticating": "Autenticando",
@@ -156,13 +142,8 @@
         "connectionStatusDisconnected": "Desconectado",
         "connectionStatusConnected": "Conectado",
         "uptime": "Ligado",
-<<<<<<< HEAD
-        "maxDown": "Max. Down",
-        "maxUp": "Max. Up",
-=======
         "maxDown": "Tempo de inatividade máximo",
         "maxUp": "Máx. Acima",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "down": "Inativo",
         "up": "Ativo",
         "received": "Recebido",
@@ -235,11 +216,7 @@
         "cpuUsage": "Uso de CPU",
         "memUsage": "Uso de Memória",
         "systemTempC": "Temp. do Sistema",
-<<<<<<< HEAD
-        "poolUsage": "Pool Usage",
-=======
         "poolUsage": "Uso do Pool",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "volumeUsage": "Uso do volume",
         "invalid": "Inválido"
     },
@@ -338,13 +315,8 @@
         "never": "Nunca",
         "last_seen": "Visto por último",
         "now": "Agora",
-<<<<<<< HEAD
-        "years": "{{number}}y",
-        "weeks": "{{number}}w",
-=======
         "years": "{{number}}a",
         "weeks": "{{number}}s",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "days": "{{number}}d",
         "hours": "{{number}}h",
         "minutes": "{{number}}m",
@@ -426,15 +398,9 @@
     "minecraft": {
         "players": "Reprodutores",
         "version": "Versão",
-<<<<<<< HEAD
-        "status": "Estado",
-        "up": "Disponível",
-        "down": "Desligado"
-=======
         "status": "Status",
         "up": "Disponível",
         "down": "Offline"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "miniflux": {
         "read": "Lido",
@@ -804,11 +770,7 @@
     },
     "azuredevops": {
         "result": "Resultado",
-<<<<<<< HEAD
-        "status": "Estado",
-=======
         "status": "Status",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "buildId": "ID Compilação",
         "succeeded": "Bem-sucedido",
         "notStarted": "Não iniciado",
@@ -820,15 +782,9 @@
         "approved": "Aprovada"
     },
     "gamedig": {
-<<<<<<< HEAD
-        "status": "Estado",
-        "online": "Disponível",
-        "offline": "Desligado",
-=======
         "status": "Status",
         "online": "Disponível",
         "offline": "Offline",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "name": "Nome",
         "map": "Mapa",
         "currentPlayers": "Jogadores atuais",
@@ -845,11 +801,7 @@
     },
     "mealie": {
         "recipes": "Receitas",
-<<<<<<< HEAD
-        "users": "Utilizadores",
-=======
         "users": "Usuários",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "categories": "Categorias",
         "tags": "Marcadores"
     },
@@ -862,18 +814,6 @@
         "failed": "Falhou"
     },
     "openwrt": {
-<<<<<<< HEAD
-        "uptime": "Ligado",
-        "cpuLoad": "Carga da CPU média (5m)",
-        "up": "Ativo",
-        "down": "Inativo",
-        "bytesTx": "Transmitido",
-        "bytesRx": "Recebido"
-    },
-    "uptimerobot": {
-        "status": "Estado",
-        "uptime": "Ligado",
-=======
         "uptime": "Ligado",
         "cpuLoad": "Carga da CPU média (5m)",
         "up": "Ativo",
@@ -884,7 +824,6 @@
     "uptimerobot": {
         "status": "Status",
         "uptime": "Ligado",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "lastDown": "Última inatividade",
         "downDuration": "Duração de inatividade",
         "sitesUp": "Sites no Ar",
@@ -905,9 +844,6 @@
     },
     "romm": {
         "platforms": "Plataformas",
-<<<<<<< HEAD
-        "totalRoms": "Total de ROMs"
-=======
         "totalRoms": "Games",
         "saves": "Saves",
         "states": "States",
@@ -919,7 +855,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "Armazenamento"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Alertas",
@@ -953,11 +888,7 @@
         "oCount": "Contagem 0"
     },
     "tandoor": {
-<<<<<<< HEAD
-        "users": "Utilizadores",
-=======
         "users": "Usuários",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "recipes": "Receitas",
         "keywords": "Palavras-chave"
     },
@@ -966,18 +897,12 @@
         "totalWithWarranty": "Com Garantia",
         "locations": "Localização",
         "labels": "Rótulos",
-<<<<<<< HEAD
-        "users": "Utilizadores",
-=======
         "users": "Usuários",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "totalValue": "Valor Total"
     },
     "crowdsec": {
         "alerts": "Alertas",
         "bans": "Banimentos"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "Conectado",
@@ -1028,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

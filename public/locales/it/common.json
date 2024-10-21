@@ -562,19 +562,11 @@
         "channels": "Canali",
         "hd": "HD",
         "tunerCount": "Tuners",
-<<<<<<< HEAD
-        "channelNumber": "Channel",
-        "channelNetwork": "Rete",
-        "signalStrength": "Intensità",
-        "signalQuality": "Quality",
-        "symbolQuality": "Quality",
-=======
         "channelNumber": "Canale",
         "channelNetwork": "Rete",
         "signalStrength": "Intensità",
         "signalQuality": "Qualità",
         "symbolQuality": "Qualità",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "networkRate": "Bitrate",
         "clientIP": "Client"
     },
@@ -823,17 +815,10 @@
     },
     "openwrt": {
         "uptime": "Tempo di attività",
-<<<<<<< HEAD
-        "cpuLoad": "CPU Load Avg (5m)",
-        "up": "Up",
-        "down": "Down",
-        "bytesTx": "Transmitted",
-=======
         "cpuLoad": "Media Carico Cpu (5m)",
         "up": "Up",
         "down": "Down",
         "bytesTx": "Trasmessi",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "bytesRx": "Ricevuti"
     },
     "uptimerobot": {
@@ -858,10 +843,6 @@
         "noEventsFound": "Nessun evento trovato"
     },
     "romm": {
-<<<<<<< HEAD
-        "platforms": "Platforms",
-        "totalRoms": "Total ROMs"
-=======
         "platforms": "Piattaforme",
         "totalRoms": "Games",
         "saves": "Saves",
@@ -874,18 +855,13 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "Archiviazione"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Avvisi",
         "criticals": "Criticals"
     },
     "plantit": {
-<<<<<<< HEAD
-        "events": "Events",
-=======
         "events": "Eventi",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "plants": "Plants",
         "photos": "Foto",
         "species": "Specie"
@@ -903,11 +879,7 @@
         "sceneSize": "Dimensione Delle Scene",
         "sceneDuration": "Durata Delle Scene",
         "images": "Immagini",
-<<<<<<< HEAD
-        "imageSize": "Images Size",
-=======
         "imageSize": "Dimensioni immagine",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "galleries": "Galleries",
         "performers": "Esecutori",
         "studios": "Studi",
@@ -918,21 +890,6 @@
     "tandoor": {
         "users": "Utenti",
         "recipes": "Ricette",
-<<<<<<< HEAD
-        "keywords": "Keywords"
-    },
-    "homebox": {
-        "items": "Items",
-        "totalWithWarranty": "With Warranty",
-        "locations": "Locations",
-        "labels": "Labels",
-        "users": "Utenti",
-        "totalValue": "Total Value"
-    },
-    "crowdsec": {
-        "alerts": "Allarmi",
-        "bans": "Bans"
-=======
         "keywords": "Parole chiave"
     },
     "homebox": {
@@ -996,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

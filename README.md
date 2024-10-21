@@ -48,11 +48,7 @@ With features like quick search, bookmarks, weather support, a wide range of int
 
 ## Docker Integration
 
-<<<<<<< HEAD
-Homepage has built-in support for Docker, and can automatically discover and add services to the homepage based on labels. See the [Docker Service Discovery](https://gethomepage.dev/latest/configs/docker/#automatic-service-discovery) page for more information.
-=======
 Homepage has built-in support for Docker, and can automatically discover and add services to the homepage based on labels. See the [Docker Service Discovery](https://gethomepage.dev/configs/docker/#automatic-service-discovery) page for more information.
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
 
 ## Service Widgets
 
@@ -172,13 +168,10 @@ mkdocs serve # or build, to build the static site
 
 If you have any questions, suggestions, or general issues, please start a discussion on the [Discussions](https://github.com/gethomepage/homepage/discussions) page.
 
-<<<<<<< HEAD
-=======
 ## Troubleshooting
 
 In addition to the docs, the [troubleshooting guide](https://gethomepage.dev/troubleshooting/) can help reveal many basic config or network issues. If you're having a problem, it's a good place to start.
 
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
 ## Contributing & Contributors
 
 Contributions are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.

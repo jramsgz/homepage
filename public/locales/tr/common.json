@@ -844,9 +844,6 @@
     },
     "romm": {
         "platforms": "Platformlar",
-<<<<<<< HEAD
-        "totalRoms": "Toplam ROM'lar"
-=======
         "totalRoms": "Oyunlar",
         "saves": "Kayıtlar",
         "states": "Durumlar",
@@ -858,7 +855,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "Depo"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Uyarılar",
@@ -907,8 +903,6 @@
     "crowdsec": {
         "alerts": "Alarmlar",
         "bans": "Yasaklar"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "Bağlandı",
@@ -959,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

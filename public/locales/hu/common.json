@@ -45,11 +45,7 @@
         "free": "Szabad",
         "used": "Használt",
         "load": "Terhelés",
-<<<<<<< HEAD
-        "temp": "HŐ",
-=======
         "temp": "HŐM",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "max": "Max",
         "uptime": "FUT"
     },
@@ -144,11 +140,7 @@
         "connectionStatusPendingDisconnect": "Szétkapcsolás függőben",
         "connectionStatusDisconnecting": "Kapcsolat bontása",
         "connectionStatusDisconnected": "Kapcsolat bontva",
-<<<<<<< HEAD
-        "connectionStatusConnected": "Connected",
-=======
         "connectionStatusConnected": "Csatlakozva",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "uptime": "Üzemidő",
         "maxDown": "Max let.",
         "maxUp": "Max felt.",
@@ -291,15 +283,9 @@
     },
     "netalertx": {
         "total": "Összes",
-<<<<<<< HEAD
-        "connected": "Connected",
-        "new_devices": "New Devices",
-        "down_alerts": "Down Alerts"
-=======
         "connected": "Csatlakozva",
         "new_devices": "Új eszközök",
         "down_alerts": "Leállási riasztások"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "pihole": {
         "queries": "Lekérdezések",
@@ -435,11 +421,7 @@
         "cpu": "Processzor",
         "load": "Terhelés",
         "wait": "Kérjük várjon",
-<<<<<<< HEAD
-        "temp": "HŐ",
-=======
         "temp": "HŐM",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "_temp": "Hőmérséklet",
         "warn": "Figyelmeztet",
         "uptime": "FUT",
@@ -862,9 +844,6 @@
     },
     "romm": {
         "platforms": "Felület",
-<<<<<<< HEAD
-        "totalRoms": "Minden ROM"
-=======
         "totalRoms": "Games",
         "saves": "Saves",
         "states": "States",
@@ -876,7 +855,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "Tárhely"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Figyelmeztetések",
@@ -925,8 +903,6 @@
     "crowdsec": {
         "alerts": "Riasztások",
         "bans": "Bans"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "Csatlakozva",
@@ -977,6 +953,5 @@
         "reminders": "Emlékeztetők",
         "nextReminder": "Következő emlékeztető",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

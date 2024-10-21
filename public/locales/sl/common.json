@@ -844,9 +844,6 @@
     },
     "romm": {
         "platforms": "Platforme",
-<<<<<<< HEAD
-        "totalRoms": "Skupaj ROM-ov"
-=======
         "totalRoms": "Igre",
         "saves": "Shranitve",
         "states": "Stanja",
@@ -858,7 +855,6 @@
         "mailboxes": "Nabiralniki",
         "mails": "Pošta",
         "storage": "Shramba"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Opozorila",
@@ -907,8 +903,6 @@
     "crowdsec": {
         "alerts": "Opozorila",
         "bans": "Prepovedi"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "Povezan",
@@ -959,6 +953,5 @@
         "reminders": "Opomniki",
         "nextReminder": "Naslednji opomnik",
         "none": "Brez"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

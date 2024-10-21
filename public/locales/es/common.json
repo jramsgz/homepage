@@ -12,11 +12,7 @@
         "number": "{{value, number}}",
         "ms": "{{value, number}}",
         "date": "{{value, date}}",
-<<<<<<< HEAD
-        "relativeDate": "{{valor, relativaFecha}}",
-=======
         "relativeDate": "{{value, relativeDate}}",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "uptime": "{{value, uptime}}",
         "months": "me",
         "days": "d",
@@ -144,11 +140,7 @@
         "connectionStatusPendingDisconnect": "Desconexión pendiente",
         "connectionStatusDisconnecting": "Desconectando",
         "connectionStatusDisconnected": "Desconectado",
-<<<<<<< HEAD
-        "connectionStatusConnected": "Connected",
-=======
         "connectionStatusConnected": "Conectado",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "uptime": "Tiempo activo",
         "maxDown": "Descarga máxima",
         "maxUp": "Subida máxima",
@@ -291,15 +283,9 @@
     },
     "netalertx": {
         "total": "Total",
-<<<<<<< HEAD
-        "connected": "Connected",
-        "new_devices": "New Devices",
-        "down_alerts": "Down Alerts"
-=======
         "connected": "Conectado",
         "new_devices": "Nuevos dispositivos",
         "down_alerts": "Alertas de caída"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "pihole": {
         "queries": "Consultas",
@@ -575,11 +561,7 @@
     "hdhomerun": {
         "channels": "Canales",
         "hd": "Alta definición",
-<<<<<<< HEAD
-        "tunerCount": "Tuners",
-=======
         "tunerCount": "Sintonizadores",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "channelNumber": "Canal",
         "channelNetwork": "Red",
         "signalStrength": "Intensidad",
@@ -862,9 +844,6 @@
     },
     "romm": {
         "platforms": "Plataformas",
-<<<<<<< HEAD
-        "totalRoms": "Total ROMs"
-=======
         "totalRoms": "Juegos",
         "saves": "Guardados",
         "states": "Estados",
@@ -876,7 +855,6 @@
         "mailboxes": "Buzones de correo",
         "mails": "Correos",
         "storage": "Almacenamiento"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Advertencias",
@@ -884,38 +862,13 @@
     },
     "plantit": {
         "events": "Eventos",
-<<<<<<< HEAD
-        "plants": "Plants",
-        "photos": "Fotos",
-        "species": "Species"
-=======
         "plants": "Plantas",
         "photos": "Fotos",
         "species": "Especies"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "gitea": {
         "notifications": "Notificaciones",
         "issues": "Números",
-<<<<<<< HEAD
-        "pulls": "Pull Requests"
-    },
-    "stash": {
-        "scenes": "Scenes",
-        "scenesPlayed": "Scenes Played",
-        "playCount": "Total Plays",
-        "playDuration": "Time Watched",
-        "sceneSize": "Scenes Size",
-        "sceneDuration": "Scenes Duration",
-        "images": "Imágenes",
-        "imageSize": "Tamaño de imagen",
-        "galleries": "Galerías",
-        "performers": "Performers",
-        "studios": "Studios",
-        "movies": "Películas",
-        "tags": "Etiquetas",
-        "oCount": "O Count"
-=======
         "pulls": "Solicitudes de cambios"
     },
     "stash": {
@@ -933,24 +886,15 @@
         "movies": "Películas",
         "tags": "Etiquetas",
         "oCount": "Cantidad de O"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "tandoor": {
         "users": "Usuarios",
         "recipes": "Recetas",
-<<<<<<< HEAD
-        "keywords": "Keywords"
-    },
-    "homebox": {
-        "items": "Items",
-        "totalWithWarranty": "Con Garantía",
-=======
         "keywords": "Palabras clave"
     },
     "homebox": {
         "items": "Objetos",
         "totalWithWarranty": "Con garantía",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "locations": "Ubicaciones",
         "labels": "Etiquetas",
         "users": "Usuarios",
@@ -958,9 +902,6 @@
     },
     "crowdsec": {
         "alerts": "Alertas",
-<<<<<<< HEAD
-        "bans": "Bans"
-=======
         "bans": "Baneos"
     },
     "wgeasy": {
@@ -1012,6 +953,5 @@
         "reminders": "Recordatorios",
         "nextReminder": "Siguiente recordatorio",
         "none": "Nada"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

@@ -85,26 +85,16 @@
     "ping": {
         "error": "Σφάλμα",
         "ping": "Ping",
-<<<<<<< HEAD
-        "down": "Down",
-        "up": "Up",
-=======
         "down": "Ping down",
         "up": "Ping up",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "not_available": "Μη διαθέσιμο"
     },
     "siteMonitor": {
         "http_status": "Κατάσταση HTTP",
         "error": "Σφάλμα",
         "response": "Απόκριση",
-<<<<<<< HEAD
-        "down": "Down",
-        "up": "Up",
-=======
         "down": "Ping down",
         "up": "Ping up",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "not_available": "Μη διαθέσιμο"
     },
     "emby": {
@@ -146,18 +136,6 @@
         "connectionStatus": "Κατάσταση",
         "connectionStatusUnconfigured": "Μη Ρυθμισμένο",
         "connectionStatusConnecting": "Κατάσταση Σύνδεσης",
-<<<<<<< HEAD
-        "connectionStatusAuthenticating": "Authenticating",
-        "connectionStatusPendingDisconnect": "Pending Disconnect",
-        "connectionStatusDisconnecting": "Disconnecting",
-        "connectionStatusDisconnected": "Disconnected",
-        "connectionStatusConnected": "Connected",
-        "uptime": "Χρόνος Λειτουργίας",
-        "maxDown": "Max. Down",
-        "maxUp": "Max. Up",
-        "down": "Down",
-        "up": "Up",
-=======
         "connectionStatusAuthenticating": "Ταυτοποίηση",
         "connectionStatusPendingDisconnect": "Εκκρεμεί Αποσύνδεση",
         "connectionStatusDisconnecting": "Αποσύνδεση",
@@ -168,7 +146,6 @@
         "maxUp": "Μέγιστο Upload",
         "down": "Ping down",
         "up": "Ping up",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "received": "Ληφθέντα",
         "sent": "Απεσταλμένα",
         "externalIPAddress": "Εξωτερική IP"
@@ -338,15 +315,6 @@
         "never": "Ποτέ",
         "last_seen": "Τελευταία Σύνδεση",
         "now": "Τώρα",
-<<<<<<< HEAD
-        "years": "{{number}}y",
-        "weeks": "{{number}}w",
-        "days": "{{number}}d",
-        "hours": "{{number}}h",
-        "minutes": "{{number}}m",
-        "seconds": "{{number}}s",
-        "ago": "{{value}} πρίν"
-=======
         "years": "{{number}}χρόνια",
         "weeks": "{{number}}εβδομάδες",
         "days": "{{number}}μέρες",
@@ -367,7 +335,6 @@
         "totalBlocked": "Αποκλεισμένο",
         "totalDropped": "Dropped",
         "totalClients": "Πελάτες"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "tdarr": {
         "queue": "Ουρά",
@@ -376,15 +343,9 @@
         "saved": "Αποθηκεύτηκε"
     },
     "traefik": {
-<<<<<<< HEAD
-        "routers": "Routers",
-        "services": "Υπηρεσίες",
-        "middleware": "Middleware"
-=======
         "routers": "Δρομολογητές",
         "services": "Υπηρεσίες",
         "middleware": "Ενδιάμεσο λογισμικό"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "navidrome": {
         "nothing_streaming": "Δεν υπάρχουν ενεργές ροές",
@@ -416,11 +377,7 @@
     },
     "jackett": {
         "configured": "Ρυθμισμένο",
-<<<<<<< HEAD
-        "errored": "Errored"
-=======
         "errored": "Σφάλματα"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "strelaysrv": {
         "numActiveSessions": "Συνεδρίες",
@@ -431,11 +388,7 @@
     "mastodon": {
         "user_count": "Χρήστες",
         "status_count": "Δημοσιεύσεις",
-<<<<<<< HEAD
-        "domain_count": "Domains"
-=======
         "domain_count": "Τομείς"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "medusa": {
         "wanted": "Επιθυμούντε",
@@ -564,15 +517,9 @@
     },
     "healthchecks": {
         "new": "New",
-<<<<<<< HEAD
-        "up": "Up",
-        "grace": "In Grace Period",
-        "down": "Down",
-=======
         "up": "Ping up",
         "grace": "In Grace Period",
         "down": "Ping down",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "paused": "Paused",
         "status": "Κατάσταση",
         "last_ping": "Τελευταίο Ping",
@@ -585,26 +532,15 @@
     },
     "autobrr": {
         "approvedPushes": "Εγκρίθηκε",
-<<<<<<< HEAD
-        "rejectedPushes": "Rejected",
-        "filters": "Filters",
-=======
         "rejectedPushes": "Απορρίφθηκε",
         "filters": "Φίλτρα",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "indexers": "Ευρετήρια"
     },
     "tubearchivist": {
         "downloads": "Ουρά",
-<<<<<<< HEAD
-        "videos": "Videos",
-        "channels": "Κανάλια",
-        "playlists": "Playlists"
-=======
         "videos": "Βίντεο",
         "channels": "Κανάλια",
         "playlists": "Λίστες αναπαραγωγής"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "truenas": {
         "load": "Φόρτος Συστήματος",
@@ -625,16 +561,6 @@
     "hdhomerun": {
         "channels": "Κανάλια",
         "hd": "HD",
-<<<<<<< HEAD
-        "tunerCount": "Tuners",
-        "channelNumber": "Κανάλι",
-        "channelNetwork": "Δίκτυο",
-        "signalStrength": "Strength",
-        "signalQuality": "Ποιότητα",
-        "symbolQuality": "Ποιότητα",
-        "networkRate": "Ρυθμός bit",
-        "clientIP": "Client"
-=======
         "tunerCount": "Δέκτες",
         "channelNumber": "Κανάλι",
         "channelNetwork": "Δίκτυο",
@@ -643,7 +569,6 @@
         "symbolQuality": "Ποιότητα",
         "networkRate": "Ρυθμός bit",
         "clientIP": "Πελάτης"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "scrutiny": {
         "passed": "Passed",
@@ -724,16 +649,6 @@
     "immich": {
         "users": "Χρήστες",
         "photos": "Φωτογραφίες",
-<<<<<<< HEAD
-        "videos": "Videos",
-        "storage": "Storage"
-    },
-    "uptimekuma": {
-        "up": "Sites Up",
-        "down": "Sites Down",
-        "uptime": "Χρόνος Λειτουργίας",
-        "incident": "Incident",
-=======
         "videos": "Βίντεο",
         "storage": "Αποθηκευτικός χώρος"
     },
@@ -742,7 +657,6 @@
         "down": "Offline τοποθεσίες",
         "uptime": "Χρόνος Λειτουργίας",
         "incident": "Περιστατικό",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "m": "m"
     },
     "atsumeru": {
@@ -769,13 +683,8 @@
     "photoprism": {
         "albums": "Άλμπουμ",
         "photos": "Φωτογραφίες",
-<<<<<<< HEAD
-        "videos": "Videos",
-        "people": "People"
-=======
         "videos": "Βίντεο",
         "people": "Άνθρωποι"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "fileflows": {
         "queue": "Ουρά",
@@ -830,13 +739,8 @@
     },
     "ghostfolio": {
         "gross_percent_today": "Σήμερα",
-<<<<<<< HEAD
-        "gross_percent_1y": "One year",
-        "gross_percent_max": "All time"
-=======
         "gross_percent_1y": "Ένας χρόνος",
         "gross_percent_max": "Διαχρονικά"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "audiobookshelf": {
         "podcasts": "Podcasts",
@@ -855,22 +759,14 @@
     },
     "calibreweb": {
         "books": "Βιβλία",
-<<<<<<< HEAD
-        "authors": "Authors",
-=======
         "authors": "Συντάκτες",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "categories": "Κατηγορίες",
         "series": "Σειρές"
     },
     "jdownloader": {
         "downloadCount": "Ουρά",
         "downloadBytesRemaining": "Υπόλοιπο",
-<<<<<<< HEAD
-        "downloadTotalBytes": "Size",
-=======
         "downloadTotalBytes": "Μέγεθος",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "downloadSpeed": "Ταχύτητα"
     },
     "kavita": {
@@ -912,11 +808,7 @@
         "recipes": "Συνταγές",
         "users": "Χρήστες",
         "categories": "Κατηγορίες",
-<<<<<<< HEAD
-        "tags": "Tags"
-=======
         "tags": "Ετικέτες"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "openmediavault": {
         "downloading": "Γίνεται λήψη",
@@ -965,9 +857,6 @@
     },
     "romm": {
         "platforms": "Platforms",
-<<<<<<< HEAD
-        "totalRoms": "Total ROMs"
-=======
         "totalRoms": "Games",
         "saves": "Saves",
         "states": "States",
@@ -979,7 +868,6 @@
         "mailboxes": "Mailboxes",
         "mails": "Mails",
         "storage": "Αποθηκευτικός χώρος"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Warnings",
@@ -1009,20 +897,12 @@
         "performers": "Performers",
         "studios": "Studios",
         "movies": "Ταινίες",
-<<<<<<< HEAD
-        "tags": "Tags",
-=======
         "tags": "Ετικέτες",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "oCount": "O Count"
     },
     "tandoor": {
         "users": "Χρήστες",
-<<<<<<< HEAD
-        "recipes": "Recipes",
-=======
         "recipes": "Συνταγές",
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "keywords": "Keywords"
     },
     "homebox": {
@@ -1036,8 +916,6 @@
     "crowdsec": {
         "alerts": "Ειδοποιήσεις",
         "bans": "Bans"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "Συνδέθηκε",
@@ -1088,6 +966,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

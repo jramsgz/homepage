@@ -844,9 +844,6 @@
     },
     "romm": {
         "platforms": "Platform",
-<<<<<<< HEAD
-        "totalRoms": "Totale ROMs"
-=======
         "totalRoms": "Spelle",
         "saves": "Beware",
         "states": "Toestande",
@@ -858,7 +855,6 @@
         "mailboxes": "Posbusse",
         "mails": "E-posse",
         "storage": "Bergplek"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Waarskuwings",
@@ -907,8 +903,6 @@
     "crowdsec": {
         "alerts": "Waarskuwings",
         "bans": "Verbanne"
-<<<<<<< HEAD
-=======
     },
     "wgeasy": {
         "connected": "Gekoppel",
@@ -959,6 +953,5 @@
         "reminders": "Reminders",
         "nextReminder": "Next Reminder",
         "none": "None"
->>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }
