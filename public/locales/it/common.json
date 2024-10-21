@@ -226,6 +226,10 @@
         "leech": "In download",
         "seed": "Seed"
     },
+    "develancacheui": {
+        "cachehitbytes": "Cache Hit Bytes",
+        "cachemissbytes": "Cache Miss Bytes"
+    },
     "downloadstation": {
         "download": "Download",
         "upload": "Upload",
@@ -287,7 +291,7 @@
         "queries": "Richieste",
         "blocked": "Bloccati",
         "blocked_percent": "Bloccato %",
-        "gravity": "Severità"
+        "gravity": "Gravity"
     },
     "adguard": {
         "queries": "Richieste",
@@ -318,6 +322,19 @@
         "minutes": "{{number}}m",
         "seconds": "{{number}}s",
         "ago": "{{value}} Fa"
+    },
+    "technitium": {
+        "totalQueries": "Richieste",
+        "totalNoError": "Success",
+        "totalServerFailure": "Failures",
+        "totalNxDomain": "NX Domains",
+        "totalRefused": "Refused",
+        "totalAuthoritative": "Authoritative",
+        "totalRecursive": "Recursive",
+        "totalCached": "Cached",
+        "totalBlocked": "Bloccati",
+        "totalDropped": "Dropped",
+        "totalClients": "Client"
     },
     "tdarr": {
         "queue": "Coda",
@@ -545,11 +562,19 @@
         "channels": "Canali",
         "hd": "HD",
         "tunerCount": "Tuners",
+<<<<<<< HEAD
         "channelNumber": "Channel",
         "channelNetwork": "Rete",
         "signalStrength": "Intensità",
         "signalQuality": "Quality",
         "symbolQuality": "Quality",
+=======
+        "channelNumber": "Canale",
+        "channelNetwork": "Rete",
+        "signalStrength": "Intensità",
+        "signalQuality": "Qualità",
+        "symbolQuality": "Qualità",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "networkRate": "Bitrate",
         "clientIP": "Client"
     },
@@ -564,11 +589,11 @@
     },
     "peanut": {
         "battery_charge": "Battery Charge",
-        "ups_load": "UPS Load",
-        "ups_status": "UPS Status",
+        "ups_load": "Carico UPS",
+        "ups_status": "Stato UPS",
         "online": "Online",
-        "on_battery": "On Battery",
-        "low_battery": "Low Battery"
+        "on_battery": "Alimentazione a batteria",
+        "low_battery": "Batteria Quasi Scarica"
     },
     "nextdns": {
         "wait": "Attendere prego",
@@ -798,10 +823,17 @@
     },
     "openwrt": {
         "uptime": "Tempo di attività",
+<<<<<<< HEAD
         "cpuLoad": "CPU Load Avg (5m)",
         "up": "Up",
         "down": "Down",
         "bytesTx": "Transmitted",
+=======
+        "cpuLoad": "Media Carico Cpu (5m)",
+        "up": "Up",
+        "down": "Down",
+        "bytesTx": "Trasmessi",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "bytesRx": "Ricevuti"
     },
     "uptimerobot": {
@@ -826,15 +858,34 @@
         "noEventsFound": "Nessun evento trovato"
     },
     "romm": {
+<<<<<<< HEAD
         "platforms": "Platforms",
         "totalRoms": "Total ROMs"
+=======
+        "platforms": "Piattaforme",
+        "totalRoms": "Games",
+        "saves": "Saves",
+        "states": "States",
+        "screenshots": "Screenshots",
+        "totalfilesize": "Total Size"
+    },
+    "mailcow": {
+        "domains": "Domini",
+        "mailboxes": "Mailboxes",
+        "mails": "Mails",
+        "storage": "Archiviazione"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Avvisi",
         "criticals": "Criticals"
     },
     "plantit": {
+<<<<<<< HEAD
         "events": "Events",
+=======
+        "events": "Eventi",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "plants": "Plants",
         "photos": "Foto",
         "species": "Specie"
@@ -852,7 +903,11 @@
         "sceneSize": "Dimensione Delle Scene",
         "sceneDuration": "Durata Delle Scene",
         "images": "Immagini",
+<<<<<<< HEAD
         "imageSize": "Images Size",
+=======
+        "imageSize": "Dimensioni immagine",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "galleries": "Galleries",
         "performers": "Esecutori",
         "studios": "Studi",
@@ -863,6 +918,7 @@
     "tandoor": {
         "users": "Utenti",
         "recipes": "Ricette",
+<<<<<<< HEAD
         "keywords": "Keywords"
     },
     "homebox": {
@@ -876,5 +932,70 @@
     "crowdsec": {
         "alerts": "Allarmi",
         "bans": "Bans"
+=======
+        "keywords": "Parole chiave"
+    },
+    "homebox": {
+        "items": "Elementi",
+        "totalWithWarranty": "Con Garanzia",
+        "locations": "Luoghi",
+        "labels": "Etichette",
+        "users": "Utenti",
+        "totalValue": "Valore totale"
+    },
+    "crowdsec": {
+        "alerts": "Allarmi",
+        "bans": "Bannati"
+    },
+    "wgeasy": {
+        "connected": "Connesso",
+        "enabled": "Abilitato",
+        "disabled": "Disabilitati",
+        "total": "Totale"
+    },
+    "swagdashboard": {
+        "proxied": "Proxied",
+        "auth": "With Auth",
+        "outdated": "Obsoleto",
+        "banned": "Bannato"
+    },
+    "myspeed": {
+        "ping": "Ping",
+        "download": "Download",
+        "upload": "Upload"
+    },
+    "stocks": {
+        "stocks": "Stocks",
+        "loading": "Loading",
+        "open": "Open - US Market",
+        "closed": "Closed - US Market",
+        "invalidConfiguration": "Invalid Configuration"
+    },
+    "frigate": {
+        "cameras": "Cameras",
+        "uptime": "Tempo di attività",
+        "version": "Versione"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Tag"
+    },
+    "zabbix": {
+        "unclassified": "Not classified",
+        "information": "Informazioni",
+        "warning": "Warning",
+        "average": "Average",
+        "high": "High",
+        "disaster": "Disaster"
+    },
+    "lubelogger": {
+        "vehicle": "Vehicle",
+        "vehicles": "Vehicles",
+        "serviceRecords": "Service Records",
+        "reminders": "Reminders",
+        "nextReminder": "Next Reminder",
+        "none": "None"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

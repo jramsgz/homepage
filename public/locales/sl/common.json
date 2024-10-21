@@ -153,7 +153,7 @@
     "caddy": {
         "upstreams": "Pretok gor",
         "requests": "Trenutnih zahtev",
-        "requests_failed": "Neuspešnih zahtev"
+        "requests_failed": "Neuspeš. zahtev"
     },
     "changedetectionio": {
         "totalObserved": "Skupaj opazovano",
@@ -225,6 +225,10 @@
         "upload": "Nalaganje",
         "leech": "Pijavka",
         "seed": "Sejanje"
+    },
+    "develancacheui": {
+        "cachehitbytes": "Predpomn. zadetki",
+        "cachemissbytes": "Predpomn. zgrešeno"
     },
     "downloadstation": {
         "download": "Prenos",
@@ -319,6 +323,19 @@
         "seconds": "{{number}}s",
         "ago": "{{value}} nazaj"
     },
+    "technitium": {
+        "totalQueries": "Poizvedbe",
+        "totalNoError": "Uspeh",
+        "totalServerFailure": "Neuspehi",
+        "totalNxDomain": "NX domene",
+        "totalRefused": "Zavrnjeno",
+        "totalAuthoritative": "Avtoratitavno",
+        "totalRecursive": "Rekurzivno",
+        "totalCached": "Predpomnjeno",
+        "totalBlocked": "Blokirano",
+        "totalDropped": "Izpuščeno",
+        "totalClients": "Klienti"
+    },
     "tdarr": {
         "queue": "Vrsta",
         "processed": "Procesiran",
@@ -355,8 +372,8 @@
         "enableIndexers": "Indekserji",
         "numberOfGrabs": "Zajemi",
         "numberOfQueries": "Poizvedbe",
-        "numberOfFailGrabs": "Neuspešni zajemi",
-        "numberOfFailQueries": "Neuspešne poizvedbe"
+        "numberOfFailGrabs": "Neuspeš. zajem",
+        "numberOfFailQueries": "Neuspeš. poizvedb"
     },
     "jackett": {
         "configured": "Nastavljeno",
@@ -827,7 +844,21 @@
     },
     "romm": {
         "platforms": "Platforme",
+<<<<<<< HEAD
         "totalRoms": "Skupaj ROM-ov"
+=======
+        "totalRoms": "Igre",
+        "saves": "Shranitve",
+        "states": "Stanja",
+        "screenshots": "Posnetki zaslona",
+        "totalfilesize": "Skupna velikost"
+    },
+    "mailcow": {
+        "domains": "Domene",
+        "mailboxes": "Nabiralniki",
+        "mails": "Pošta",
+        "storage": "Shramba"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Opozorila",
@@ -876,5 +907,58 @@
     "crowdsec": {
         "alerts": "Opozorila",
         "bans": "Prepovedi"
+<<<<<<< HEAD
+=======
+    },
+    "wgeasy": {
+        "connected": "Povezan",
+        "enabled": "Omogočen",
+        "disabled": "Onemogočen",
+        "total": "Skupaj"
+    },
+    "swagdashboard": {
+        "proxied": "Čez proxi",
+        "auth": "Z Auth",
+        "outdated": "Zastarelo",
+        "banned": "Prepovedan"
+    },
+    "myspeed": {
+        "ping": "Ping",
+        "download": "Prenos",
+        "upload": "Nalaganje"
+    },
+    "stocks": {
+        "stocks": "Delnice",
+        "loading": "Nalaganje",
+        "open": "Odprto - US trg",
+        "closed": "Zaprto - US trg",
+        "invalidConfiguration": "Neveljavna konfiguracija"
+    },
+    "frigate": {
+        "cameras": "Kamere",
+        "uptime": "Čas delovanja",
+        "version": "Verzija"
+    },
+    "linkwarden": {
+        "links": "Povezave",
+        "collections": "Zbirke",
+        "tags": "Značke"
+    },
+    "zabbix": {
+        "unclassified": "Nerazvrščeno",
+        "information": "Informacija",
+        "warning": "Opozorilo",
+        "average": "Povprečno",
+        "high": "Visoko",
+        "disaster": "Katastrofa"
+    },
+    "lubelogger": {
+        "vehicle": "Vozilo",
+        "vehicles": "Vozila",
+        "serviceRecords": "Zapisi servisov",
+        "reminders": "Opomniki",
+        "nextReminder": "Naslednji opomnik",
+        "none": "Brez"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

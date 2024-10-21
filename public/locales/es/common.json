@@ -12,7 +12,11 @@
         "number": "{{value, number}}",
         "ms": "{{value, number}}",
         "date": "{{value, date}}",
+<<<<<<< HEAD
         "relativeDate": "{{valor, relativaFecha}}",
+=======
+        "relativeDate": "{{value, relativeDate}}",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "uptime": "{{value, uptime}}",
         "months": "me",
         "days": "d",
@@ -31,7 +35,7 @@
     },
     "weather": {
         "current": "Ubicación actual",
-        "allow": "Clic para permitir",
+        "allow": "Pulsa para permitir",
         "updating": "Actualizando",
         "wait": "Espera, por favor"
     },
@@ -77,9 +81,9 @@
         "unknown": "Desconocido",
         "healthy": "Saludable",
         "starting": "Comenzando",
-        "unhealthy": "Insalubre",
+        "unhealthy": "No saludable",
         "not_found": "No encontrado",
-        "exited": "Salida",
+        "exited": "Terminado",
         "partial": "Parcial"
     },
     "ping": {
@@ -140,7 +144,11 @@
         "connectionStatusPendingDisconnect": "Desconexión pendiente",
         "connectionStatusDisconnecting": "Desconectando",
         "connectionStatusDisconnected": "Desconectado",
+<<<<<<< HEAD
         "connectionStatusConnected": "Connected",
+=======
+        "connectionStatusConnected": "Conectado",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "uptime": "Tiempo activo",
         "maxDown": "Descarga máxima",
         "maxUp": "Subida máxima",
@@ -226,6 +234,10 @@
         "leech": "Descargas",
         "seed": "Semillas"
     },
+    "develancacheui": {
+        "cachehitbytes": "Bytes encontrados en caché",
+        "cachemissbytes": "Bytes faltantes en caché"
+    },
     "downloadstation": {
         "download": "Descarga",
         "upload": "Subida",
@@ -279,9 +291,15 @@
     },
     "netalertx": {
         "total": "Total",
+<<<<<<< HEAD
         "connected": "Connected",
         "new_devices": "New Devices",
         "down_alerts": "Down Alerts"
+=======
+        "connected": "Conectado",
+        "new_devices": "Nuevos dispositivos",
+        "down_alerts": "Alertas de caída"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "pihole": {
         "queries": "Consultas",
@@ -318,6 +336,19 @@
         "minutes": "{{number}}m",
         "seconds": "{{number}}s",
         "ago": "Hace {{value}}"
+    },
+    "technitium": {
+        "totalQueries": "Consultas",
+        "totalNoError": "Éxitos",
+        "totalServerFailure": "Fallas",
+        "totalNxDomain": "Dominios NX",
+        "totalRefused": "Rechazados",
+        "totalAuthoritative": "Autoritarios",
+        "totalRecursive": "Recursivos",
+        "totalCached": "En caché",
+        "totalBlocked": "Bloqueado",
+        "totalDropped": "Descartados",
+        "totalClients": "Clientes"
     },
     "tdarr": {
         "queue": "En cola",
@@ -544,7 +575,11 @@
     "hdhomerun": {
         "channels": "Canales",
         "hd": "Alta definición",
+<<<<<<< HEAD
         "tunerCount": "Tuners",
+=======
+        "tunerCount": "Sintonizadores",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "channelNumber": "Canal",
         "channelNetwork": "Red",
         "signalStrength": "Intensidad",
@@ -827,7 +862,21 @@
     },
     "romm": {
         "platforms": "Plataformas",
+<<<<<<< HEAD
         "totalRoms": "Total ROMs"
+=======
+        "totalRoms": "Juegos",
+        "saves": "Guardados",
+        "states": "Estados",
+        "screenshots": "Capturas de pantalla",
+        "totalfilesize": "Tamaño total"
+    },
+    "mailcow": {
+        "domains": "Dominios",
+        "mailboxes": "Buzones de correo",
+        "mails": "Correos",
+        "storage": "Almacenamiento"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Advertencias",
@@ -835,13 +884,20 @@
     },
     "plantit": {
         "events": "Eventos",
+<<<<<<< HEAD
         "plants": "Plants",
         "photos": "Fotos",
         "species": "Species"
+=======
+        "plants": "Plantas",
+        "photos": "Fotos",
+        "species": "Especies"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "gitea": {
         "notifications": "Notificaciones",
         "issues": "Números",
+<<<<<<< HEAD
         "pulls": "Pull Requests"
     },
     "stash": {
@@ -859,15 +915,42 @@
         "movies": "Películas",
         "tags": "Etiquetas",
         "oCount": "O Count"
+=======
+        "pulls": "Solicitudes de cambios"
+    },
+    "stash": {
+        "scenes": "Escenas",
+        "scenesPlayed": "Escenas reproducidas",
+        "playCount": "Reproducciones totales",
+        "playDuration": "Tiempo visto",
+        "sceneSize": "Tamaño de las escenas",
+        "sceneDuration": "Duración de las escenas",
+        "images": "Imágenes",
+        "imageSize": "Tamaño de las imágenes",
+        "galleries": "Galerías",
+        "performers": "Intérpretes",
+        "studios": "Estudios",
+        "movies": "Películas",
+        "tags": "Etiquetas",
+        "oCount": "Cantidad de O"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "tandoor": {
         "users": "Usuarios",
         "recipes": "Recetas",
+<<<<<<< HEAD
         "keywords": "Keywords"
     },
     "homebox": {
         "items": "Items",
         "totalWithWarranty": "Con Garantía",
+=======
+        "keywords": "Palabras clave"
+    },
+    "homebox": {
+        "items": "Objetos",
+        "totalWithWarranty": "Con garantía",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "locations": "Ubicaciones",
         "labels": "Etiquetas",
         "users": "Usuarios",
@@ -875,6 +958,60 @@
     },
     "crowdsec": {
         "alerts": "Alertas",
+<<<<<<< HEAD
         "bans": "Bans"
+=======
+        "bans": "Baneos"
+    },
+    "wgeasy": {
+        "connected": "Conectado",
+        "enabled": "Activado",
+        "disabled": "Desactivado",
+        "total": "Total"
+    },
+    "swagdashboard": {
+        "proxied": "Proxy activado",
+        "auth": "Con autenticación",
+        "outdated": "Desactualizado",
+        "banned": "Baneado"
+    },
+    "myspeed": {
+        "ping": "Ping",
+        "download": "Descarga",
+        "upload": "Subida"
+    },
+    "stocks": {
+        "stocks": "Acciones",
+        "loading": "Cargando",
+        "open": "Abierto - Mercado EE. UU.",
+        "closed": "Cerrado - Mercado EE. UU.",
+        "invalidConfiguration": "Configuración inválida"
+    },
+    "frigate": {
+        "cameras": "Cámaras",
+        "uptime": "Tiempo activo",
+        "version": "Versión"
+    },
+    "linkwarden": {
+        "links": "Enlaces",
+        "collections": "Colecciones",
+        "tags": "Etiquetas"
+    },
+    "zabbix": {
+        "unclassified": "No clasificado",
+        "information": "Información",
+        "warning": "Advertencia",
+        "average": "Promedio",
+        "high": "Alto",
+        "disaster": "Desastre"
+    },
+    "lubelogger": {
+        "vehicle": "Vehículo",
+        "vehicles": "Vehículos",
+        "serviceRecords": "Registros de servicio",
+        "reminders": "Recordatorios",
+        "nextReminder": "Siguiente recordatorio",
+        "none": "Nada"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

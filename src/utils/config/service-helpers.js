@@ -198,6 +198,7 @@ export async function servicesFromKubernetes() {
       .then((response) => response.body)
       .catch((error) => {
         logger.error("Error getting ingresses: %d %s %s", error.statusCode, error.body, error.response);
+        logger.debug(error);
         return null;
       });
 
@@ -215,6 +216,7 @@ export async function servicesFromKubernetes() {
             error.body,
             error.response,
           );
+          logger.debug(error);
         }
 
         return [];
@@ -231,6 +233,7 @@ export async function servicesFromKubernetes() {
             error.body,
             error.response,
           );
+          logger.debug(error);
         }
 
         return [];
@@ -254,7 +257,8 @@ export async function servicesFromKubernetes() {
           ingress.metadata.annotations &&
           ingress.metadata.annotations[`${ANNOTATION_BASE}/enabled`] === "true" &&
           (!ingress.metadata.annotations[`${ANNOTATION_BASE}/instance`] ||
-            ingress.metadata.annotations[`${ANNOTATION_BASE}/instance`] === instanceName),
+            ingress.metadata.annotations[`${ANNOTATION_BASE}/instance`] === instanceName ||
+            `${ANNOTATION_BASE}/instance.${instanceName}` in ingress.metadata.annotations),
       )
       .map((ingress) => {
         let constructedService = {
@@ -299,6 +303,7 @@ export async function servicesFromKubernetes() {
           constructedService = JSON.parse(substituteEnvironmentVars(JSON.stringify(constructedService)));
         } catch (e) {
           logger.error("Error attempting k8s environment variable substitution.");
+          logger.debug(e);
         }
 
         return constructedService;
@@ -398,7 +403,10 @@ export function cleanServiceGroups(groups) {
           expandOneStreamToTwoRows,
           showEpisodeNumber,
 
-          // glances, pihole
+          // frigate
+          enableRecentEvents,
+
+          // glances, immich, mealie, pihole, pfsense
           version,
 
           // glances
@@ -434,6 +442,9 @@ export function cleanServiceGroups(groups) {
           namespace,
           podSelector,
 
+          // lubelogger
+          vehicleID,
+
           // mjpeg
           fit,
           stream,
@@ -456,12 +467,25 @@ export function cleanServiceGroups(groups) {
           // sonarr, radarr
           enableQueue,
 
+          // stocks
+          watchlist,
+          showUSMarketStatus,
+
           // truenas
           enablePools,
           nasType,
 
           // unifi
           site,
+
+          // vikunja
+          enableTaskList,
+
+          // wgeasy
+          threshold,
+
+          // technitium
+          range,
         } = cleanedService.widget;
 
         let fieldsList = fields;
@@ -547,8 +571,8 @@ export function cleanServiceGroups(groups) {
           if (snapshotHost) cleanedService.widget.snapshotHost = snapshotHost;
           if (snapshotPath) cleanedService.widget.snapshotPath = snapshotPath;
         }
-        if (["glances", "pihole"].includes(type)) {
-          if (version) cleanedService.widget.version = version;
+        if (["glances", "immich", "mealie", "pfsense", "pihole"].includes(type)) {
+          if (version) cleanedService.widget.version = parseInt(version, 10);
         }
         if (type === "glances") {
           if (metric) cleanedService.widget.metric = metric;
@@ -595,6 +619,25 @@ export function cleanServiceGroups(groups) {
           if (bitratePrecision !== undefined) {
             cleanedService.widget.bitratePrecision = parseInt(bitratePrecision, 10);
           }
+        }
+        if (type === "stocks") {
+          if (watchlist) cleanedService.widget.watchlist = watchlist;
+          if (showUSMarketStatus) cleanedService.widget.showUSMarketStatus = showUSMarketStatus;
+        }
+        if (type === "wgeasy") {
+          if (threshold !== undefined) cleanedService.widget.threshold = parseInt(threshold, 10);
+        }
+        if (type === "frigate") {
+          if (enableRecentEvents !== undefined) cleanedService.widget.enableRecentEvents = enableRecentEvents;
+        }
+        if (type === "technitium") {
+          if (range !== undefined) cleanedService.widget.range = range;
+        }
+        if (type === "lubelogger") {
+          if (vehicleID !== undefined) cleanedService.widget.vehicleID = parseInt(vehicleID, 10);
+        }
+        if (type === "vikunja") {
+          if (enableTaskList !== undefined) cleanedService.widget.enableTaskList = !!enableTaskList;
         }
       }
 

@@ -14,11 +14,11 @@
         "date": "{{value, date}}",
         "relativeDate": "{{value, relativeDate}}",
         "uptime": "{{value, uptime}}",
-        "months": "mo",
-        "days": "d",
-        "hours": "h",
-        "minutes": "m",
-        "seconds": "s"
+        "months": "міс",
+        "days": "д",
+        "hours": "г",
+        "minutes": "хв",
+        "seconds": "с"
     },
     "widget": {
         "missing_type": "Відсутній тип віджета: {{type}}",
@@ -85,17 +85,17 @@
     "ping": {
         "error": "Помилка",
         "ping": "Пінг",
-        "down": "Down",
-        "up": "Up",
-        "not_available": "Not Available"
+        "down": "Офлайн",
+        "up": "Онлайн",
+        "not_available": "Не доступний"
     },
     "siteMonitor": {
-        "http_status": "HTTP status",
+        "http_status": "HTTP статус",
         "error": "Помилка",
-        "response": "Response",
-        "down": "Down",
-        "up": "Up",
-        "not_available": "Not Available"
+        "response": "Відповідь",
+        "down": "Офлайн",
+        "up": "Онлайн",
+        "not_available": "Не доступний"
     },
     "emby": {
         "playing": "Відтворення",
@@ -134,6 +134,7 @@
     },
     "fritzbox": {
         "connectionStatus": "Стан",
+<<<<<<< HEAD
         "connectionStatusUnconfigured": "Unconfigured",
         "connectionStatusConnecting": "Connecting",
         "connectionStatusAuthenticating": "Authenticating",
@@ -141,14 +142,23 @@
         "connectionStatusDisconnecting": "Disconnecting",
         "connectionStatusDisconnected": "Disconnected",
         "connectionStatusConnected": "Connected",
+=======
+        "connectionStatusUnconfigured": "Не налаштовано",
+        "connectionStatusConnecting": "Підключення",
+        "connectionStatusAuthenticating": "Автентифікація",
+        "connectionStatusPendingDisconnect": "Очікує відключення",
+        "connectionStatusDisconnecting": "Відключення",
+        "connectionStatusDisconnected": "Відключено",
+        "connectionStatusConnected": "З'єднано",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "uptime": "Час роботи",
-        "maxDown": "Max. Down",
-        "maxUp": "Max. Up",
-        "down": "Down",
-        "up": "Up",
-        "received": "Received",
-        "sent": "Sent",
-        "externalIPAddress": "Ext. IP"
+        "maxDown": "Макс. зав",
+        "maxUp": "Макс. віддача",
+        "down": "Офлайн",
+        "up": "Онлайн",
+        "received": "Отримано",
+        "sent": "Надісл.",
+        "externalIPAddress": "Зовн. IP"
     },
     "caddy": {
         "upstreams": "Потоки",
@@ -226,6 +236,10 @@
         "leech": "Ліч",
         "seed": "Сід"
     },
+    "develancacheui": {
+        "cachehitbytes": "Cache Hit Bytes",
+        "cachemissbytes": "Cache Miss Bytes"
+    },
     "downloadstation": {
         "download": "Завантаження",
         "upload": "Відправлення",
@@ -279,9 +293,15 @@
     },
     "netalertx": {
         "total": "Усього",
+<<<<<<< HEAD
         "connected": "Connected",
         "new_devices": "New Devices",
         "down_alerts": "Down Alerts"
+=======
+        "connected": "З'єднано",
+        "new_devices": "Нові пристрої",
+        "down_alerts": "Спов. про падіння"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "pihole": {
         "queries": "Запити",
@@ -318,6 +338,19 @@
         "minutes": "{{number}}хв",
         "seconds": "{{number}}с",
         "ago": "{{value}} тому"
+    },
+    "technitium": {
+        "totalQueries": "Запити",
+        "totalNoError": "Success",
+        "totalServerFailure": "Failures",
+        "totalNxDomain": "NX Domains",
+        "totalRefused": "Refused",
+        "totalAuthoritative": "Authoritative",
+        "totalRecursive": "Recursive",
+        "totalCached": "Cached",
+        "totalBlocked": "Заблоковано",
+        "totalDropped": "Dropped",
+        "totalClients": "Клієнти"
     },
     "tdarr": {
         "queue": "Черга",
@@ -405,15 +438,15 @@
         "load": "Завантаження",
         "wait": "Будь ласка, зачекайте",
         "temp": "Температура",
-        "_temp": "Temp",
+        "_temp": "Темп.",
         "warn": "Увага",
         "uptime": "Відправка",
         "total": "Усього",
         "free": "Вільно",
         "used": "Використано",
-        "days": "d",
-        "hours": "h",
-        "crit": "Crit",
+        "days": "д",
+        "hours": "г",
+        "crit": "Крит",
         "read": "Прочитано",
         "write": "Написати",
         "gpu": "GPU",
@@ -427,7 +460,11 @@
         "custom": "Користувацький",
         "visit": "Відвідайте",
         "url": "URL-адреса",
+<<<<<<< HEAD
         "searchsuggestion": "Suggestion"
+=======
+        "searchsuggestion": "Пропозиція"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "wmo": {
         "0-day": "Сонячно",
@@ -494,9 +531,9 @@
         "up_to_date": "Актуально",
         "child_bridges": "Дитячі мости",
         "child_bridges_status": "{{ok}}/{{total}}",
-        "up": "Up",
+        "up": "Онлайн",
         "pending": "В очікуванні",
-        "down": "Down"
+        "down": "Офлайн"
     },
     "healthchecks": {
         "new": "Новий",
@@ -544,6 +581,7 @@
     "hdhomerun": {
         "channels": "Канали",
         "hd": "HD",
+<<<<<<< HEAD
         "tunerCount": "Tuners",
         "channelNumber": "Channel",
         "channelNetwork": "Network",
@@ -552,6 +590,16 @@
         "symbolQuality": "Quality",
         "networkRate": "Бітрейт",
         "clientIP": "Client"
+=======
+        "tunerCount": "Тюнери",
+        "channelNumber": "Канал",
+        "channelNetwork": "Мережа",
+        "signalStrength": "Сила",
+        "signalQuality": "Якість",
+        "symbolQuality": "Якість",
+        "networkRate": "Бітрейт",
+        "clientIP": "Клієнт"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "scrutiny": {
         "passed": "Пройшов",
@@ -563,12 +611,12 @@
         "total": "Усього"
     },
     "peanut": {
-        "battery_charge": "Battery Charge",
-        "ups_load": "UPS Load",
-        "ups_status": "UPS Status",
+        "battery_charge": "Заряд батареї",
+        "ups_load": "UPS завантаження",
+        "ups_status": "Статус UPS",
         "online": "Онлайн",
-        "on_battery": "On Battery",
-        "low_battery": "Low Battery"
+        "on_battery": "Від батареї",
+        "low_battery": "Низький заряд"
     },
     "nextdns": {
         "wait": "Будь ласка, зачекайте",
@@ -586,10 +634,10 @@
         "streams_xepg": "Канали XEPG"
     },
     "opendtu": {
-        "yieldDay": "Today",
-        "absolutePower": "Power",
-        "relativePower": "Power %",
-        "limit": "Limit"
+        "yieldDay": "Сьогодні",
+        "absolutePower": "Абс. потуж.",
+        "relativePower": "Заряд %",
+        "limit": "Ліміт"
     },
     "opnsense": {
         "cpu": "Завантаження CPU",
@@ -617,9 +665,9 @@
         "load": "Середнє завантаження",
         "memory": "Використання пам'яті",
         "wanStatus": "Статус WAN",
-        "up": "Up",
-        "down": "Down",
-        "temp": "Temp",
+        "up": "Онлайн",
+        "down": "Офлайн",
+        "temp": "Темп.",
         "disk": "Використання диска",
         "wanIP": "WAN IP"
     },
@@ -640,7 +688,7 @@
         "down": "Неактивні сайти",
         "uptime": "Час роботи",
         "incident": "Інцидент",
-        "m": "m"
+        "m": "хв"
     },
     "atsumeru": {
         "series": "Серії",
@@ -716,7 +764,7 @@
         "uptime": "Час роботи"
     },
     "ghostfolio": {
-        "gross_percent_today": "Today",
+        "gross_percent_today": "Сьогодні",
         "gross_percent_1y": "Один рік",
         "gross_percent_max": "Весь час"
     },
@@ -783,13 +831,13 @@
         "totalUsed": "Використовувана пам'ять"
     },
     "mealie": {
-        "recipes": "Recipes",
+        "recipes": "Отримувачі",
         "users": "Користувачі",
         "categories": "Категорії",
-        "tags": "Tags"
+        "tags": "Теги"
     },
     "openmediavault": {
-        "downloading": "Downloading",
+        "downloading": "Завантаження",
         "total": "Усього",
         "running": "Запущено",
         "stopped": "Зупинено",
@@ -799,10 +847,17 @@
     "openwrt": {
         "uptime": "Час роботи",
         "cpuLoad": "CPU Load Avg (5m)",
+<<<<<<< HEAD
         "up": "Up",
         "down": "Down",
         "bytesTx": "Transmitted",
         "bytesRx": "Received"
+=======
+        "up": "Онлайн",
+        "down": "Офлайн",
+        "bytesTx": "Transmitted",
+        "bytesRx": "Отримано"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "uptimerobot": {
         "status": "Стан",
@@ -813,9 +868,9 @@
         "sitesDown": "Неактивні сайти",
         "paused": "Призупинено",
         "notyetchecked": "Not Yet Checked",
-        "up": "Up",
+        "up": "Онлайн",
         "seemsdown": "Seems Down",
-        "down": "Down",
+        "down": "Офлайн",
         "unknown": "Невідомий"
     },
     "calendar": {
@@ -827,10 +882,27 @@
     },
     "romm": {
         "platforms": "Platforms",
+<<<<<<< HEAD
         "totalRoms": "Total ROMs"
     },
     "netdata": {
         "warnings": "Warnings",
+=======
+        "totalRoms": "Games",
+        "saves": "Saves",
+        "states": "States",
+        "screenshots": "Screenshots",
+        "totalfilesize": "Total Size"
+    },
+    "mailcow": {
+        "domains": "Домени",
+        "mailboxes": "Mailboxes",
+        "mails": "Mails",
+        "storage": "Сховище"
+    },
+    "netdata": {
+        "warnings": "Попередження",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "criticals": "Criticals"
     },
     "plantit": {
@@ -840,7 +912,11 @@
         "species": "Species"
     },
     "gitea": {
+<<<<<<< HEAD
         "notifications": "Notifications",
+=======
+        "notifications": "Сповіщення",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "issues": "Питання",
         "pulls": "Pull Requests"
     },
@@ -854,27 +930,97 @@
         "images": "Images",
         "imageSize": "Images Size",
         "galleries": "Galleries",
+<<<<<<< HEAD
         "performers": "Performers",
         "studios": "Studios",
         "movies": "Фільми",
         "tags": "Tags",
+=======
+        "performers": "Виконавці",
+        "studios": "Studios",
+        "movies": "Фільми",
+        "tags": "Теги",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "oCount": "O Count"
     },
     "tandoor": {
         "users": "Користувачі",
+<<<<<<< HEAD
         "recipes": "Recipes",
         "keywords": "Keywords"
+=======
+        "recipes": "Отримувачі",
+        "keywords": "Ключові слова"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "homebox": {
         "items": "Items",
         "totalWithWarranty": "With Warranty",
+<<<<<<< HEAD
         "locations": "Locations",
         "labels": "Labels",
+=======
+        "locations": "Місцезнаходження",
+        "labels": "Мітки",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "users": "Користувачі",
         "totalValue": "Total Value"
     },
     "crowdsec": {
         "alerts": "Оповіщення",
         "bans": "Bans"
+<<<<<<< HEAD
+=======
+    },
+    "wgeasy": {
+        "connected": "З'єднано",
+        "enabled": "Увімкнено",
+        "disabled": "Вимкнено",
+        "total": "Усього"
+    },
+    "swagdashboard": {
+        "proxied": "Proxied",
+        "auth": "With Auth",
+        "outdated": "Outdated",
+        "banned": "Banned"
+    },
+    "myspeed": {
+        "ping": "Пінг",
+        "download": "Завантаження",
+        "upload": "Відправлення"
+    },
+    "stocks": {
+        "stocks": "Stocks",
+        "loading": "Завантажую",
+        "open": "Open - US Market",
+        "closed": "Closed - US Market",
+        "invalidConfiguration": "Неприпустима конфігурація"
+    },
+    "frigate": {
+        "cameras": "Камери",
+        "uptime": "Час роботи",
+        "version": "Версія"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Теги"
+    },
+    "zabbix": {
+        "unclassified": "Not classified",
+        "information": "Інформація",
+        "warning": "Warning",
+        "average": "Average",
+        "high": "High",
+        "disaster": "Disaster"
+    },
+    "lubelogger": {
+        "vehicle": "Vehicle",
+        "vehicles": "Vehicles",
+        "serviceRecords": "Service Records",
+        "reminders": "Reminders",
+        "nextReminder": "Next Reminder",
+        "none": "None"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }
