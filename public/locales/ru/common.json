@@ -39,7 +39,7 @@
         "placeholder": "Поиск…"
     },
     "resources": {
-        "cpu": "ЦПУ",
+        "cpu": "ЦП",
         "mem": "ОЗУ",
         "total": "Всего",
         "free": "Свободно",
@@ -70,7 +70,7 @@
         "rx": "RX",
         "tx": "TX",
         "mem": "ОЗУ",
-        "cpu": "ЦПУ",
+        "cpu": "ЦП",
         "running": "Запущено",
         "offline": "Не в сети",
         "error": "Ошибка",
@@ -226,6 +226,10 @@
         "leech": "Лич",
         "seed": "Сид"
     },
+    "develancacheui": {
+        "cachehitbytes": "Cache Hit Bytes",
+        "cachemissbytes": "Cache Miss Bytes"
+    },
     "downloadstation": {
         "download": "Скачивание",
         "upload": "Загрузка",
@@ -279,9 +283,15 @@
     },
     "netalertx": {
         "total": "Всего",
+<<<<<<< HEAD
         "connected": "Connected",
         "new_devices": "New Devices",
         "down_alerts": "Down Alerts"
+=======
+        "connected": "Подключено",
+        "new_devices": "Новое устройство",
+        "down_alerts": "Оповещение о недоступности"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "pihole": {
         "queries": "Запросы",
@@ -318,6 +328,19 @@
         "minutes": "{{number}}м",
         "seconds": "{{number}}с",
         "ago": "{{value}} назад"
+    },
+    "technitium": {
+        "totalQueries": "Запросы",
+        "totalNoError": "Success",
+        "totalServerFailure": "Failures",
+        "totalNxDomain": "NX Domains",
+        "totalRefused": "Refused",
+        "totalAuthoritative": "Authoritative",
+        "totalRecursive": "Recursive",
+        "totalCached": "Cached",
+        "totalBlocked": "Заблокировано",
+        "totalDropped": "Dropped",
+        "totalClients": "Клиенты"
     },
     "tdarr": {
         "queue": "Очередь",
@@ -396,12 +419,12 @@
     },
     "proxmox": {
         "mem": "ОЗУ",
-        "cpu": "ЦПУ",
+        "cpu": "ЦП",
         "lxc": "LXC",
         "vms": "Виртуальные машины"
     },
     "glances": {
-        "cpu": "ЦПУ",
+        "cpu": "ЦП",
         "load": "Загрузка",
         "wait": "Пожалуйста, подождите",
         "temp": "Температура",
@@ -626,7 +649,7 @@
     "proxmoxbackupserver": {
         "datastore_usage": "Хранилище данных",
         "failed_tasks_24h": "Неудачные задачи 24 часа",
-        "cpu_usage": "ЦПУ",
+        "cpu_usage": "ЦП",
         "memory_usage": "ОЗУ"
     },
     "immich": {
@@ -827,7 +850,21 @@
     },
     "romm": {
         "platforms": "Платформы",
+<<<<<<< HEAD
         "totalRoms": "Всего ПЗУ"
+=======
+        "totalRoms": "Games",
+        "saves": "Saves",
+        "states": "States",
+        "screenshots": "Screenshots",
+        "totalfilesize": "Total Size"
+    },
+    "mailcow": {
+        "domains": "Домены",
+        "mailboxes": "Mailboxes",
+        "mails": "Mails",
+        "storage": "Хранилище"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Предупреждения",
@@ -875,6 +912,60 @@
     },
     "crowdsec": {
         "alerts": "Предупреждения",
+<<<<<<< HEAD
         "bans": "Bans"
+=======
+        "bans": "Запреты"
+    },
+    "wgeasy": {
+        "connected": "Подключено",
+        "enabled": "Включено",
+        "disabled": "Выключено",
+        "total": "Всего"
+    },
+    "swagdashboard": {
+        "proxied": "Proxied",
+        "auth": "With Auth",
+        "outdated": "Outdated",
+        "banned": "Banned"
+    },
+    "myspeed": {
+        "ping": "Пинг",
+        "download": "Скачивание",
+        "upload": "Загрузка"
+    },
+    "stocks": {
+        "stocks": "Stocks",
+        "loading": "Loading",
+        "open": "Open - US Market",
+        "closed": "Closed - US Market",
+        "invalidConfiguration": "Invalid Configuration"
+    },
+    "frigate": {
+        "cameras": "Cameras",
+        "uptime": "Время работы",
+        "version": "Версия"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Теги"
+    },
+    "zabbix": {
+        "unclassified": "Not classified",
+        "information": "Информация",
+        "warning": "Warning",
+        "average": "Average",
+        "high": "High",
+        "disaster": "Disaster"
+    },
+    "lubelogger": {
+        "vehicle": "Vehicle",
+        "vehicles": "Vehicles",
+        "serviceRecords": "Service Records",
+        "reminders": "Reminders",
+        "nextReminder": "Next Reminder",
+        "none": "None"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

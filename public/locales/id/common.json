@@ -226,6 +226,10 @@
         "leech": "Leech",
         "seed": "Seed"
     },
+    "develancacheui": {
+        "cachehitbytes": "Cache Hit Bytes",
+        "cachemissbytes": "Cache Miss Bytes"
+    },
     "downloadstation": {
         "download": "Unduh",
         "upload": "Unggah",
@@ -318,6 +322,22 @@
         "minutes": "{{number}}m",
         "seconds": "{{number}}d",
         "ago": "{{value}} Yang Lalu"
+<<<<<<< HEAD
+=======
+    },
+    "technitium": {
+        "totalQueries": "Kueri",
+        "totalNoError": "Success",
+        "totalServerFailure": "Failures",
+        "totalNxDomain": "NX Domains",
+        "totalRefused": "Refused",
+        "totalAuthoritative": "Authoritative",
+        "totalRecursive": "Recursive",
+        "totalCached": "Cached",
+        "totalBlocked": "Terblokir",
+        "totalDropped": "Dropped",
+        "totalClients": "Klien"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "tdarr": {
         "queue": "Antrian",
@@ -827,7 +847,21 @@
     },
     "romm": {
         "platforms": "Platform",
+<<<<<<< HEAD
         "totalRoms": "ROM Total"
+=======
+        "totalRoms": "Games",
+        "saves": "Saves",
+        "states": "States",
+        "screenshots": "Screenshots",
+        "totalfilesize": "Total Size"
+    },
+    "mailcow": {
+        "domains": "Jumlah Domain",
+        "mailboxes": "Mailboxes",
+        "mails": "Mails",
+        "storage": "Penyimpanan"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Peringatan",
@@ -876,5 +910,58 @@
     "crowdsec": {
         "alerts": "Peringatan",
         "bans": "Bans"
+<<<<<<< HEAD
+=======
+    },
+    "wgeasy": {
+        "connected": "Connected",
+        "enabled": "Aktif",
+        "disabled": "Nonaktif",
+        "total": "Total"
+    },
+    "swagdashboard": {
+        "proxied": "Proxied",
+        "auth": "With Auth",
+        "outdated": "Outdated",
+        "banned": "Banned"
+    },
+    "myspeed": {
+        "ping": "Ping",
+        "download": "Unduh",
+        "upload": "Unggah"
+    },
+    "stocks": {
+        "stocks": "Stocks",
+        "loading": "Loading",
+        "open": "Open - US Market",
+        "closed": "Closed - US Market",
+        "invalidConfiguration": "Invalid Configuration"
+    },
+    "frigate": {
+        "cameras": "Cameras",
+        "uptime": "Waktu Aktif",
+        "version": "Versi"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Tag"
+    },
+    "zabbix": {
+        "unclassified": "Not classified",
+        "information": "Informasi",
+        "warning": "Warning",
+        "average": "Average",
+        "high": "High",
+        "disaster": "Disaster"
+    },
+    "lubelogger": {
+        "vehicle": "Vehicle",
+        "vehicles": "Vehicles",
+        "serviceRecords": "Service Records",
+        "reminders": "Reminders",
+        "nextReminder": "Next Reminder",
+        "none": "None"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

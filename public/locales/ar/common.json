@@ -226,6 +226,10 @@
         "leech": "القرناء",
         "seed": "البذور"
     },
+    "develancacheui": {
+        "cachehitbytes": "Cache Hit Bytes",
+        "cachemissbytes": "Cache Miss Bytes"
+    },
     "downloadstation": {
         "download": "التنزيل",
         "upload": "التحميل",
@@ -279,9 +283,15 @@
     },
     "netalertx": {
         "total": "المجموع",
+<<<<<<< HEAD
         "connected": "Connected",
         "new_devices": "New Devices",
         "down_alerts": "Down Alerts"
+=======
+        "connected": "متصل",
+        "new_devices": "أجهزة جديدة",
+        "down_alerts": "تنبيهات تعطل"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "pihole": {
         "queries": "الاستعلامات",
@@ -318,6 +328,19 @@
         "minutes": "{{number}}د",
         "seconds": "{{number}}ث",
         "ago": "منذ {{value}}"
+    },
+    "technitium": {
+        "totalQueries": "الاستعلامات",
+        "totalNoError": "تم بنجاح",
+        "totalServerFailure": "فشل",
+        "totalNxDomain": "مجالات NX",
+        "totalRefused": "مرفوض",
+        "totalAuthoritative": "موثوقة",
+        "totalRecursive": "عودي",
+        "totalCached": "مخبأ",
+        "totalBlocked": "محظور",
+        "totalDropped": "أسقطت",
+        "totalClients": "العملاء"
     },
     "tdarr": {
         "queue": "إنتظار",
@@ -427,7 +450,11 @@
         "custom": "مُخصّص",
         "visit": "زيارة",
         "url": "الرابط",
+<<<<<<< HEAD
         "searchsuggestion": "Suggestion"
+=======
+        "searchsuggestion": "الإقتراحات"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "wmo": {
         "0-day": "مشمس",
@@ -544,7 +571,11 @@
     "hdhomerun": {
         "channels": "القنوات",
         "hd": "جودة HD",
+<<<<<<< HEAD
         "tunerCount": "Tuners",
+=======
+        "tunerCount": "التونز",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "channelNumber": "القناة",
         "channelNetwork": "الشبكة",
         "signalStrength": "القوة",
@@ -827,7 +858,21 @@
     },
     "romm": {
         "platforms": "المِنصات",
+<<<<<<< HEAD
         "totalRoms": "مجموع الروومات"
+=======
+        "totalRoms": "ألعاب",
+        "saves": "نُقَط حفظ",
+        "states": "حالات",
+        "screenshots": "لقطات شاشة",
+        "totalfilesize": "الحجم الكلي"
+    },
+    "mailcow": {
+        "domains": "مجالات",
+        "mailboxes": "Mailboxes",
+        "mails": "Mails",
+        "storage": "التخزين"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "تحذيرات",
@@ -846,7 +891,11 @@
     },
     "stash": {
         "scenes": "المشاهد",
+<<<<<<< HEAD
         "scenesPlayed": "Scenes Played",
+=======
+        "scenesPlayed": "مشاهد شغلت",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "playCount": "إجمالي المشغلات",
         "playDuration": "وقت المشاهدة",
         "sceneSize": "حجم المشاهد",
@@ -854,7 +903,11 @@
         "images": "صور",
         "imageSize": "حجم الصور",
         "galleries": "المعارض",
+<<<<<<< HEAD
         "performers": "Performers",
+=======
+        "performers": "ممثلين",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "studios": "استوديوهات",
         "movies": "أفلام",
         "tags": "التصنيفات",
@@ -863,11 +916,19 @@
     "tandoor": {
         "users": "المستخدمون",
         "recipes": "وصفات",
+<<<<<<< HEAD
         "keywords": "Keywords"
     },
     "homebox": {
         "items": "Items",
         "totalWithWarranty": "With Warranty",
+=======
+        "keywords": "كلمات مفتاح"
+    },
+    "homebox": {
+        "items": "عناصر",
+        "totalWithWarranty": "بالضمان",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "locations": "Locations",
         "labels": "Labels",
         "users": "المستخدمون",
@@ -876,5 +937,58 @@
     "crowdsec": {
         "alerts": "تنبيهات",
         "bans": "Bans"
+<<<<<<< HEAD
+=======
+    },
+    "wgeasy": {
+        "connected": "متصل",
+        "enabled": "مفعل",
+        "disabled": "معطل",
+        "total": "المجموع"
+    },
+    "swagdashboard": {
+        "proxied": "Proxied",
+        "auth": "With Auth",
+        "outdated": "Outdated",
+        "banned": "Banned"
+    },
+    "myspeed": {
+        "ping": "بينغ",
+        "download": "التنزيل",
+        "upload": "التحميل"
+    },
+    "stocks": {
+        "stocks": "Stocks",
+        "loading": "تحميل",
+        "open": "مفتوحة - السوق الأمريكية",
+        "closed": "مغلقة - السوق الأمريكية",
+        "invalidConfiguration": "إعدادات غير صحيحة"
+    },
+    "frigate": {
+        "cameras": "كاميرات",
+        "uptime": "مدة التشغيل",
+        "version": "الإصدار"
+    },
+    "linkwarden": {
+        "links": "روابط",
+        "collections": "مجموعات",
+        "tags": "التصنيفات"
+    },
+    "zabbix": {
+        "unclassified": "غير مصنفة",
+        "information": "معلومات",
+        "warning": "تحذيرات",
+        "average": "متوسط",
+        "high": "عالي",
+        "disaster": "كارثة"
+    },
+    "lubelogger": {
+        "vehicle": "Vehicle",
+        "vehicles": "Vehicles",
+        "serviceRecords": "Service Records",
+        "reminders": "Reminders",
+        "nextReminder": "Next Reminder",
+        "none": "None"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

@@ -1,6 +1,5 @@
 import { useTranslation } from "next-i18next";
 
-import Error from "../components/error";
 import Container from "../components/container";
 import Block from "../components/block";
 
@@ -20,11 +19,7 @@ export default function Component({ service }) {
   });
 
   if (error) {
-    return (
-      <Container chart={chart}>
-        <Error error={error} />
-      </Container>
-    );
+    return <Container error={error} widget={widget} />;
   }
 
   if (!data) {
@@ -63,7 +58,7 @@ export default function Component({ service }) {
           <div className="text-xs opacity-50">
             {t(diskUnits, {
               value: fsData.used,
-              maximumFractionDigits: 0,
+              maximumFractionDigits: 1,
             })}{" "}
             {t("resources.used")}
           </div>
@@ -84,7 +79,7 @@ export default function Component({ service }) {
             <div className="text-xs opacity-50">
               {t(diskUnits, {
                 value: fsData.used,
-                maximumFractionDigits: 0,
+                maximumFractionDigits: 1,
               })}{" "}
               {t("resources.used")}
             </div>

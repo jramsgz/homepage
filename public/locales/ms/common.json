@@ -174,8 +174,8 @@
     },
     "omada": {
         "connectedAp": "Connected APs",
-        "activeUser": "Active devices",
-        "alerts": "Alerts",
+        "activeUser": "Peranti aktif",
+        "alerts": "Perhatian",
         "connectedGateway": "Connected gateways",
         "connectedSwitches": "Connected switches"
     },
@@ -186,7 +186,11 @@
     },
     "plex": {
         "streams": "Strim Aktif",
+<<<<<<< HEAD
         "albums": "Albums",
+=======
+        "albums": "Album",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "movies": "Filem",
         "tv": "Rancangan TV"
     },
@@ -226,6 +230,10 @@
         "leech": "Leech",
         "seed": "Seed"
     },
+    "develancacheui": {
+        "cachehitbytes": "Cache Hit Bytes",
+        "cachemissbytes": "Cache Miss Bytes"
+    },
     "downloadstation": {
         "download": "Muat turun",
         "upload": "Muat naik",
@@ -250,7 +258,7 @@
     "lidarr": {
         "wanted": "Mahu",
         "queued": "Dibaris Gilir",
-        "artists": "Artists"
+        "artists": "Artis"
     },
     "readarr": {
         "wanted": "Mahu",
@@ -310,7 +318,7 @@
         "expires": "Expires",
         "never": "Never",
         "last_seen": "Last Seen",
-        "now": "Now",
+        "now": "Sekarang",
         "years": "{{number}}y",
         "weeks": "{{number}}w",
         "days": "{{number}}d",
@@ -318,6 +326,22 @@
         "minutes": "{{number}}m",
         "seconds": "{{number}}s",
         "ago": "{{value}} Lepas"
+<<<<<<< HEAD
+=======
+    },
+    "technitium": {
+        "totalQueries": "Permintaan",
+        "totalNoError": "Success",
+        "totalServerFailure": "Failures",
+        "totalNxDomain": "NX Domains",
+        "totalRefused": "Refused",
+        "totalAuthoritative": "Authoritative",
+        "totalRecursive": "Recursive",
+        "totalCached": "Cached",
+        "totalBlocked": "Disekat",
+        "totalDropped": "Dropped",
+        "totalClients": "Klien"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "tdarr": {
         "queue": "Barisan",
@@ -528,7 +552,7 @@
     "truenas": {
         "load": "Beban Sistem",
         "uptime": "Masa Hidup",
-        "alerts": "Alerts"
+        "alerts": "Perhatian"
     },
     "pyload": {
         "speed": "Kelajuan",
@@ -600,7 +624,7 @@
     "moonraker": {
         "printer_state": "Printer State",
         "print_status": "Print Status",
-        "print_progress": "Progress",
+        "print_progress": "Kemajuan",
         "layers": "Layers"
     },
     "octoprint": {
@@ -631,7 +655,7 @@
     },
     "immich": {
         "users": "Pengguna",
-        "photos": "Photos",
+        "photos": "Gambar",
         "videos": "Video",
         "storage": "Storage"
     },
@@ -646,7 +670,7 @@
         "series": "Siri",
         "archives": "Archives",
         "chapters": "Chapters",
-        "categories": "Categories"
+        "categories": "Memori"
     },
     "komga": {
         "libraries": "Libraries",
@@ -664,8 +688,8 @@
         "wanted": "Mahu"
     },
     "photoprism": {
-        "albums": "Albums",
-        "photos": "Photos",
+        "albums": "Album",
+        "photos": "Gambar",
         "videos": "Video",
         "people": "People"
     },
@@ -738,7 +762,11 @@
     "calibreweb": {
         "books": "Buku",
         "authors": "Pengarang/Penulis",
+<<<<<<< HEAD
         "categories": "Categories",
+=======
+        "categories": "Memori",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "series": "Siri"
     },
     "jdownloader": {
@@ -785,7 +813,11 @@
     "mealie": {
         "recipes": "Resipi",
         "users": "Pengguna",
+<<<<<<< HEAD
         "categories": "Categories",
+=======
+        "categories": "Memori",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "tags": "Tanda nama"
     },
     "openmediavault": {
@@ -827,7 +859,21 @@
     },
     "romm": {
         "platforms": "Platform",
+<<<<<<< HEAD
         "totalRoms": "Jumlah ROM"
+=======
+        "totalRoms": "Games",
+        "saves": "Saves",
+        "states": "States",
+        "screenshots": "Screenshots",
+        "totalfilesize": "Total Size"
+    },
+    "mailcow": {
+        "domains": "Domain",
+        "mailboxes": "Mailboxes",
+        "mails": "Mails",
+        "storage": "Storage"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Amaran",
@@ -836,7 +882,11 @@
     "plantit": {
         "events": "Events",
         "plants": "Plants",
+<<<<<<< HEAD
         "photos": "Photos",
+=======
+        "photos": "Gambar",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "species": "Species"
     },
     "gitea": {
@@ -845,7 +895,11 @@
         "pulls": "Pull Requests"
     },
     "stash": {
+<<<<<<< HEAD
         "scenes": "Scenes",
+=======
+        "scenes": "Adegan",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "scenesPlayed": "Scenes Played",
         "playCount": "Total Plays",
         "playDuration": "Time Watched",
@@ -868,6 +922,7 @@
     "homebox": {
         "items": "Items",
         "totalWithWarranty": "With Warranty",
+<<<<<<< HEAD
         "locations": "Locations",
         "labels": "Labels",
         "users": "Pengguna",
@@ -876,5 +931,65 @@
     "crowdsec": {
         "alerts": "Alerts",
         "bans": "Bans"
+=======
+        "locations": "Lokasi",
+        "labels": "Labels",
+        "users": "Pengguna",
+        "totalValue": "Jumlah nilai"
+    },
+    "crowdsec": {
+        "alerts": "Perhatian",
+        "bans": "Bans"
+    },
+    "wgeasy": {
+        "connected": "Connected",
+        "enabled": "Didayakan",
+        "disabled": "Dinyahdayakan",
+        "total": "Jumlah"
+    },
+    "swagdashboard": {
+        "proxied": "Proxied",
+        "auth": "With Auth",
+        "outdated": "Outdated",
+        "banned": "Banned"
+    },
+    "myspeed": {
+        "ping": "Ping",
+        "download": "Muat turun",
+        "upload": "Muat naik"
+    },
+    "stocks": {
+        "stocks": "Stocks",
+        "loading": "Loading",
+        "open": "Open - US Market",
+        "closed": "Closed - US Market",
+        "invalidConfiguration": "Invalid Configuration"
+    },
+    "frigate": {
+        "cameras": "Cameras",
+        "uptime": "Masa Hidup",
+        "version": "Versi"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Tanda nama"
+    },
+    "zabbix": {
+        "unclassified": "Not classified",
+        "information": "Informasi",
+        "warning": "Warning",
+        "average": "Average",
+        "high": "High",
+        "disaster": "Disaster"
+    },
+    "lubelogger": {
+        "vehicle": "Vehicle",
+        "vehicles": "Vehicles",
+        "serviceRecords": "Service Records",
+        "reminders": "Reminders",
+        "nextReminder": "Next Reminder",
+        "none": "None"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

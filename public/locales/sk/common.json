@@ -226,6 +226,10 @@
         "leech": "Leechované",
         "seed": "Seedované"
     },
+    "develancacheui": {
+        "cachehitbytes": "Cache Hit Bytes",
+        "cachemissbytes": "Cache Miss Bytes"
+    },
     "downloadstation": {
         "download": "Sťahovanie",
         "upload": "Nahrávanie",
@@ -318,6 +322,19 @@
         "minutes": "{{number}}m",
         "seconds": "{{number}}s",
         "ago": "Pred {{value}}"
+    },
+    "technitium": {
+        "totalQueries": "Dopyty",
+        "totalNoError": "Success",
+        "totalServerFailure": "Failures",
+        "totalNxDomain": "NX Domains",
+        "totalRefused": "Refused",
+        "totalAuthoritative": "Authoritative",
+        "totalRecursive": "Recursive",
+        "totalCached": "Cached",
+        "totalBlocked": "Zablokované",
+        "totalDropped": "Dropped",
+        "totalClients": "Klienti"
     },
     "tdarr": {
         "queue": "V poradí",
@@ -827,7 +844,21 @@
     },
     "romm": {
         "platforms": "Platformy",
+<<<<<<< HEAD
         "totalRoms": "Celkovo ROM"
+=======
+        "totalRoms": "Games",
+        "saves": "Saves",
+        "states": "States",
+        "screenshots": "Screenshots",
+        "totalfilesize": "Total Size"
+    },
+    "mailcow": {
+        "domains": "Domény",
+        "mailboxes": "Mailboxes",
+        "mails": "Mails",
+        "storage": "Úložisko"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     },
     "netdata": {
         "warnings": "Upozornenia",
@@ -846,7 +877,11 @@
     },
     "stash": {
         "scenes": "Scény",
+<<<<<<< HEAD
         "scenesPlayed": "Scenes Played",
+=======
+        "scenesPlayed": "Prehrané scény",
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
         "playCount": "Celkovo prehraní",
         "playDuration": "Pozeraný čas",
         "sceneSize": "Veľkosť obrazovky",
@@ -869,6 +904,7 @@
         "items": "Položky",
         "totalWithWarranty": "So zárukou",
         "locations": "Umiestnenia",
+<<<<<<< HEAD
         "labels": "Labels",
         "users": "Používatelia",
         "totalValue": "Total Value"
@@ -876,5 +912,64 @@
     "crowdsec": {
         "alerts": "Upozornenia",
         "bans": "Bans"
+=======
+        "labels": "Štítky",
+        "users": "Používatelia",
+        "totalValue": "Celková hodnota"
+    },
+    "crowdsec": {
+        "alerts": "Upozornenia",
+        "bans": "Bany"
+    },
+    "wgeasy": {
+        "connected": "Pripojené",
+        "enabled": "Povolené",
+        "disabled": "Zakázané",
+        "total": "Celkovo"
+    },
+    "swagdashboard": {
+        "proxied": "Proxied",
+        "auth": "With Auth",
+        "outdated": "Zastarané",
+        "banned": "Zabanovaný"
+    },
+    "myspeed": {
+        "ping": "Odozva",
+        "download": "Sťahovanie",
+        "upload": "Nahrávanie"
+    },
+    "stocks": {
+        "stocks": "Stocks",
+        "loading": "Loading",
+        "open": "Open - US Market",
+        "closed": "Closed - US Market",
+        "invalidConfiguration": "Invalid Configuration"
+    },
+    "frigate": {
+        "cameras": "Cameras",
+        "uptime": "Prevádzka",
+        "version": "Verzia"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Štítky"
+    },
+    "zabbix": {
+        "unclassified": "Not classified",
+        "information": "Informácia",
+        "warning": "Warning",
+        "average": "Average",
+        "high": "High",
+        "disaster": "Disaster"
+    },
+    "lubelogger": {
+        "vehicle": "Vehicle",
+        "vehicles": "Vehicles",
+        "serviceRecords": "Service Records",
+        "reminders": "Reminders",
+        "nextReminder": "Next Reminder",
+        "none": "None"
+>>>>>>> 2245cdda55bb775cc880d50d543dac87fdffbd85
     }
 }

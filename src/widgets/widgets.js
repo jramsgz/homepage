@@ -15,6 +15,7 @@ import coinmarketcap from "./coinmarketcap/widget";
 import crowdsec from "./crowdsec/widget";
 import customapi from "./customapi/widget";
 import deluge from "./deluge/widget";
+import develancacheui from "./develancacheui/widget";
 import diskstation from "./diskstation/widget";
 import downloadstation from "./downloadstation/widget";
 import emby from "./emby/widget";
@@ -23,6 +24,7 @@ import evcc from "./evcc/widget";
 import fileflows from "./fileflows/widget";
 import flood from "./flood/widget";
 import freshrss from "./freshrss/widget";
+import frigate from "./frigate/widget";
 import fritzbox from "./fritzbox/widget";
 import gamedig from "./gamedig/widget";
 import gatus from "./gatus/widget";
@@ -45,6 +47,9 @@ import kavita from "./kavita/widget";
 import komga from "./komga/widget";
 import kopia from "./kopia/widget";
 import lidarr from "./lidarr/widget";
+import linkwarden from "./linkwarden/widget";
+import lubelogger from "./lubelogger/widget";
+import mailcow from "./mailcow/widget";
 import mastodon from "./mastodon/widget";
 import mealie from "./mealie/widget";
 import medusa from "./medusa/widget";
@@ -54,6 +59,7 @@ import mikrotik from "./mikrotik/widget";
 import mjpeg from "./mjpeg/widget";
 import moonraker from "./moonraker/widget";
 import mylar from "./mylar/widget";
+import myspeed from "./myspeed/widget";
 import navidrome from "./navidrome/widget";
 import netalertx from "./netalertx/widget";
 import netdata from "./netdata/widget";
@@ -93,10 +99,13 @@ import scrutiny from "./scrutiny/widget";
 import sonarr from "./sonarr/widget";
 import speedtest from "./speedtest/widget";
 import stash from "./stash/widget";
+import stocks from "./stocks/widget";
 import strelaysrv from "./strelaysrv/widget";
+import swagdashboard from "./swagdashboard/widget";
 import tailscale from "./tailscale/widget";
 import tandoor from "./tandoor/widget";
 import tautulli from "./tautulli/widget";
+import technitium from "./technitium/widget";
 import tdarr from "./tdarr/widget";
 import traefik from "./traefik/widget";
 import transmission from "./transmission/widget";
@@ -106,11 +115,14 @@ import unifi from "./unifi/widget";
 import unmanic from "./unmanic/widget";
 import uptimekuma from "./uptimekuma/widget";
 import uptimerobot from "./uptimerobot/widget";
+import vikunja from "./vikunja/widget";
 import watchtower from "./watchtower/widget";
+import wgeasy from "./wgeasy/widget";
 import whatsupdocker from "./whatsupdocker/widget";
 import xteve from "./xteve/widget";
 import urbackup from "./urbackup/widget";
 import romm from "./romm/widget";
+import zabbix from "./zabbix/widget";
 
 const widgets = {
   adguard,
@@ -129,6 +141,7 @@ const widgets = {
   crowdsec,
   customapi,
   deluge,
+  develancacheui,
   diskstation,
   downloadstation,
   emby,
@@ -137,6 +150,7 @@ const widgets = {
   fileflows,
   flood,
   freshrss,
+  frigate,
   fritzbox,
   gamedig,
   gatus,
@@ -161,6 +175,9 @@ const widgets = {
   komga,
   kopia,
   lidarr,
+  linkwarden,
+  lubelogger,
+  mailcow,
   mastodon,
   mealie,
   medusa,
@@ -170,6 +187,7 @@ const widgets = {
   mjpeg,
   moonraker,
   mylar,
+  myspeed,
   navidrome,
   netalertx,
   netdata,
@@ -211,10 +229,13 @@ const widgets = {
   sonarr,
   speedtest,
   stash,
+  stocks,
   strelaysrv,
+  swagdashboard,
   tailscale,
   tandoor,
   tautulli,
+  technitium,
   tdarr,
   traefik,
   transmission,
@@ -226,9 +247,12 @@ const widgets = {
   uptimekuma,
   uptimerobot,
   urbackup,
+  vikunja,
   watchtower,
+  wgeasy,
   whatsupdocker,
   xteve,
+  zabbix,
 };
 
 export default widgets;
